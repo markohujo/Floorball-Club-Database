@@ -10,8 +10,7 @@ Florbalový klub má stovky členov, o ktorých potrebuje ukladať rôzne údaje
 Dotazy:
 
 1. Počet hráčov tímu XY.
-2. Počet hráčov, kategórie U18, ktorí majú maximálny vek (18).
-3. Ktorí hráči zo všetkých tímov ešte nezaplatili členský poplatok za tento mesiac?
-4. Počet zamestnancov s platom väčším ako 1000.
-5. Ktorí zamestnanci maju plat väčší ako 1000.
- 
+2. Počet hráčov kategórie U18, ktorí majú maximálny vek (18).
+3. Ktorí hráči tímu XY ešte nezaplatili členský poplatok?
+4. Počet zamestnancov, ktorí majú plat väčší ako 1000.
+5. Ktorí zamestnanci majú plat väčší ako 1000?
