@@ -6,7 +6,7 @@ Database system for a floorball club administration system developed as my proje
 
 Popis:
 
-Florbalový klub má stovky členov, o ktorých potrebuje ukladať údaje. Florbalový klub tvoria hráči a zamestnanci.
+Florbalový klub má stovky členov (hráčov a zamestnancov), o ktorých potrebuje ukladať údaje.
 
 O **hráčoch** je potrebné vedieť ich *meno* , *priezvisko*, adresu, *email* (pre potreby notifikovania hráčov o blížiacich sa udalostiach), *vek* (aby klub vedel, do ktorých vekových kategórií môže hráč patriť) a či už zaplatil členský poplatok za tento mesiac.
 
