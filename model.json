@@ -801,5 +801,15 @@
       }
     ]
   ],
-  "notes": []
+  "notes": [
+    {
+      "text": "IO1: Tréner môže byť asistentom\nmaximálne v troch tímoch.",
+      "transform": {
+        "x": 477,
+        "y": 211.609375,
+        "width": 198.109375,
+        "height": 36
+      }
+    }
+  ]
 }
