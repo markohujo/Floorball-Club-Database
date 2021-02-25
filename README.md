@@ -14,8 +14,7 @@ O **hráčoch** je potrebné vedieť ich *meno* , *priezvisko*, adresu, *email* 
 
 Pri **zamestnancoch** je najpotrebnejšie poznať ich *plat* a *číslo účtu*. Okrem toho je potrebné evidovať aj *meno*, *priezvisko*, adresu a *email*. Zamestnancami klubu sú tréneri alebo psychológovia. Zamestnanec môže samozrejme pracovať ako tréner a zároveň aj ako psychológ.
 
-U **trénerov** je ešte potrebné evidovať ktorý tím trénujú. Je podstatné myslieť na to, že tréner môže byť buď hlavný tréner alebo asistent trénera daného tímu. Hlavným trénerom môže byť maximálne jedného tímu, asistentom maximálne 3 tímov a keďže je klubom platený, musí trénovať minimálne jeden tím (ako hlavný tréner alebo asistent). Prípadne je možné evidovať ešte aj *vek* trénerov, keďže mladším deťom viac vyhovujú mladší tréneri, no nie je to klubom vyžadované.
-U **psychológa** sa klub uspokojí s evidovaním iba *počtu rokov v praxi*.
+U **trénerov** je ešte potrebné evidovať ktorý tím trénujú. Je podstatné myslieť na to, že tréner môže byť buď hlavný tréner alebo asistent trénera daného tímu. Hlavným trénerom môže byť maximálne jedného tímu, asistentom maximálne 3 tímov a keďže je klubom platený, musí trénovať minimálne jeden tím (ako hlavný tréner alebo asistent). Prípadne je možné evidovať ešte aj *vek* trénerov, keďže mladším deťom viac vyhovujú mladší tréneri, no nie je to klubom vyžadované. U **psychológa** sa klub uspokojí s evidovaním iba *počtu rokov v praxi*.
 
 O každom **tíme** potrebujeme evidovať *počet hráčov* v tíme. Každý tím patrí do **vekovej kategórie**, to rozhoduje ako starí hráči môžu v danom tíme hrať. Pri každej vekovej kategórii evidujeme jej *názov*, *minimálny* a *maximálny vek* hráčov.
 
