@@ -678,6 +678,10 @@
               "y": 148.73579545454544
             },
             {
+              "x": 921,
+              "y": 366.609375
+            },
+            {
               "x": 920.8333333333331,
               "y": 456.311553030303
             }
@@ -803,11 +807,29 @@
   ],
   "notes": [
     {
-      "text": "IO1: Tréner môže byť asistentom\nmaximálne v troch tímoch.",
+      "text": "IO1: Tréner môže byť asistentom\nmaximálne v dvoch tímoch.",
       "transform": {
-        "x": 477,
-        "y": 211.609375,
+        "x": 447.8333333333335,
+        "y": 367.4427083333334,
         "width": 198.109375,
+        "height": 36
+      }
+    },
+    {
+      "text": "je vztah required?\nmusi hrac patrit do timu?\nmusi mat tim hraca?",
+      "transform": {
+        "x": 94.16666666666663,
+        "y": 233.84114583333334,
+        "width": 153.25,
+        "height": 49
+      }
+    },
+    {
+      "text": "IO2: Tím môže mať maximálne\ntroch asistentov.",
+      "transform": {
+        "x": 467.33333333333326,
+        "y": 409.2760416666667,
+        "width": 187.203125,
         "height": 36
       }
     }
