@@ -21,13 +21,20 @@ Pri **tréningu** aj zápase je okrem adresy nutné evidovať aj *názov telocvi
 
 ## **Dotazy:**
 
-- Ktorí hráči tímu XY ešte nezaplatili členský poplatok?
-- Ktorí zamestnanci majú plat väčší ako 1000?
+- Hráči tímu XY, ktorí ešte nezaplatili členský poplatok.
+<!-- 1. KB -->
+- Emaily všetkých hráčov v tíme XY.
+<!-- 1. KB -->
 - Tréneri, ktorí majú menej ako 25 rokov.
+<!-- 1. KB -->
+
+<!-- Other -->
+- Zamestnanci, ktorí majú plat väčší ako 1000?
 - Tréneri, ktorí su asistentami trénera v aspoň jednom tíme.
 - Psychológovia s minimálne 5 rokmi praxe.
 - Vekové kategórie, v ktorých je minimálne 1 tím.
-- Emaily všetkých hráčov v tíme XY.
 - Všetky dalosti, ktoré platí klub (= majú atribút naklády)
+- Vekové kategórie, v ktorých klub nemá žiadny tím.
+- Naplánované udalosti tímu XY v najbližších x týždňoch.
 
 
