@@ -526,9 +526,9 @@
       {
         "entity": "Trener",
         "identifying": false,
-        "optional": true,
+        "optional": false,
         "cardinality": 0,
-        "xor": "a3363e99c2f5c99ca43c4b67c2f5c97d",
+        "xor": "5bac8324a43c4b675bac8343a3363e99",
         "name": "asistent",
         "transform": {
           "anchor": {
@@ -572,19 +572,19 @@
       {
         "entity": "Trener",
         "identifying": false,
-        "optional": true,
+        "optional": false,
         "cardinality": 1,
-        "xor": "a3363e99c2f5c99ca43c4b67c2f5c97d",
+        "xor": "5bac8324a43c4b675bac8343a3363e99",
         "name": "hlavny trener",
         "transform": {
           "anchor": {
-            "x": 420.8465908898247,
+            "x": 427.7215908898247,
             "y": 161.09690618033358,
             "edge": 2
           },
           "points": [
             {
-              "x": 420.2840908898247,
+              "x": 427.6903408898247,
               "y": 219.15715712730326
             }
           ],
@@ -600,17 +600,17 @@
         "name": null,
         "transform": {
           "anchor": {
-            "x": 419.7215908898247,
+            "x": 427.6590908898247,
             "y": 271.21740807427295,
             "edge": 0
           },
           "points": [
             {
-              "x": 420.2840908898247,
+              "x": 427.6903408898247,
               "y": 219.15715712730326
             }
           ],
-          "manual": false
+          "manual": true
         }
       }
     ],
