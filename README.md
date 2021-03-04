@@ -1,10 +1,10 @@
-1
+
 # DBS project
 
 Database system for a floorball club administration system developed as my project for Database Systems course.
 
 
-## **Popis:**
+## **Popis:** <!-- 1. KB -->
 
 Florbalový klub má stovky **členov**, o ktorých potrebuje evidovať *meno*, *priezvisko*, adresu, *email* (pre potreby notifikovania o blížiacich sa udalostiach) a prípadne aj *telefónne číslo*. **Adresa** sa klasicky skladá z *ulice*, *čísla*, *mesta* a *PSČ*. Členmi klubu sú hráči a zamestnanci a nie je vylúčené, že člen môže byť zároveň hráčom aj zamestnancom.
 
