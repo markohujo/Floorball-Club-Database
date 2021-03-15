@@ -480,7 +480,7 @@
       {
         "entity": "Tim",
         "identifying": false,
-        "optional": false,
+        "optional": true,
         "cardinality": 0,
         "xor": null,
         "name": null,
@@ -502,7 +502,7 @@
       {
         "entity": "Hrac",
         "identifying": false,
-        "optional": false,
+        "optional": true,
         "cardinality": 0,
         "xor": null,
         "name": "hra v  time",
