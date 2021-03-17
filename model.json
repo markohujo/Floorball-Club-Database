@@ -528,7 +528,7 @@
         "identifying": false,
         "optional": false,
         "cardinality": 0,
-        "xor": "5bac8324a43c4b675bac8343a3363e99",
+        "xor": "5bac8324a43c4b675bac8343a43c4b86",
         "name": "asistent",
         "transform": {
           "anchor": {
@@ -574,7 +574,7 @@
         "identifying": false,
         "optional": false,
         "cardinality": 1,
-        "xor": "5bac8324a43c4b675bac8343a3363e99",
+        "xor": "5bac8324a43c4b675bac8343a43c4b86",
         "name": "hlavny trener",
         "transform": {
           "anchor": {
@@ -594,7 +594,7 @@
       {
         "entity": "Tim",
         "identifying": false,
-        "optional": false,
+        "optional": true,
         "cardinality": 1,
         "xor": null,
         "name": null,
