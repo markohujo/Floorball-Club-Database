@@ -502,7 +502,7 @@
       {
         "entity": "Hrac",
         "identifying": false,
-        "optional": true,
+        "optional": false,
         "cardinality": 0,
         "xor": null,
         "name": "hra v  time",
@@ -845,5 +845,15 @@
       }
     ]
   ],
-  "notes": []
+  "notes": [
+    {
+      "text": "IO1: Tím môže mať maximálne 3 asistentov.\nIO2: Tréner môže byť asistentom\nmaximálne v 3 tímoch.",
+      "transform": {
+        "x": 63.721590889824654,
+        "y": 52.4048170194944,
+        "width": 263.03125,
+        "height": 49
+      }
+    }
+  ]
 }
