@@ -36,8 +36,8 @@
         }
       ],
       "transform": {
-        "x": 876.5700757383097,
-        "y": -53.44854836512094,
+        "x": 817.9986471668811,
+        "y": -52.734262650835234,
         "width": 128.28436279296875,
         "height": 107.00468444824219
       }
@@ -85,6 +85,48 @@
       }
     },
     {
+      "name": "Hala",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_hala",
+          "primary": true,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "nazov",
+          "primary": false,
+          "unique": true,
+          "nullable": false
+        },
+        {
+          "name": "pocet_divakov",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "pocet_satni",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "bufet",
+          "primary": false,
+          "unique": false,
+          "nullable": true
+        }
+      ],
+      "transform": {
+        "x": 1032.5127996810334,
+        "y": -32.540237925560525,
+        "width": 204.0250244140625,
+        "height": 124.01716613769531
+      }
+    },
+    {
       "name": "Hrac",
       "parent": null,
       "attr": [
@@ -102,8 +144,8 @@
         }
       ],
       "transform": {
-        "x": 577.0700757383092,
-        "y": 131.73326981669723,
+        "x": 577.83930650754,
+        "y": 153.27173135515875,
         "width": 99.15155029296875,
         "height": 60.8046875
       }
@@ -138,46 +180,52 @@
         }
       ],
       "transform": {
-        "x": 33.72159088982471,
-        "y": 261.71740807427295,
+        "x": 305.2600524282863,
+        "y": 337.1020234588883,
         "width": 171.64374542236328,
         "height": 99.2061767578125
       }
     },
     {
-      "name": "Psycholog",
+      "name": "Sportova_udalost",
       "parent": null,
       "attr": [
         {
-          "name": "rok_prax",
+          "name": "naklady",
           "primary": false,
           "unique": false,
           "nullable": false
         }
       ],
       "transform": {
-        "x": 69.82765149588528,
-        "y": -22.40309381966641,
-        "width": 142.32656860351562,
-        "height": 45.40467834472656
+        "x": 945.4065725748064,
+        "y": 253.9432785579561,
+        "width": 258.121826171875,
+        "height": 102.4344482421875
       }
     },
     {
       "name": "Teambuilding",
-      "parent": "Udalost",
+      "parent": null,
       "attr": [
         {
           "name": "typ",
           "primary": false,
           "unique": false,
           "nullable": false
+        },
+        {
+          "name": "naklady",
+          "primary": false,
+          "unique": false,
+          "nullable": true
         }
       ],
       "transform": {
-        "x": 153.22491455078125,
-        "y": 99.20620727539062,
-        "width": 144.0625,
-        "height": 48.8062744140625
+        "x": 946.4596861279203,
+        "y": 166.72716134183872,
+        "width": 108.0484619140625,
+        "height": 70
       }
     },
     {
@@ -197,15 +245,15 @@
           "nullable": false
         },
         {
-          "name": "pocet_hraci",
+          "name": "pocet_hracov",
           "primary": false,
           "unique": false,
           "nullable": false
         }
       ],
       "transform": {
-        "x": 320.55492422315797,
-        "y": 271.21740807427295,
+        "x": 317.4780011462348,
+        "y": 189.67894653581143,
         "width": 128.18124389648438,
         "height": 82.40631103515625
       }
@@ -215,7 +263,19 @@
       "parent": null,
       "attr": [
         {
+          "name": "cislo_uctu",
+          "primary": false,
+          "unique": true,
+          "nullable": false
+        },
+        {
           "name": "certifikacia",
+          "primary": false,
+          "unique": false,
+          "nullable": false
+        },
+        {
+          "name": "plat",
           "primary": false,
           "unique": false,
           "nullable": false
@@ -228,28 +288,28 @@
         }
       ],
       "transform": {
-        "x": 342.72159088982477,
-        "y": 105.09690618033358,
-        "width": 121.265625,
-        "height": 56
+        "x": 308.3521270203607,
+        "y": -43.56742948400206,
+        "width": 169.98123168945312,
+        "height": 105.81718444824219
       }
     },
     {
       "name": "Trening",
-      "parent": "Udalost",
+      "parent": "Sportova_udalost",
       "attr": [
         {
-          "name": "telocvicna",
+          "name": "typ",
           "primary": false,
           "unique": false,
           "nullable": false
         }
       ],
       "transform": {
-        "x": 307.28741455078125,
-        "y": 99.20620727539062,
-        "width": 143.64990234375,
-        "height": 48.8062744140625
+        "x": 10,
+        "y": 41.21734619140625,
+        "width": 111.643798828125,
+        "height": 51.21710205078125
       }
     },
     {
@@ -273,67 +333,31 @@
           "primary": false,
           "unique": false,
           "nullable": false
-        },
-        {
-          "name": "naklady",
-          "primary": false,
-          "unique": false,
-          "nullable": true
         }
       ],
       "transform": {
-        "x": 816.7215908898245,
-        "y": 150.71740807427298,
-        "width": 460.93731689453125,
-        "height": 174.81253051757812
-      }
-    },
-    {
-      "name": "Zamestnanec",
-      "parent": null,
-      "attr": [
-        {
-          "name": "cislo_ucet",
-          "primary": false,
-          "unique": true,
-          "nullable": false
-        },
-        {
-          "name": "plat",
-          "primary": false,
-          "unique": false,
-          "nullable": false
-        }
-      ],
-      "transform": {
-        "x": 303.7367424049761,
-        "y": -29.721275637848223,
-        "width": 169.98123168945312,
-        "height": 60.8046875
+        "x": 702.137341805576,
+        "y": 205.03302214769968,
+        "width": 144.66117216117175,
+        "height": 97.31468531468511
       }
     },
     {
       "name": "Zapas",
-      "parent": "Udalost",
+      "parent": "Sportova_udalost",
       "attr": [
         {
           "name": "super",
           "primary": false,
           "unique": false,
           "nullable": false
-        },
-        {
-          "name": "telocvicna",
-          "primary": false,
-          "unique": false,
-          "nullable": false
         }
       ],
       "transform": {
-        "x": 10,
-        "y": 99.20620727539062,
-        "width": 133.22491455078125,
-        "height": 65.60626220703125
+        "x": 131.643798828125,
+        "y": 41.21734619140625,
+        "width": 116.457763671875,
+        "height": 51.21710205078125
       }
     }
   ],
@@ -354,8 +378,8 @@
           },
           "points": [
             {
-              "x": 781.2302671297632,
-              "y": 0.4098544650607572
+              "x": 751.9445528440489,
+              "y": 0.7669973222036113
             }
           ],
           "manual": false
@@ -370,17 +394,63 @@
         "name": null,
         "transform": {
           "anchor": {
-            "x": 876.5700757383097,
-            "y": 0.05379385900015876,
+            "x": 817.9986471668811,
+            "y": 0.768079573285867,
             "edge": 3
           },
           "points": [
             {
-              "x": 781.2302671297632,
-              "y": 0.4098544650607572
+              "x": 751.9445528440489,
+              "y": 0.7669973222036113
             }
           ],
           "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Hala",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null,
+        "name": "je na",
+        "transform": {
+          "anchor": {
+            "x": 1032.5127996810334,
+            "y": -15.945561768384373,
+            "edge": 3
+          },
+          "points": [
+            {
+              "x": 989.3979048204417,
+              "y": -15.837388691461296
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Adresa",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 946.2830099598499,
+            "y": -15.72921561453822,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 989.3979048204417,
+              "y": -15.837388691461296
+            }
+          ],
+          "manual": true
         }
       }
     ],
@@ -394,14 +464,14 @@
         "name": null,
         "transform": {
           "anchor": {
-            "x": 626.6458508847936,
-            "y": 131.73326981669723,
+            "x": 627.4150816540243,
+            "y": 153.27173135515875,
             "edge": 0
           },
           "points": [
             {
-              "x": 626.8547759369162,
-              "y": 93.00076355596983
+              "x": 627.2393913215316,
+              "y": 103.7699943252006
             }
           ],
           "manual": false
@@ -422,8 +492,100 @@
           },
           "points": [
             {
-              "x": 626.8547759369162,
-              "y": 93.00076355596983
+              "x": 627.2393913215316,
+              "y": 103.7699943252006
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Sportova_udalost",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 0,
+        "xor": null,
+        "name": "uskutocni sa v",
+        "transform": {
+          "anchor": {
+            "x": 1134.3455755934754,
+            "y": 253.9432785579561,
+            "edge": 0
+          },
+          "points": [
+            {
+              "x": 1134.1172419368709,
+              "y": 172.71010338504544
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Hala",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 1133.8889082802666,
+            "y": 91.4769282121348,
+            "edge": 2
+          },
+          "points": [
+            {
+              "x": 1134.1172419368709,
+              "y": 172.71010338504544
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Teambuilding",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 0,
+        "xor": null,
+        "name": "uskutocni sa na",
+        "transform": {
+          "anchor": {
+            "x": 985.3791000473336,
+            "y": 166.72716134183872,
+            "edge": 0
+          },
+          "points": [
+            {
+              "x": 985.3791000473336,
+              "y": 38.4131264184288
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Adresa",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 946.2830099598499,
+            "y": 38.4131264184288,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 985.3791000473336,
+              "y": 38.4131264184288
             }
           ],
           "manual": false
@@ -440,14 +602,14 @@
         "name": "patri do",
         "transform": {
           "anchor": {
-            "x": 320.55492422315797,
-            "y": 339.7767037285698,
-            "edge": 3
+            "x": 358.21430657867677,
+            "y": 272.08525757096766,
+            "edge": 2
           },
           "points": [
             {
-              "x": 262.960130267673,
-              "y": 339.9118915134006
+              "x": 358.1857785118949,
+              "y": 304.593640514928
             }
           ],
           "manual": false
@@ -462,14 +624,14 @@
         "name": null,
         "transform": {
           "anchor": {
-            "x": 205.365336312188,
-            "y": 340.0470792982313,
-            "edge": 1
+            "x": 358.15725044511305,
+            "y": 337.1020234588883,
+            "edge": 0
           },
           "points": [
             {
-              "x": 262.960130267673,
-              "y": 339.9118915134006
+              "x": 358.1857785118949,
+              "y": 304.593640514928
             }
           ],
           "manual": false
@@ -486,14 +648,14 @@
         "name": null,
         "transform": {
           "anchor": {
-            "x": 448.73616811964234,
-            "y": 282.0507414076062,
+            "x": 445.6592450427192,
+            "y": 200.5122798691447,
             "edge": 1
           },
           "points": [
             {
-              "x": 632.054924223158,
-              "y": 282.0507414076062
+              "x": 511.7492757751296,
+              "y": 200.04190816931134
             }
           ],
           "manual": false
@@ -508,14 +670,14 @@
         "name": "hra v  time",
         "transform": {
           "anchor": {
-            "x": 632.054924223158,
-            "y": 192.53795731669723,
-            "edge": 2
+            "x": 577.83930650754,
+            "y": 199.57153646947796,
+            "edge": 3
           },
           "points": [
             {
-              "x": 632.054924223158,
-              "y": 282.0507414076062
+              "x": 511.7492757751296,
+              "y": 200.04190816931134
             }
           ],
           "manual": false
@@ -529,20 +691,20 @@
         "optional": false,
         "cardinality": 0,
         "xor": "5bac8324a43c4b675bac8343a43c4b86",
-        "name": "asistent",
+        "name": "je asistent",
         "transform": {
           "anchor": {
-            "x": 358.7215908898247,
-            "y": 161.09690618033358,
+            "x": 342.40290957114325,
+            "y": 62.249754964240125,
             "edge": 2
           },
           "points": [
             {
-              "x": 358.8241299523247,
-              "y": 219.15715712730326
+              "x": 342.84332852718717,
+              "y": 128.96435075002577
             }
           ],
-          "manual": true
+          "manual": false
         }
       },
       {
@@ -554,14 +716,14 @@
         "name": null,
         "transform": {
           "anchor": {
-            "x": 358.9266690148247,
-            "y": 271.21740807427295,
+            "x": 343.28374748323114,
+            "y": 189.67894653581143,
             "edge": 0
           },
           "points": [
             {
-              "x": 358.8241299523247,
-              "y": 219.15715712730326
+              "x": 342.84332852718717,
+              "y": 128.96435075002577
             }
           ],
           "manual": false
@@ -575,17 +737,17 @@
         "optional": false,
         "cardinality": 1,
         "xor": "5bac8324a43c4b675bac8343a43c4b86",
-        "name": "hlavny trener",
+        "name": "je hlavny trener",
         "transform": {
           "anchor": {
-            "x": 427.7215908898247,
-            "y": 161.09690618033358,
+            "x": 419.6800574720704,
+            "y": 62.249754964240125,
             "edge": 2
           },
           "points": [
             {
-              "x": 427.6903408898247,
-              "y": 219.15715712730326
+              "x": 420.0713598952332,
+              "y": 128.96435075002577
             }
           ],
           "manual": false
@@ -600,14 +762,14 @@
         "name": null,
         "transform": {
           "anchor": {
-            "x": 427.6590908898247,
-            "y": 271.21740807427295,
+            "x": 420.462662318396,
+            "y": 189.67894653581143,
             "edge": 0
           },
           "points": [
             {
-              "x": 427.6903408898247,
-              "y": 219.15715712730326
+              "x": 420.0713598952332,
+              "y": 128.96435075002577
             }
           ],
           "manual": true
@@ -615,166 +777,6 @@
       }
     ],
     [
-      {
-        "entity": "Udalost",
-        "identifying": false,
-        "optional": false,
-        "cardinality": 0,
-        "xor": null,
-        "name": "uskutocni sa na",
-        "transform": {
-          "anchor": {
-            "x": 940.6030279747165,
-            "y": 150.71740807427298,
-            "edge": 0
-          },
-          "points": [
-            {
-              "x": 940.6576425547553,
-              "y": 102.1367720786971
-            }
-          ],
-          "manual": false
-        }
-      },
-      {
-        "entity": "Adresa",
-        "identifying": false,
-        "optional": true,
-        "cardinality": 1,
-        "xor": null,
-        "name": null,
-        "transform": {
-          "anchor": {
-            "x": 940.7122571347941,
-            "y": 53.556136083121245,
-            "edge": 2
-          },
-          "points": [
-            {
-              "x": 940.6576425547553,
-              "y": 102.1367720786971
-            }
-          ],
-          "manual": false
-        }
-      }
-    ],
-    [
-      {
-        "entity": "Udalost",
-        "identifying": false,
-        "optional": false,
-        "cardinality": 0,
-        "xor": null,
-        "name": null,
-        "transform": {
-          "anchor": {
-            "x": 816.7215908898245,
-            "y": 311.2259308015457,
-            "edge": 3
-          },
-          "points": [
-            {
-              "x": 632.7288795047334,
-              "y": 311.395201634879
-            }
-          ],
-          "manual": false
-        }
-      },
-      {
-        "entity": "Tim",
-        "identifying": false,
-        "optional": true,
-        "cardinality": 0,
-        "xor": null,
-        "name": "zucastni sa",
-        "transform": {
-          "anchor": {
-            "x": 448.73616811964234,
-            "y": 311.56447246821233,
-            "edge": 1
-          },
-          "points": [
-            {
-              "x": 632.7288795047334,
-              "y": 311.395201634879
-            }
-          ],
-          "manual": false
-        }
-      }
-    ],
-    [
-      {
-        "entity": "Zamestnanec",
-        "identifying": false,
-        "optional": true,
-        "cardinality": 1,
-        "xor": null,
-        "name": "moze byt",
-        "transform": {
-          "anchor": {
-            "x": 303.7367424049761,
-            "y": 0.6810681121517774,
-            "edge": 3
-          },
-          "points": [
-            {
-              "x": 257.94548125218853,
-              "y": 0.49015673242432456
-            }
-          ],
-          "manual": false
-        }
-      },
-      {
-        "entity": "Psycholog",
-        "identifying": true,
-        "optional": false,
-        "cardinality": 1,
-        "xor": null,
-        "name": null,
-        "transform": {
-          "anchor": {
-            "x": 212.1542200994009,
-            "y": 0.2992453526968717,
-            "edge": 1
-          },
-          "points": [
-            {
-              "x": 257.94548125218853,
-              "y": 0.49015673242432456
-            }
-          ],
-          "manual": false
-        }
-      }
-    ],
-    [
-      {
-        "entity": "Zamestnanec",
-        "identifying": false,
-        "optional": true,
-        "cardinality": 1,
-        "xor": null,
-        "name": "moze byt",
-        "transform": {
-          "anchor": {
-            "x": 388.72735824970266,
-            "y": 31.083411862151777,
-            "edge": 2
-          },
-          "points": [
-            {
-              "x": 388.96979012152156,
-              "y": 68.09015902124267
-            }
-          ],
-          "manual": false
-        }
-      },
       {
         "entity": "Trener",
         "identifying": true,
@@ -784,38 +786,14 @@
         "name": null,
         "transform": {
           "anchor": {
-            "x": 389.2122219933404,
-            "y": 105.09690618033358,
-            "edge": 0
-          },
-          "points": [
-            {
-              "x": 388.96979012152156,
-              "y": 68.09015902124267
-            }
-          ],
-          "manual": false
-        }
-      }
-    ],
-    [
-      {
-        "entity": "Zamestnanec",
-        "identifying": true,
-        "optional": false,
-        "cardinality": 1,
-        "xor": null,
-        "name": null,
-        "transform": {
-          "anchor": {
-            "x": 473.7179740944292,
-            "y": 0.6810681121517774,
+            "x": 478.3333587098138,
+            "y": 0.9526377921748733,
             "edge": 1
           },
           "points": [
             {
-              "x": 522.992509764854,
-              "y": 0.7234915916365665
+              "x": 525.3002020725464,
+              "y": 0.8592764316481145
             }
           ],
           "manual": false
@@ -836,8 +814,146 @@
           },
           "points": [
             {
-              "x": 522.992509764854,
-              "y": 0.7234915916365665
+              "x": 525.3002020725464,
+              "y": 0.8592764316481145
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Udalost",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 702.137341805576,
+            "y": 259.5943020136669,
+            "edge": 3
+          },
+          "points": [
+            {
+              "x": 573.8982934241476,
+              "y": 260.4536770136669
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Tim",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null,
+        "name": "zucastni sa",
+        "transform": {
+          "anchor": {
+            "x": 445.6592450427192,
+            "y": 261.3130520136669,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 573.8982934241476,
+              "y": 260.4536770136669
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Udalost",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 1,
+        "xor": "1669cdf11af94f571af94f57ba8b6605",
+        "name": "je",
+        "transform": {
+          "anchor": {
+            "x": 846.7985139667478,
+            "y": 227.51712138179875,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 899.6291000473341,
+              "y": 227.0432202828976
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Teambuilding",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 946.4596861279203,
+            "y": 226.56931918399647,
+            "edge": 3
+          },
+          "points": [
+            {
+              "x": 899.6291000473341,
+              "y": 227.0432202828976
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Udalost",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 1,
+        "xor": "1669cdf11af94f571af94f57ba8b6605",
+        "name": "je",
+        "transform": {
+          "anchor": {
+            "x": 846.7985139667478,
+            "y": 292.3477074623848,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 899.1025432707771,
+              "y": 292.44386130853866
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Sportova_udalost",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 945.4065725748064,
+            "y": 292.54001515469247,
+            "edge": 3
+          },
+          "points": [
+            {
+              "x": 899.1025432707771,
+              "y": 292.44386130853866
             }
           ],
           "manual": false
@@ -847,12 +963,12 @@
   ],
   "notes": [
     {
-      "text": "IO1: Tím môže mať maximálne 3 asistentov.\nIO2: Tréner môže byť asistentom\nmaximálne v 3 tímoch.",
+      "text": "IO1: Tím môže mať maximálne 3 asistentov.\nIO2: Tím môže mať maximálne 20 hráčov.\nIO3: Hráč môže hrať maximálne v 2 tímoch.\n\nDS?\nIO4: Člen nemôže trénovať a zaróveň hrať v tom istom tíme.\nIO5: Hala nemôže byť na rovnakej adrese akú ma nejaký člen.\nIO6: Teambuilding daného tímu sa nemôže uskutočniť na adresa rovnakej ako člen nie toho tímu.",
       "transform": {
-        "x": 63.721590889824654,
-        "y": 52.4048170194944,
-        "width": 263.03125,
-        "height": 49
+        "x": 488.32781799605175,
+        "y": 370.74730786198523,
+        "width": 565.393772893773,
+        "height": 114
       }
     }
   ]
