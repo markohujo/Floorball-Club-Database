@@ -24,6 +24,17 @@ Pri každej šporotvej udalosti je potrebné evidovať *náklady*, keďže tieto
 - Emaily všetkých hráčov v tíme XY. <!-- 1. KB -->
 - Vekové kategórie, v ktorých klub nemá ani jeden tím. <!-- 1. KB -->
 
+### **Kategoria D:**
+- Vyber haly, v ktorých sa uskutoční udalosť **VŠETKÝCH** tímov.
+- Vyber halu, v ktorej sa uskutočnia **VŠETKY** športové udalosti tímu XY.
+
+### **Kategoria C:**
+- Hráči, ktorí hrajú **IBA** v tíme s id 4 (a v žiadnom inom).
+- Vekové kategórie, v ktorých má klub **IBA** jeden tím.
+- Tréneri, ktorí su asistentom trénera **IBA** jedného tímu.
+- Členovia, ktorí sú **IBA** trénermi.
+- Tímy, ktoré trénuje **IBA** tréner s id 4 (a nikto iný).
+
 <!-- Other -->
 - Zamestnanci, ktorí majú plat väčší ako 1000?
 - Tréneri, ktorí su asistentami trénera v aspoň jednom tíme.
