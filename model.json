@@ -412,7 +412,7 @@
       {
         "entity": "Hala",
         "identifying": false,
-        "optional": true,
+        "optional": false,
         "cardinality": 1,
         "xor": null,
         "name": "je na",
@@ -504,7 +504,7 @@
       {
         "entity": "Sportova_udalost",
         "identifying": false,
-        "optional": true,
+        "optional": false,
         "cardinality": 0,
         "xor": null,
         "name": "uskutocni sa v",
@@ -550,7 +550,7 @@
       {
         "entity": "Teambuilding",
         "identifying": false,
-        "optional": true,
+        "optional": false,
         "cardinality": 0,
         "xor": null,
         "name": "uskutocni sa na",
@@ -690,7 +690,7 @@
         "identifying": false,
         "optional": false,
         "cardinality": 0,
-        "xor": "5bac8324a43c4b675bac8343a43c4b86",
+        "xor": "5bac8324a43c4b675bac8343a3363e99",
         "name": "je asistent",
         "transform": {
           "anchor": {
@@ -736,7 +736,7 @@
         "identifying": false,
         "optional": false,
         "cardinality": 1,
-        "xor": "5bac8324a43c4b675bac8343a43c4b86",
+        "xor": "5bac8324a43c4b675bac8343a3363e99",
         "name": "je hlavny trener",
         "transform": {
           "anchor": {
@@ -756,7 +756,7 @@
       {
         "entity": "Tim",
         "identifying": false,
-        "optional": true,
+        "optional": false,
         "cardinality": 1,
         "xor": null,
         "name": null,
