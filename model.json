@@ -642,7 +642,7 @@
       {
         "entity": "Tim",
         "identifying": false,
-        "optional": true,
+        "optional": false,
         "cardinality": 0,
         "xor": null,
         "name": null,
@@ -963,7 +963,7 @@
   ],
   "notes": [
     {
-      "text": "IO1: Tím môže mať maximálne 3 asistentov.\nIO2: Tím môže mať maximálne 20 hráčov.\nIO3: Hráč môže hrať maximálne v 2 tímoch.\n\nDS?\nIO4: Člen nemôže trénovať a zaróveň hrať v tom istom tíme.\nIO5: Hala nemôže byť na rovnakej adrese akú ma nejaký člen.\nIO6: Teambuilding daného tímu sa nemôže uskutočniť na adresa rovnakej ako člen nie toho tímu.",
+      "text": "IO1: Tím môže mať maximálne 3 asistentov.\nIO2: Tím môže mať maximálne 20 hráčov.\nIO3: Hráč môže hrať maximálne v 2 tímoch.\nIO4: Člen nemôže trénovať a zaróveň hrať v tom istom tíme.",
       "transform": {
         "x": 488.32781799605175,
         "y": 370.74730786198523,
