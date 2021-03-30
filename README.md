@@ -43,4 +43,17 @@ IO5: Člen nemôže trénovať a zaróveň hrať v tom istom tíme.
 - Naplánované udalosti tímu XY v najbližších 2 týždňoch.
 - Tréneri, o ktorých vieme, že majú menej ako 25 rokov.
 
+## **Smyčky:** <!-- 2. KB -->
+
+Schéma obsahuje viacero smyčiek.
+
+1. CLEN - TRENER - TIM - HRAC. Môže nastať situácia, že ten istý člen bude trénovať aj hrať v tom istom tíme, čo môže spôsobovať problémy, keďže väčšina profesionálnych súťaží toto nepovoluje,  preto som zaviedol IO5.
+
+2. TIM - UDALOST - ZAPAS - HALA - ADRESA - CLEN - TRENER
+3.  TIM - UDALOST - ZAPAS - HALA - ADRESA - CLEN - HRAC
+4.  TIM - UDALOST - TRENING - HALA - ADRESA - CLEN - TRENER
+5.  TIM - UDALOST - TRENING - HALA - ADRESA - CLEN - HRAC
+
+Posldené 4 smyčky si sú veľmi podobné, preto si ich dovolím okomentovať naraz. Tieto smyčky sú v poriadku a nepredstavujú riziko alebo potenciálne problémy s konzistenciou dát v databázi. Entita ADRESA je tzv. číselník, ktorú využívam na uloženie adresy trvalého bydliska členov klubu a športovej haly, v ktorej sa uskutoční zápas alebo tréning. Teoreticky môže nastať situácia, že člen bude bývať na rovnakej adrese, na akej sa nachádza športová hala, čo ale nepredstavuje žiadny problém, keďže takáto situácia môže nastať aj v reálnom živote a je teda korektná.
+
 
