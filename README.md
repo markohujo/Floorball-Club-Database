@@ -16,6 +16,12 @@ Každý tím sa môže zúčastnovať **udalostí**. O každej udalosti klub pot
 
 Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte daľšie údaje. Pri zápasoch je potrebné vedieť *súpera*, proti ktorému budeme hrať, v prípade profesionálnejších súťaží je pre taktické potreby možné evidovať aj jeho *umiestenie* v tabulke a prípadne aj *náklady*, napríklad na dopravu, ubytovanie, prenájom haly, atp, no nie je to vždy potrebné, napríklad v prípade individuálnej dopravy členov tímu na zápas vonku. O tréningu chceme evidovať jeho *zameranie* (taktický, kondičný, hrací, ...). Ďalej pri týchto dvoch športových udalostiach je nutné evidovať **halu**, v ktorej sa uskutočnia. Hala sa nachádza na nejakej adrese a ďalej chceme ešte evidovať *počet šatní*, *počet divákov* a prípadne aj možnosť občerstvenia v *bufete*.
 
+## **IO:** <!-- 2. KB -->
+IO1: Tím môže mať maximálne 3 asistentov.
+IO2: Tím môže mať maximálne 20 hráčov.
+IO3: Tím musí mať minimaĺne 10 hráčov.
+IO4: Hráč môže hrať maximálne v 3 tímoch.
+IO5: Člen nemôže trénovať a zaróveň hrať v tom istom tíme.
 
 ## **Dotazy:**
 
