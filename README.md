@@ -23,31 +23,24 @@ IO3: Tím musí mať minimaĺne 10 hráčov.
 IO4: Hráč môže hrať maximálne v 3 tímoch.
 IO5: Člen nemôže trénovať a zaróveň hrať v tom istom tíme.
 
-## **Dotazy:**
+## **Dotazy:** <!-- 1. KB -->
 
-- Hráči tímu XY, ktorí ešte nezaplatili členský poplatok. <!-- 1. KB -->
-- Emaily všetkých hráčov v tíme XY. <!-- 1. KB -->
+- Hráči tímu s id 5, ktorí ešte nezaplatili členský poplatok. <!-- 1. KB -->
+- Emaily všetkých hráčov v tíme s id 2. <!-- 1. KB -->
 - Vekové kategórie, v ktorých klub nemá ani jeden tím. <!-- 1. KB -->
 
-#### **Kategoria D:**
-- Vyber haly, v ktorých sa uskutoční udalosť **VŠETKÝCH** tímov.
-- Vyber halu, v ktorej sa uskutočnia **VŠETKY** športové udalosti tímu XY.
+#### **Kategoria D:** <!-- 2. KB -->
+- Tímy, ktoré sa zúčastnia **VŠETKÝCH** typov udalostí.
 
-#### **Kategoria C:**
-- Hráči, ktorí hrajú **IBA** v tíme s id 4 (a v žiadnom inom).
-- Vekové kategórie, v ktorých má klub **IBA** jeden tím.
-- Tréneri, ktorí su asistentom trénera **IBA** jedného tímu.
-- Členovia, ktorí sú **IBA** trénermi.
-- Tímy, ktoré trénuje **IBA** tréner s id 4 (a nikto iný).
+#### **Kategoria C:** <!-- 2. KB -->
+- Nájdi trénerov, ktorí sú asistentom trénera **IBA** v tíme kategórie U18.
 
 <!-- Other -->
 #### **Other:**
-- Zamestnanci, ktorí majú plat väčší ako 1000?
-- Tréneri, ktorí su asistentami trénera v aspoň jednom tíme.
-- Psychológovia s minimálne 5 rokmi praxe.
-- Vekové kategórie, v ktorých je minimálne 1 tím.
-- Všetky dalosti, ktoré platí klub (= majú atribút naklády)
-- Naplánované udalosti tímu XY v najbližších x týždňoch.
-- Tréneri, ktorí majú menej ako 25 rokov.
+- Zamestnanci, ktorí majú plat väčší ako 20000.
+- Tréneri, ktorí nie su asistentami trénera v ani jednom tíme.
+- Haly, v ktorých sa neuskutoční žiadny zápas.
+- Naplánované udalosti tímu XY v najbližších 2 týždňoch.
+- Tréneri, o ktorých vieme, že majú menej ako 25 rokov.
 
 
