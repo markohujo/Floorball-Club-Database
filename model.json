@@ -8,31 +8,36 @@
           "name": "id_adresa",
           "primary": true,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "cislo",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "mesto",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "psc",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "ulica",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         }
       ],
       "transform": {
@@ -50,37 +55,43 @@
           "name": "id_clen",
           "primary": true,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "email",
           "primary": false,
           "unique": true,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "meno",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "priezvisko",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "vek",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "telefon",
           "primary": false,
           "unique": false,
-          "nullable": true
+          "nullable": true,
+          "type": null
         }
       ],
       "transform": {
@@ -98,31 +109,36 @@
           "name": "id_hala",
           "primary": true,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "nazov",
           "primary": false,
           "unique": true,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "pocet_divakov",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "pocet_satni",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "bufet",
           "primary": false,
           "unique": false,
-          "nullable": true
+          "nullable": true,
+          "type": null
         }
       ],
       "transform": {
@@ -140,7 +156,8 @@
           "name": "post",
           "primary": false,
           "unique": false,
-          "nullable": true
+          "nullable": true,
+          "type": null
         }
       ],
       "transform": {
@@ -158,7 +175,8 @@
           "name": "zaplateny_poplatok",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         }
       ],
       "transform": {
@@ -176,25 +194,29 @@
           "name": "id_kategoria",
           "primary": true,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "nazov",
           "primary": false,
           "unique": true,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "max_vek",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "min_vek",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         }
       ],
       "transform": {
@@ -212,19 +234,22 @@
           "name": "id_tim",
           "primary": true,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "nazov",
           "primary": false,
           "unique": true,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "pocet_hracov",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         }
       ],
       "transform": {
@@ -242,19 +267,22 @@
           "name": "cislo_uctu",
           "primary": false,
           "unique": true,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "licencia",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "plat",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         }
       ],
       "transform": {
@@ -272,7 +300,8 @@
           "name": "zameranie",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         }
       ],
       "transform": {
@@ -290,19 +319,22 @@
           "name": "id_udalost",
           "primary": true,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "cas",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "datum",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         }
       ],
       "transform": {
@@ -320,13 +352,15 @@
           "name": "id_udalost_typ",
           "primary": true,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "nazov",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         }
       ],
       "transform": {
@@ -344,19 +378,22 @@
           "name": "super",
           "primary": false,
           "unique": false,
-          "nullable": false
+          "nullable": false,
+          "type": null
         },
         {
           "name": "naklady",
           "primary": false,
           "unique": false,
-          "nullable": true
+          "nullable": true,
+          "type": null
         },
         {
           "name": "super_umiestenie",
           "primary": false,
           "unique": false,
-          "nullable": true
+          "nullable": true,
+          "type": null
         }
       ],
       "transform": {
@@ -465,7 +502,7 @@
         "entity": "Hrac_tim",
         "identifying": true,
         "optional": false,
-        "cardinality": 1,
+        "cardinality": 0,
         "xor": null,
         "name": null,
         "transform": {
@@ -487,7 +524,7 @@
         "entity": "Hrac",
         "identifying": false,
         "optional": false,
-        "cardinality": 0,
+        "cardinality": 1,
         "xor": null,
         "name": null,
         "transform": {
@@ -603,7 +640,7 @@
         "entity": "Tim",
         "identifying": false,
         "optional": false,
-        "cardinality": 0,
+        "cardinality": 1,
         "xor": null,
         "name": null,
         "transform": {
@@ -625,7 +662,7 @@
         "entity": "Hrac_tim",
         "identifying": true,
         "optional": false,
-        "cardinality": 1,
+        "cardinality": 0,
         "xor": null,
         "name": null,
         "transform": {
