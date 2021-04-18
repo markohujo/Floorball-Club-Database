@@ -8,41 +8,36 @@
           "name": "id_adresa",
           "primary": true,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "cislo",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "mesto",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "psc",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "ulica",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         }
       ],
       "transform": {
-        "x": 824.921724089958,
-        "y": -53.503493420066,
+        "x": 816.4601856284197,
+        "y": -46.580416496989066,
         "width": 149.62811279296875,
         "height": 124.01718139648438
       }
@@ -55,48 +50,42 @@
           "name": "id_clen",
           "primary": true,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "email",
           "primary": false,
           "unique": true,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "meno",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "priezvisko",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "vek",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "telefon",
           "primary": false,
           "unique": false,
-          "nullable": true,
-          "type": null
+          "nullable": true
         }
       ],
       "transform": {
-        "x": 572.267045435279,
-        "y": -52.73642715299975,
+        "x": 565.3439685122021,
+        "y": -49.659504076076686,
         "width": 132.199951171875,
         "height": 142.21719360351562
       }
@@ -109,41 +98,36 @@
           "name": "id_hala",
           "primary": true,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "nazov",
           "primary": false,
           "unique": true,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "pocet_divakov",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "pocet_satni",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "bufet",
           "primary": false,
           "unique": false,
-          "nullable": true,
-          "type": null
+          "nullable": true
         }
       ],
       "transform": {
-        "x": 1034.8204919887257,
-        "y": -33.30946869479129,
+        "x": 1052.7435689118024,
+        "y": -29.23254561786822,
         "width": 160.6171875,
         "height": 124.01718139648438
       }
@@ -156,13 +140,12 @@
           "name": "post",
           "primary": false,
           "unique": false,
-          "nullable": true,
-          "type": null
+          "nullable": true
         }
       ],
       "transform": {
-        "x": 580.9162295844628,
-        "y": 148.65634673977414,
+        "x": 573.223921892155,
+        "y": 147.11788520131265,
         "width": 97.99371337890625,
         "height": 51.21722412109375
       }
@@ -175,8 +158,7 @@
           "name": "zaplateny_poplatok",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         }
       ],
       "transform": {
@@ -194,33 +176,29 @@
           "name": "id_kategoria",
           "primary": true,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "nazov",
           "primary": false,
           "unique": true,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "max_vek",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "min_vek",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         }
       ],
       "transform": {
-        "x": 173.72159088982482,
+        "x": 172.88825755649145,
         "y": 347.1020234588883,
         "width": 185.17498779296875,
         "height": 105.81719970703125
@@ -234,22 +212,19 @@
           "name": "id_tim",
           "primary": true,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "nazov",
           "primary": false,
           "unique": true,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "pocet_hracov",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         }
       ],
       "transform": {
@@ -267,22 +242,19 @@
           "name": "cislo_uctu",
           "primary": false,
           "unique": true,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "licencia",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "plat",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         }
       ],
       "transform": {
@@ -300,8 +272,7 @@
           "name": "zameranie",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         }
       ],
       "transform": {
@@ -319,22 +290,19 @@
           "name": "id_udalost",
           "primary": true,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "cas",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "datum",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         }
       ],
       "transform": {
@@ -352,15 +320,13 @@
           "name": "id_udalost_typ",
           "primary": true,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "nazov",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         }
       ],
       "transform": {
@@ -378,26 +344,23 @@
           "name": "super",
           "primary": false,
           "unique": false,
-          "nullable": false,
-          "type": null
+          "nullable": false
         },
         {
           "name": "naklady",
           "primary": false,
           "unique": false,
-          "nullable": true,
-          "type": null
+          "nullable": true
         },
         {
           "name": "super_umiestenie",
           "primary": false,
           "unique": false,
-          "nullable": true,
-          "type": null
+          "nullable": true
         }
       ],
       "transform": {
-        "x": 1018.6666458348795,
+        "x": 1023.2820304502643,
         "y": 286.01803713271437,
         "width": 193.9093017578125,
         "height": 87.6171875
@@ -415,14 +378,14 @@
         "name": "ma trvale bydlisko",
         "transform": {
           "anchor": {
-            "x": 704.466996607154,
-            "y": 0.7659150711213556,
+            "x": 697.5439196840771,
+            "y": 3.8428381480444216,
             "edge": 1
           },
           "points": [
             {
-              "x": 764.6943603485561,
-              "y": 0.382381937588228
+              "x": 757.0020526562485,
+              "y": 3.8668935197560437
             }
           ],
           "manual": false
@@ -437,14 +400,14 @@
         "name": null,
         "transform": {
           "anchor": {
-            "x": 824.921724089958,
-            "y": -0.0011511959448995412,
+            "x": 816.4601856284197,
+            "y": 3.8909488914676658,
             "edge": 3
           },
           "points": [
             {
-              "x": 764.6943603485561,
-              "y": 0.382381937588228
+              "x": 757.0020526562485,
+              "y": 3.8668935197560437
             }
           ],
           "manual": false
@@ -461,14 +424,14 @@
         "name": "je na",
         "transform": {
           "anchor": {
-            "x": 1034.8204919887257,
-            "y": -16.71479253761514,
+            "x": 1052.7435689118024,
+            "y": -9.632367052530704,
             "edge": 3
           },
           "points": [
             {
-              "x": 1004.6851644358262,
-              "y": -16.606619460692063
+              "x": 1009.4159336665955,
+              "y": -9.603868256611378
             }
           ],
           "manual": false
@@ -483,14 +446,14 @@
         "name": null,
         "transform": {
           "anchor": {
-            "x": 974.5498368829268,
-            "y": -16.498446383768986,
+            "x": 966.0882984213885,
+            "y": -9.575369460692052,
             "edge": 1
           },
           "points": [
             {
-              "x": 1004.6851644358262,
-              "y": -16.606619460692063
+              "x": 1009.4159336665955,
+              "y": -9.603868256611378
             }
           ],
           "manual": true
@@ -507,14 +470,14 @@
         "name": null,
         "transform": {
           "anchor": {
-            "x": 610.7693458488955,
+            "x": 603.0019511786556,
             "y": 248.88833350301087,
             "edge": 0
           },
           "points": [
             {
-              "x": 610.7152700520523,
-              "y": 224.3809521819394
+              "x": 602.9854188707785,
+              "y": 223.61172141270862
             }
           ],
           "manual": false
@@ -523,20 +486,20 @@
       {
         "entity": "Hrac",
         "identifying": false,
-        "optional": false,
+        "optional": true,
         "cardinality": 1,
         "xor": null,
         "name": null,
         "transform": {
           "anchor": {
-            "x": 610.6611942552092,
-            "y": 199.8735708608679,
+            "x": 602.9688865629014,
+            "y": 198.3351093224064,
             "edge": 2
           },
           "points": [
             {
-              "x": 610.7152700520523,
-              "y": 224.3809521819394
+              "x": 602.9854188707785,
+              "y": 223.61172141270862
             }
           ],
           "manual": false
@@ -553,14 +516,14 @@
         "name": null,
         "transform": {
           "anchor": {
-            "x": 627.1003058548984,
-            "y": 148.65634673977414,
+            "x": 619.4079981625905,
+            "y": 147.11788520131265,
             "edge": 0
           },
           "points": [
             {
-              "x": 626.9515963298395,
-              "y": 119.068556595145
+              "x": 619.4153702207017,
+              "y": 119.8377873643758
             }
           ],
           "manual": false
@@ -575,14 +538,14 @@
         "name": "moze byt",
         "transform": {
           "anchor": {
-            "x": 626.8028868047807,
-            "y": 89.48076645051587,
+            "x": 619.4227422788128,
+            "y": 92.55768952743894,
             "edge": 2
           },
           "points": [
             {
-              "x": 626.9515963298395,
-              "y": 119.068556595145
+              "x": 619.4153702207017,
+              "y": 119.8377873643758
             }
           ],
           "manual": false
@@ -605,7 +568,7 @@
           },
           "points": [
             {
-              "x": 201.60620627444018,
+              "x": 201.1895396077735,
               "y": 312.5836941319653
             }
           ],
@@ -621,13 +584,13 @@
         "name": null,
         "transform": {
           "anchor": {
-            "x": 201.7985139667479,
+            "x": 200.96518063341452,
             "y": 347.1020234588883,
             "edge": 0
           },
           "points": [
             {
-              "x": 201.60620627444018,
+              "x": 201.1895396077735,
               "y": 312.5836941319653
             }
           ],
@@ -639,7 +602,7 @@
       {
         "entity": "Tim",
         "identifying": false,
-        "optional": false,
+        "optional": true,
         "cardinality": 1,
         "xor": null,
         "name": null,
@@ -687,7 +650,7 @@
         "identifying": false,
         "optional": false,
         "cardinality": 0,
-        "xor": "5bac8324a43c4b675bac8343a3363e99",
+        "xor": "5bac8324a43c4b675bac8343a43c4b86",
         "name": "je asistent",
         "transform": {
           "anchor": {
@@ -733,7 +696,7 @@
         "identifying": false,
         "optional": false,
         "cardinality": 1,
-        "xor": "5bac8324a43c4b675bac8343a3363e99",
+        "xor": "5bac8324a43c4b675bac8343a43c4b86",
         "name": "je hlavny trener",
         "transform": {
           "anchor": {
@@ -753,7 +716,7 @@
       {
         "entity": "Tim",
         "identifying": false,
-        "optional": false,
+        "optional": true,
         "cardinality": 1,
         "xor": null,
         "name": null,
@@ -789,8 +752,8 @@
           },
           "points": [
             {
-              "x": 445.13115464353496,
-              "y": 1.628507200878881
+              "x": 441.6696161819965,
+              "y": 3.166968739340414
             }
           ],
           "manual": false
@@ -805,14 +768,14 @@
         "name": "moze byt",
         "transform": {
           "anchor": {
-            "x": 572.267045435279,
-            "y": 0.7659150711213556,
+            "x": 565.3439685122021,
+            "y": 3.8428381480444216,
             "edge": 3
           },
           "points": [
             {
-              "x": 445.13115464353496,
-              "y": 1.628507200878881
+              "x": 441.6696161819965,
+              "y": 3.166968739340414
             }
           ],
           "manual": false
@@ -835,8 +798,8 @@
           },
           "points": [
             {
-              "x": 1083.0725524282861,
-              "y": 153.50573206006092
+              "x": 1082.9628960194054,
+              "y": 155.54419359852244
             }
           ],
           "manual": false
@@ -851,14 +814,14 @@
         "name": null,
         "transform": {
           "anchor": {
-            "x": 1083.1927447359785,
-            "y": 90.70771270169308,
+            "x": 1082.973431918217,
+            "y": 94.78463577861615,
             "edge": 2
           },
           "points": [
             {
-              "x": 1083.0725524282861,
-              "y": 153.50573206006092
+              "x": 1082.9628960194054,
+              "y": 155.54419359852244
             }
           ],
           "manual": false
@@ -1017,14 +980,14 @@
         "name": "uskutocni sa v",
         "transform": {
           "anchor": {
-            "x": 1180.8369755052095,
+            "x": 1189.1257358882992,
             "y": 286.01803713271437,
             "edge": 0
           },
           "points": [
             {
-              "x": 1180.3562062744402,
-              "y": 188.36287491720373
+              "x": 1189.1294918979147,
+              "y": 190.40133645566527
             }
           ],
           "manual": false
@@ -1039,14 +1002,14 @@
         "name": null,
         "transform": {
           "anchor": {
-            "x": 1179.875437043671,
-            "y": 90.70771270169308,
+            "x": 1189.13324790753,
+            "y": 94.78463577861615,
             "edge": 2
           },
           "points": [
             {
-              "x": 1180.3562062744402,
-              "y": 188.36287491720373
+              "x": 1189.1294918979147,
+              "y": 190.40133645566527
             }
           ],
           "manual": false
@@ -1063,13 +1026,13 @@
         "name": null,
         "transform": {
           "anchor": {
-            "x": 1018.6666458348795,
+            "x": 1023.2820304502643,
             "y": 329.82663088271437,
             "edge": 3
           },
           "points": [
             {
-              "x": 958.1958100198972,
+              "x": 963.5035023275896,
               "y": 329.79441153041137
             }
           ],
@@ -1091,7 +1054,7 @@
           },
           "points": [
             {
-              "x": 958.1958100198972,
+              "x": 963.5035023275896,
               "y": 329.79441153041137
             }
           ],
