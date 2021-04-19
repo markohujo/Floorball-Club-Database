@@ -648,9 +648,9 @@
       {
         "entity": "Trener",
         "identifying": false,
-        "optional": false,
+        "optional": true,
         "cardinality": 0,
-        "xor": "5bac8324a43c4b675bac8343a43c4b86",
+        "xor": "a43c4b67c2f5c97da43c4b86c2f5c99c",
         "name": "je asistent",
         "transform": {
           "anchor": {
@@ -694,9 +694,9 @@
       {
         "entity": "Trener",
         "identifying": false,
-        "optional": false,
+        "optional": true,
         "cardinality": 1,
-        "xor": "5bac8324a43c4b675bac8343a43c4b86",
+        "xor": "a43c4b67c2f5c97da43c4b86c2f5c99c",
         "name": "je hlavny trener",
         "transform": {
           "anchor": {
