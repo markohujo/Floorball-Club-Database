@@ -33,7 +33,7 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 
 <!-- Other -->
 #### **Other:**
-- Hráči tímu s id 5, ktorí ešte nezaplatili členský poplatok. <!-- 1. KB -->
+- Email, meno a priezvisko hráčov tímu s id 5, ktorí ešte nezaplatili členský poplatok. <!-- 1. KB -->
 - Emaily všetkých hráčov v tíme s id 2.
 - Vekové kategórie, v ktorých klub nemá ani jeden tím.
 - Zamestnanci, ktorí majú plat väčší ako 20000. <!-- 2. KB -->
@@ -47,13 +47,13 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 
 Schéma obsahuje viacero smyčiek.
 
-1. CLEN - TRENER - TIM - HRAC. Môže nastať situácia, že ten istý člen bude trénovať aj hrať v tom istom tíme, čo môže spôsobovať problémy, keďže väčšina profesionálnych súťaží toto nepovoluje,  preto som zaviedol IO5.
+1. CLEN - TRENER - TIM - HRAC.
+- Môže nastať situácia, že ten istý člen bude trénovať aj hrať v tom istom tíme, čo môže spôsobovať problémy, keďže väčšina profesionálnych súťaží toto nepovoluje,  preto som zaviedol IO5
 
 2. TIM - UDALOST - ZAPAS - HALA - ADRESA - CLEN - TRENER
 3.  TIM - UDALOST - ZAPAS - HALA - ADRESA - CLEN - HRAC
 4.  TIM - UDALOST - TRENING - HALA - ADRESA - CLEN - TRENER
 5.  TIM - UDALOST - TRENING - HALA - ADRESA - CLEN - HRAC
-
-Posldené 4 smyčky si sú veľmi podobné, preto si ich dovolím okomentovať naraz. Tieto smyčky sú v poriadku a nepredstavujú riziko alebo potenciálne problémy s konzistenciou dát v databázi. Entita ADRESA je tzv. číselník, ktorú využívam na uloženie adresy trvalého bydliska členov klubu a športovej haly, v ktorej sa uskutoční zápas alebo tréning. Teoreticky môže nastať situácia, že člen bude bývať na rovnakej adrese, na akej sa nachádza športová hala, čo ale nepredstavuje žiadny problém, keďže takáto situácia môže nastať aj v reálnom živote a je teda korektná.
+- Posldené 4 smyčky si sú veľmi podobné, preto si ich dovolím okomentovať naraz. Tieto smyčky sú v poriadku a nepredstavujú riziko alebo potenciálne problémy s konzistenciou dát v databázi. Entita ADRESA je tzv. číselník, ktorú využívam na uloženie adresy trvalého bydliska členov klubu a športovej haly, v ktorej sa uskutoční zápas alebo tréning. Teoreticky môže nastať situácia, že člen bude bývať na rovnakej adrese, na akej sa nachádza športová hala, čo ale nepredstavuje žiadny problém, keďže takáto situácia môže nastať aj v reálnom živote a je teda korektná.
 
 
