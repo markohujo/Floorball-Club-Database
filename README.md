@@ -39,7 +39,7 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 - Nájdi trénerov, ktorí sú asistentom trénera **IBA** v tíme kategórie U18. [SQL]() 
     ```postgresql
     -- TODO
-    ```
+  ```
 
 - Vekové kategórie, v ktorých klub nemá ani jeden tím. [SQL]()
     ```postgresql
@@ -66,9 +66,11 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
     -- TODO
     ```
   
-- Tréneri, ktorí majú menej ako 25 rokov. [SQL]()
+- Tréneri (email, meno, priezvisko), ktorí majú menej ako 25 rokov. [SQL](sql_queries/query9.sql)
     ```postgresql
-    -- TODO
+    select c.email, c.meno, c.priezvisko
+    from clen c join trener using (id_clen)
+    where (select extract (year from age(datum_narodenia)) < 25);
     ```
 
 - Počet hráčov v tíme s id 15. [SQL](sql_queries/query10.sql)
