@@ -79,8 +79,7 @@ CREATE TABLE tim (
     id_tim SERIAL NOT NULL,
     id_kategoria INTEGER NOT NULL,
     id_trener INTEGER, -- id_trener je id_clen
-    nazov VARCHAR(30) NOT NULL,
-    pocet_hracov INTEGER NOT NULL
+    nazov VARCHAR(30) NOT NULL
 );
 ALTER TABLE tim ADD CONSTRAINT pk_tim PRIMARY KEY (id_tim);
 ALTER TABLE tim ADD CONSTRAINT uc_tim_nazov UNIQUE (nazov);

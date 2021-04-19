@@ -219,12 +219,6 @@
           "primary": false,
           "unique": true,
           "nullable": false
-        },
-        {
-          "name": "pocet_hracov",
-          "primary": false,
-          "unique": false,
-          "nullable": false
         }
       ],
       "transform": {
