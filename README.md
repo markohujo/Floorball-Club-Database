@@ -31,12 +31,12 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
     where id_tim=5 and zaplateny_poplatok=false;
     ```
 
-- Tímy (id_tim, nazov), ktoré sa zúčastnia **VŠETKÝCH** typov udalostí.
+- Tímy (id_tim, nazov), ktoré sa zúčastnia **VŠETKÝCH** typov udalostí. [SQL]()
     ```postgresql
     -- TODO
     ```
 
-- Nájdi trénerov, ktorí sú asistentom trénera **IBA** v tíme kategórie U18.     
+- Nájdi trénerov, ktorí sú asistentom trénera **IBA** v tíme kategórie U18. [SQL]() 
     ```postgresql
     -- TODO
     ```
@@ -71,7 +71,7 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
     -- TODO
     ```
 
-- Počet hráčov v tíme s id 15. [SQL](sql_queries/query2.sql)
+- Počet hráčov v tíme s id 15. [SQL](sql_queries/query10.sql)
     ```postgresql
     select count(*) from tim join hrac_tim using (id_tim) where id_tim=15;
     ```
