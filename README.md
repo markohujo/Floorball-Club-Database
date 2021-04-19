@@ -39,10 +39,15 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
     from clen c join hrac using (id_clen) join hrac_tim using (id_clen)
     where id_tim=5 and zaplateny_poplatok=false;
     ```
-  
-- Emaily všetkých hráčov v tíme s id 2. [SQL]()
+- Počet hráčov v tíme s id 15. [SQL](sql_queries/query2.sql)
     ```postgresql
-    -- TODO
+    select count(*) from tim join hrac_tim using (id_tim) where id_tim=15;
+    ```
+- Emaily všetkých hráčov v tíme s id 15. [SQL](sql_queries/query3.sql)
+    ```postgresql
+    select c.email from
+    clen c join hrac using(id_clen) join hrac_tim using (id_clen)
+    where id_tim=15;
     ```
   
 - Vekové kategórie, v ktorých klub nemá ani jeden tím. [SQL]()
