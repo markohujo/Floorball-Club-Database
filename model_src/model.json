@@ -11,13 +11,13 @@
           "nullable": false
         },
         {
-          "name": "cislo",
+          "name": "ulica",
           "primary": false,
           "unique": false,
           "nullable": false
         },
         {
-          "name": "mesto",
+          "name": "cislo",
           "primary": false,
           "unique": false,
           "nullable": false
@@ -29,7 +29,7 @@
           "nullable": false
         },
         {
-          "name": "ulica",
+          "name": "mesto",
           "primary": false,
           "unique": false,
           "nullable": false
@@ -71,7 +71,7 @@
           "nullable": false
         },
         {
-          "name": "vek",
+          "name": "datum_narodenia",
           "primary": false,
           "unique": false,
           "nullable": false
@@ -293,13 +293,7 @@
           "nullable": false
         },
         {
-          "name": "cas",
-          "primary": false,
-          "unique": false,
-          "nullable": false
-        },
-        {
-          "name": "datum",
+          "name": "datum_a_cas",
           "primary": false,
           "unique": false,
           "nullable": false

@@ -38,11 +38,11 @@ ALTER TABLE hala ADD CONSTRAINT u_fk_hala_adresa UNIQUE (id_adresa);
 CREATE TABLE clen (
     id_clen SERIAL NOT NULL,
     id_adresa INTEGER NOT NULL,
+    email VARCHAR(50) NOT NULL,
     meno VARCHAR(30) NOT NULL,
     priezvisko VARCHAR(30) NOT NULL,
-    email VARCHAR(50) NOT NULL,
-    telefon VARCHAR(15),
-    datum_narodenia DATE NOT NULL
+    datum_narodenia DATE NOT NULL,
+    telefon VARCHAR(15)
 );
 ALTER TABLE clen ADD CONSTRAINT pk_clen PRIMARY KEY (id_clen);
 ALTER TABLE clen ADD CONSTRAINT uc_clen_email UNIQUE (email);
