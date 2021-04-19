@@ -33,7 +33,7 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 
 <!-- Other -->
 #### **Other:**
-- Email, meno a priezvisko hráčov tímu s id 5, ktorí ešte nezaplatili členský poplatok. <!-- 1. KB -->
+- Email, meno a priezvisko hráčov tímu s id 5, ktorí ešte nezaplatili členský poplatok. [SQL](https://github.com/markohujo/DBS-project/blob/master/sql_queries/query1.sql)
 - Emaily všetkých hráčov v tíme s id 2.
 - Vekové kategórie, v ktorých klub nemá ani jeden tím.
 - Zamestnanci, ktorí majú plat väčší ako 20000. <!-- 2. KB -->
