@@ -616,6 +616,7 @@ insert into hrac (id_clen, post) values (200, 'goalkeeper');
 -- end hrac
 
 -- kategorie a ich min a max datum narodenia
+-- Kids(2011 and younger)
 -- U12(2009,2010)
 -- U14 (2007,2008,2009,2010)
 -- U16(2005,2006,2007,2008)
@@ -630,6 +631,7 @@ insert into kategoria (nazov, min_rok_narodenia, max_rok_narodenia) values ('U16
 insert into kategoria (nazov, min_rok_narodenia, max_rok_narodenia) values ('U18', 2003, 2006);
 insert into kategoria (nazov, min_rok_narodenia, max_rok_narodenia) values ('U20', 2001, 2004);
 insert into kategoria (nazov, min_rok_narodenia, max_rok_narodenia) values ('A-TEAM', 1980, 2002);
+insert into kategoria (nazov, min_rok_narodenia, max_rok_narodenia) values ('Kids', 2011, 2016);
 -- end kategoria
 
 

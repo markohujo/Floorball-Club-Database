@@ -41,9 +41,11 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
     -- TODO
   ```
 
-- Vekové kategórie, v ktorých klub nemá ani jeden tím. [SQL]()
+- Vekové kategórie, v ktorých klub nemá ani jeden tím. [SQL](sql_queries/query4.sql)
     ```postgresql
-    -- TODO
+    select * from kategoria k where not exists (
+        select 1 from tim t where k.id_kategoria = t.id_kategoria 
+    );
     ```
   
 - Zamestnanci, ktorí majú plat väčší ako 20000. [SQL]()
