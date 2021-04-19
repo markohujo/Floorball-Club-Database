@@ -33,14 +33,39 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 
 <!-- Other -->
 #### **Other:**
-- Email, meno a priezvisko hráčov tímu s id 5, ktorí ešte nezaplatili členský poplatok. [SQL](https://github.com/markohujo/DBS-project/blob/master/sql_queries/query1.sql)
-- Emaily všetkých hráčov v tíme s id 2.
-- Vekové kategórie, v ktorých klub nemá ani jeden tím.
-- Zamestnanci, ktorí majú plat väčší ako 20000. <!-- 2. KB -->
-- Tréneri, ktorí nie su asistentami trénera v ani jednom tíme.
-- Haly, v ktorých sa neuskutoční žiadny zápas.
-- Naplánované udalosti tímu XY v najbližších 2 týždňoch.
-- Tréneri, ktorí majú menej ako 25 rokov.
+- Email, meno a priezvisko hráčov tímu s id 5, ktorí ešte nezaplatili členský poplatok. [SQL](sql_queries/query1.sql)
+    ```postgresql
+    select c.email, c.meno, c.priezvisko
+    from clen c join hrac using (id_clen) join hrac_tim using (id_clen)
+    where id_tim=5 and zaplateny_poplatok=false;
+    ```
+  
+- Emaily všetkých hráčov v tíme s id 2. [SQL]()
+    ```postgresql
+    -- TODO
+    ```
+  
+- Vekové kategórie, v ktorých klub nemá ani jeden tím. [SQL]()
+    ```postgresql
+    -- TODO
+    ```
+  
+- Zamestnanci, ktorí majú plat väčší ako 20000. [SQL]()
+    ```postgresql
+    -- TODO
+    ```
+    
+- Tréneri, ktorí nie su asistentami trénera v ani jednom tíme. [SQL]()
+    ```postgresql
+    -- TODO
+    ```
+    
+- Haly, v ktorých sa neuskutoční žiadny zápas. [SQL]()
+  
+- Naplánované udalosti tímu XY v najbližších 2 týždňoch. [SQL]()
+  
+- Tréneri, ktorí majú menej ako 25 rokov. [SQL]()
+
 
 
 ## **Smyčky:** <!-- 2. KB -->
