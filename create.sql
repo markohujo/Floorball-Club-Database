@@ -19,14 +19,14 @@ CREATE TABLE adresa (
     ulica VARCHAR(50) NOT NULL,
     cislo INTEGER NOT NULL,
     psc INTEGER NOT NULL,
-    mesto VARCHAR(30) NOT NULL
+    mesto VARCHAR(50) NOT NULL
 );
 ALTER TABLE adresa ADD CONSTRAINT pk_adresa PRIMARY KEY (id_adresa);
 
 CREATE TABLE hala (
     id_hala SERIAL NOT NULL,
     id_adresa INTEGER NOT NULL,
-    nazov VARCHAR(30) NOT NULL,
+    nazov VARCHAR(50) NOT NULL,
     pocet_divakov INTEGER NOT NULL,
     pocet_satni INTEGER NOT NULL,
     bufet BOOLEAN
@@ -39,18 +39,18 @@ CREATE TABLE clen (
     id_clen SERIAL NOT NULL,
     id_adresa INTEGER NOT NULL,
     email VARCHAR(50) NOT NULL,
-    meno VARCHAR(30) NOT NULL,
-    priezvisko VARCHAR(30) NOT NULL,
+    meno VARCHAR(50) NOT NULL,
+    priezvisko VARCHAR(50) NOT NULL,
     datum_narodenia DATE NOT NULL,
-    telefon VARCHAR(30)
+    telefon VARCHAR(50)
 );
 ALTER TABLE clen ADD CONSTRAINT pk_clen PRIMARY KEY (id_clen);
 ALTER TABLE clen ADD CONSTRAINT uc_clen_email UNIQUE (email);
 
 CREATE TABLE trener (
     id_clen INTEGER NOT NULL,
-    licencia VARCHAR(30) NOT NULL,
-    cislo_uctu VARCHAR(30) NOT NULL,
+    licencia VARCHAR(5) NOT NULL,
+    cislo_uctu VARCHAR(50) NOT NULL,
     plat INTEGER NOT NULL
 );
 ALTER TABLE trener ADD CONSTRAINT pk_trener PRIMARY KEY (id_clen);
@@ -64,7 +64,7 @@ ALTER TABLE asistent ADD CONSTRAINT pk_trener_tim PRIMARY KEY (id_clen, id_tim);
 
 CREATE TABLE hrac (
     id_clen INTEGER NOT NULL,
-    post VARCHAR(30)
+    post VARCHAR(50)
 );
 ALTER TABLE hrac ADD CONSTRAINT pk_hrac PRIMARY KEY (id_clen);
 
@@ -78,16 +78,16 @@ ALTER TABLE hrac_tim ADD CONSTRAINT pk_hrac_tim PRIMARY KEY (id_clen, id_tim);
 CREATE TABLE tim (
     id_tim SERIAL NOT NULL,
     id_kategoria INTEGER NOT NULL,
-    id_trener INTEGER, -- id_trener je id_clen
-    nazov VARCHAR(30) NOT NULL
+    id_hlavny_trener INTEGER,
+    nazov VARCHAR(50) NOT NULL
 );
 ALTER TABLE tim ADD CONSTRAINT pk_tim PRIMARY KEY (id_tim);
 ALTER TABLE tim ADD CONSTRAINT uc_tim_nazov UNIQUE (nazov);
-ALTER TABLE tim ADD CONSTRAINT u_fk_tim_trener UNIQUE (id_trener);
+ALTER TABLE tim ADD CONSTRAINT u_fk_tim_trener UNIQUE (id_hlavny_trener);
 
 CREATE TABLE kategoria (
     id_kategoria SERIAL NOT NULL,
-    nazov VARCHAR(30) NOT NULL,
+    nazov VARCHAR(10) NOT NULL,
     min_rok_narodenia INTEGER NOT NULL,
     max_rok_narodenia INTEGER NOT NULL
 );
@@ -104,21 +104,21 @@ ALTER TABLE udalost ADD CONSTRAINT pk_udalost PRIMARY KEY (id_udalost);
 
 CREATE TABLE udalost_typ (
     id_udalost_typ SERIAL NOT NULL,
-    nazov VARCHAR(30) NOT NULL
+    nazov VARCHAR(50) NOT NULL
 );
 ALTER TABLE udalost_typ ADD CONSTRAINT pk_udalost_typ PRIMARY KEY (id_udalost_typ);
 
 CREATE TABLE trening (
     id_udalost INTEGER NOT NULL,
     id_hala INTEGER NOT NULL,
-    zameranie VARCHAR(30) NOT NULL
+    zameranie VARCHAR(50) NOT NULL
 );
 ALTER TABLE trening ADD CONSTRAINT pk_trening PRIMARY KEY (id_udalost);
 
 CREATE TABLE zapas (
     id_udalost INTEGER NOT NULL,
     id_hala INTEGER NOT NULL,
-    super VARCHAR(30) NOT NULL,
+    super VARCHAR(50) NOT NULL,
     naklady INTEGER,
     super_umiestenie INTEGER
 );
@@ -134,7 +134,7 @@ ALTER TABLE hrac_tim ADD CONSTRAINT fk_hrac_tim_hrac FOREIGN KEY (id_clen) REFER
 ALTER TABLE hrac_tim ADD CONSTRAINT fk_hrac_tim_tim FOREIGN KEY (id_tim) REFERENCES tim (id_tim) ON DELETE CASCADE;
 
 ALTER TABLE tim ADD CONSTRAINT fk_tim_kategoria FOREIGN KEY (id_kategoria) REFERENCES kategoria (id_kategoria) ON DELETE CASCADE;
-ALTER TABLE tim ADD CONSTRAINT fk_tim_trener FOREIGN KEY (id_trener) REFERENCES trener (id_clen) ON DELETE CASCADE;
+ALTER TABLE tim ADD CONSTRAINT fk_tim_trener FOREIGN KEY (id_hlavny_trener) REFERENCES trener (id_clen) ON DELETE CASCADE;
 
 ALTER TABLE trener ADD CONSTRAINT fk_trener_clen FOREIGN KEY (id_clen) REFERENCES clen (id_clen) ON DELETE CASCADE;
 
