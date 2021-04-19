@@ -185,13 +185,13 @@
           "nullable": false
         },
         {
-          "name": "max_vek",
+          "name": "min_rok_narodenia",
           "primary": false,
           "unique": false,
           "nullable": false
         },
         {
-          "name": "min_vek",
+          "name": "max_rok_narodenia",
           "primary": false,
           "unique": false,
           "nullable": false

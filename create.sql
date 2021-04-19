@@ -42,7 +42,7 @@ CREATE TABLE clen (
     meno VARCHAR(30) NOT NULL,
     priezvisko VARCHAR(30) NOT NULL,
     datum_narodenia DATE NOT NULL,
-    telefon VARCHAR(15)
+    telefon VARCHAR(30)
 );
 ALTER TABLE clen ADD CONSTRAINT pk_clen PRIMARY KEY (id_clen);
 ALTER TABLE clen ADD CONSTRAINT uc_clen_email UNIQUE (email);
@@ -89,8 +89,8 @@ ALTER TABLE tim ADD CONSTRAINT u_fk_tim_trener UNIQUE (id_trener);
 CREATE TABLE kategoria (
     id_kategoria SERIAL NOT NULL,
     nazov VARCHAR(30) NOT NULL,
-    max_vek INTEGER NOT NULL,
-    min_vek INTEGER NOT NULL
+    min_rok_narodenia INTEGER NOT NULL,
+    max_rok_narodenia INTEGER NOT NULL
 );
 ALTER TABLE kategoria ADD CONSTRAINT pk_kategoria PRIMARY KEY (id_kategoria);
 ALTER TABLE kategoria ADD CONSTRAINT uc_kategoria_nazov UNIQUE (nazov);
