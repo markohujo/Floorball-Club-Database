@@ -38,7 +38,7 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
     -- TODO
     ```
 
-3. Nájdi trénerov, ktorí sú asistentom trénera **IBA** v tíme kategórie U18. [SQL](sql_queries/query3.sql) 
+3. Tréneri (id_clen, meno, priezvisko, email, licencia, plat), ktorí sú asistentom trénera **IBA** v tímoch kategórie U18. [SQL](sql_queries/query3.sql) 
     ```postgresql
     select id_clen, meno, priezvisko, email, licencia, plat
         from (
