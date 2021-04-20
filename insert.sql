@@ -950,3 +950,78 @@ insert into asistent (id_clen, id_tim) values (201,5);
 insert into asistent (id_clen, id_tim) values (205,11);
 -- 175 a 205 su asistentami iba v time/timoch kat. U18
 -- 207 a 199 su asistentami okrem inych aj v time/timoch kat. U18
+
+-- udalost_typ
+insert into udalost_typ (nazov) values ('trening');
+insert into udalost_typ (nazov) values ('zapas');
+insert into udalost_typ (nazov) values ('bowling');
+insert into udalost_typ (nazov) values ('escape room');
+insert into udalost_typ (nazov) values ('pivo/kofola');
+
+-- udalost
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 14, '2020-04-12', '15:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 10, '2020-06-04', '18:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 6, '2020-05-04', '19:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 13, '2020-06-25', '15:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 13, '2020-06-18', '17:00');
+
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (3, 1, '2020-04-19', '17:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 1, '2020-04-19', '18:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 5, '2020-05-26', '15:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 12, '2020-05-21', '19:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 15, '2020-04-05', '16:30');
+
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 12, '2020-04-04', '14:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 8, '2020-05-05', '15:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 15, '2020-06-28', '16:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 15, '2020-04-04', '16:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 10, '2020-05-12', '16:30');
+
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 1, '2020-06-19', '15:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (3, 14, '2020-06-19', '20:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 1, '2020-06-14', '15:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 14, '2020-05-03', '19:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 15, '2020-06-26', '18:30');
+
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 14, '2020-05-08', '19:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 6, '2020-05-06', '14:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 8, '2020-06-28', '16:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (3, 13, '2020-06-04', '19:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 15, '2020-04-27', '14:00');
+
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 10, '2020-04-01', '14:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (3, 11, '2020-06-02', '20:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 2, '2020-06-06', '16:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 11, '2020-04-05', '19:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 15, '2020-05-27', '20:00');
+
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 10, '2020-05-03', '17:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 6, '2020-06-16', '14:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 1, '2020-05-22', '17:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 4, '2020-04-10', '15:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 1, '2020-06-14', '16:30');
+
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 3, '2020-05-29', '19:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 3, '2020-05-18', '20:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 2, '2020-05-13', '19:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 7, '2020-05-06', '20:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 3, '2020-05-28', '18:00');
+
+-- trening
+insert into trening (id_udalost, id_hala, zameranie) values (1, 5, 'hrací');
+insert into trening (id_udalost, id_hala, zameranie) values (8, 3, 'hrací');
+insert into trening (id_udalost, id_hala, zameranie) values (9, 4, 'hrací');
+insert into trening (id_udalost, id_hala, zameranie) values (13, 5, 'hrací');
+insert into trening (id_udalost, id_hala, zameranie) values (14, 10, 'hrací');
+insert into trening (id_udalost, id_hala, zameranie) values (30, 6, 'taktický');
+insert into trening (id_udalost, id_hala, zameranie) values (32, 9, 'hrací');
+insert into trening (id_udalost, id_hala, zameranie) values (33, 7, 'hrací');
+insert into trening (id_udalost, id_hala, zameranie) values (35, 7, 'kondičný');
+insert into trening (id_udalost, id_hala, zameranie) values (36, 10, 'taktický');
+insert into trening (id_udalost, id_hala, zameranie) values (38, 1, 'hrací');
+insert into trening (id_udalost, id_hala, zameranie) values (39, 7, 'kondičný');
+
+-- zapas
+insert into zapas (id_udalost, id_hala, super, naklady) values (4, 3, 'Sparta', null);
+insert into zapas (id_udalost, id_hala, super, naklady) values (11, 9, 'Bulldogs Brno', 9500);
+insert into zapas (id_udalost, id_hala, super, naklady) values (29, 1, 'Vítkovice', 14000);

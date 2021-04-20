@@ -98,7 +98,8 @@ CREATE TABLE udalost (
     id_udalost SERIAL NOT NULL,
     id_udalost_typ INTEGER NOT NULL,
     id_tim INTEGER NOT NULL,
-    datum_a_cas TIMESTAMP NOT NULL
+    datum DATE NOT NULL,
+    cas TIME NOT NULL
 );
 ALTER TABLE udalost ADD CONSTRAINT pk_udalost PRIMARY KEY (id_udalost);
 
@@ -119,8 +120,7 @@ CREATE TABLE zapas (
     id_udalost INTEGER NOT NULL,
     id_hala INTEGER NOT NULL,
     super VARCHAR(50) NOT NULL,
-    naklady INTEGER,
-    super_umiestenie INTEGER
+    naklady INTEGER
 );
 ALTER TABLE zapas ADD CONSTRAINT pk_zapas PRIMARY KEY (id_udalost);
 
