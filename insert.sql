@@ -1007,6 +1007,11 @@ insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 2, '2020-05-
 insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 7, '2020-05-06', '20:00');
 insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 3, '2020-05-28', '18:00');
 
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 1, '2020-05-24', '16:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 15, '2020-06-11', '18:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (3, 15, '2020-05-04', '19:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 15, '2020-05-18', '16:45');
+
 -- trening
 insert into trening (id_udalost, id_hala, zameranie) values (1, 5, 'hrací');
 insert into trening (id_udalost, id_hala, zameranie) values (8, 3, 'hrací');
@@ -1024,4 +1029,7 @@ insert into trening (id_udalost, id_hala, zameranie) values (39, 7, 'kondičný'
 -- zapas
 insert into zapas (id_udalost, id_hala, super, naklady) values (4, 3, 'Sparta', null);
 insert into zapas (id_udalost, id_hala, super, naklady) values (11, 9, 'Bulldogs Brno', 9500);
-insert into zapas (id_udalost, id_hala, super, naklady) values (29, 1, 'Vítkovice', 14000);
+insert into zapas (id_udalost, id_hala, super, naklady) values (29, 1, 'Vítkovice', 17500);
+insert into zapas (id_udalost, id_hala, super, naklady) values (41, 4, 'Tsunami Zahorska Bystrica', null);
+insert into zapas (id_udalost, id_hala, super, naklady) values (42, 5, 'Chodov', 5000);
+insert into zapas (id_udalost, id_hala, super, naklady) values (44, 9, 'Tatran', 6550);
