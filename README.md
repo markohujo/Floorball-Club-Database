@@ -26,36 +26,45 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 - IO4: Člen nemôže trénovať a zaróveň hrať v tom istom tíme.
 
 ## Dotazy:
-- Email, meno a priezvisko hráčov tímu s id 5, ktorí ešte nezaplatili členský poplatok. [SQL](sql_queries/query1.sql)
+1. Email, meno a priezvisko hráčov tímu s id 5, ktorí ešte nezaplatili členský poplatok. [SQL](sql_queries/query1.sql)
     ```postgresql
     select c.email, c.meno, c.priezvisko
     from clen c join hrac using (id_clen) join hrac_tim using (id_clen)
     where id_tim=5 and zaplateny_poplatok=false;
     ```
 
-- Tímy (id_tim, nazov), ktoré sa zúčastnia **VŠETKÝCH** typov udalostí. [SQL]()
+2. Tímy (id_tim, nazov), ktoré sa zúčastnia **VŠETKÝCH** typov udalostí. [SQL]()
     ```postgresql
     -- TODO
     ```
 
-- Nájdi trénerov, ktorí sú asistentom trénera **IBA** v tíme kategórie U18. [SQL]() 
+3. Nájdi trénerov, ktorí sú asistentom trénera **IBA** v tíme kategórie U18. [SQL](sql_queries/query3.sql) 
     ```postgresql
-    -- TODO
-  ```
+    select id_clen, meno, priezvisko, email, licencia, plat
+        from (
+            select a.id_clen from asistent a join tim using(id_tim) join kategoria k using(id_kategoria) where k.nazov='U18'
+            -- vyber id asistentov, ktorí trénuju tím kat. U18
+            except
+            -- od nich odčítaj tých, ktorí trénujú tím aj inej kategórie
+            select a.id_clen from asistent a join tim using(id_tim) join kategoria k using(id_kategoria) where k.nazov!='U18'
+        ) r1
+        -- spoj s tabulkami tréner a clen kvôli potrebným údajom
+        join trener using (id_clen) join clen using (id_clen);
+    ```
 
-- Vekové kategórie, v ktorých klub nemá ani jeden tím. [SQL](sql_queries/query4.sql)
+4. Vekové kategórie, v ktorých klub nemá ani jeden tím. [SQL](sql_queries/query4.sql)
     ```postgresql
     select * from kategoria k where not exists (
         select 1 from tim t where k.id_kategoria = t.id_kategoria 
     );
     ```
   
-- Zamestnanci, ktorí majú plat väčší ako 20000. [SQL]()
+5. Zamestnanci, ktorí majú plat väčší ako 20000. [SQL]()
     ```postgresql
     -- TODO
     ```
     
-- Tréneri, ktorí nie su asistentami trénera v ani jednom tíme. [SQL]()
+6. Tréneri, ktorí nie su asistentami trénera v ani jednom tíme. [SQL]()
     ```postgresql
     -- TODO
     ```

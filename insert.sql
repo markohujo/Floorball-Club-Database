@@ -937,16 +937,16 @@ insert into asistent (id_clen, id_tim) values (204,15);
 insert into asistent (id_clen, id_tim) values (204,14);
 insert into asistent (id_clen, id_tim) values (204,13);
 insert into asistent (id_clen, id_tim) values (207,13);
+insert into asistent (id_clen, id_tim) values (205,12);
 insert into asistent (id_clen, id_tim) values (207,12);
 insert into asistent (id_clen, id_tim) values (187,1);
 insert into asistent (id_clen, id_tim) values (171,1);
 insert into asistent (id_clen, id_tim) values (186,2);
+insert into asistent (id_clen, id_tim) values (175,11);
 insert into asistent (id_clen, id_tim) values (196,4);
 insert into asistent (id_clen, id_tim) values (196,5);
 insert into asistent (id_clen, id_tim) values (201,7);
 insert into asistent (id_clen, id_tim) values (201,5);
-insert into asistent (id_clen, id_tim) values (205,8);
-insert into asistent (id_clen, id_tim) values (175,10);
-
-
-
+insert into asistent (id_clen, id_tim) values (205,11);
+-- 175 a 205 su asistentami iba v time/timoch kat. U18
+-- 207 a 199 su asistentami okrem inych aj v time/timoch kat. U18
