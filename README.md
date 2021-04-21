@@ -59,9 +59,9 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
     );
     ```
   
-5. Tréneri (id_clen, meno, priezvisko, email, licencia, plat), ktorí majú plat väčší ako 20000. [SQL](sql_queries/query5.sql)
+5. Tréneri (id_clen, meno, priezvisko, email, licencia), ktorí majú plat väčší ako 20000. [SQL](sql_queries/query5.sql)
     ```postgresql
-    select c.id_clen, c.meno, c.priezvisko, c.email, t.licencia, t.cislo_uctu, t.plat
+    select c.id_clen, c.meno, c.priezvisko, c.email, t.licencia
     from
     clen c join trener t on c.id_clen = t.id_clen where plat > 20000;  
     ```
