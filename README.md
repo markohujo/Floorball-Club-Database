@@ -71,24 +71,23 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
     -- TODO
     ```
     
-- Haly, v ktorých sa neuskutoční žiadny zápas. [SQL]()
+7. Haly, v ktorých sa neuskutoční žiadny zápas. [SQL](sql_queries/query7.sql)
     ```postgresql
-    -- TODO
+    select hala.* from (
+        select distinct h.id_hala from hala h -- vyber vsetky haly
+        except
+        select distinct h.id_hala from hala h join zapas using(id_hala) -- odcitaj tie, v kt. sa uskutocni zapas
+    ) r1 join hala using (id_hala);
     ```
   
-- Naplánované udalosti tímu XY v najbližších 2 týždňoch. [SQL]()
-    ```postgresql
-    -- TODO
-    ```
-  
-- Tréneri (email, meno, priezvisko), ktorí majú menej ako 25 rokov. [SQL](sql_queries/query9.sql)
+8. Tréneri (email, meno, priezvisko), ktorí majú menej ako 25 rokov. [SQL](sql_queries/query9.sql)
     ```postgresql
     select c.email, c.meno, c.priezvisko
     from clen c join trener using (id_clen)
     where (select extract (year from age(datum_narodenia)) < 25);
     ```
 
-- Počet hráčov v tíme s id 15. [SQL](sql_queries/query10.sql)
+9. Počet hráčov v tíme s id 15. [SQL](sql_queries/query10.sql)
     ```postgresql
     select count(*) from tim join hrac_tim using (id_tim) where id_tim=15;
     ```

@@ -152,16 +152,16 @@ insert into adresa (ulica, cislo, psc, mesto) values ('Chinook', 4, 24121, 'Năm
 -- end adresa
 
 -- hala
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (1, 'Kulas-Rau', 250, 3, false);
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (2, 'Stroman and Sons', 1500, 4, true);
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (3, 'Hudson LLC', 100, 3, true);
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (4, 'Eichmann Group', 500, 3, false);
+insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (4, 'Kulas-Rau', 250, 3, false);
+insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (3, 'Stroman and Sons', 1500, 4, true);
+insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (1, 'Hudson LLC', 100, 3, true);
+insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (2, 'Eichmann Group', 500, 3, false);
 insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (5, 'Thompson Inc', 250, 6, true);
 insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (6, 'Keeling, Tillman and Anderson', 750, 5, true);
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (7, 'Schowalter-Lindgren', 300, 6, false);
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (8, 'Zulauf, Mueller and Schmidt', 1500, 6, false);
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (9, 'Koepp, Langosh and Quitzon', 500, 6, false);
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (10, 'Huels, Stroman and Lang', 200, 3, true);
+insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (9, 'Schowalter-Lindgren', 300, 6, false);
+insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (7, 'Zulauf, Mueller and Schmidt', 1500, 6, false);
+insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (10, 'Koepp, Langosh and Quitzon', 500, 6, false);
+insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (8, 'Huels, Stroman and Lang', 200, 3, true);
 -- end hala
 
 -- kategorie a ich min a max datum narodenia

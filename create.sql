@@ -149,3 +149,4 @@ ALTER TABLE zapas ADD CONSTRAINT fk_zapas_hala FOREIGN KEY (id_hala) REFERENCES 
 
 ALTER TABLE asistent ADD CONSTRAINT fk_trener_tim_trener FOREIGN KEY (id_clen) REFERENCES trener (id_clen) ON DELETE CASCADE;
 ALTER TABLE asistent ADD CONSTRAINT fk_trener_tim_tim FOREIGN KEY (id_tim) REFERENCES tim (id_tim) ON DELETE CASCADE;
+
