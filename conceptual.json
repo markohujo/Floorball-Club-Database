@@ -101,7 +101,7 @@
           "nullable": false
         },
         {
-          "name": "nazov",
+          "name": "nazov_hala",
           "primary": false,
           "unique": true,
           "nullable": false
@@ -179,7 +179,7 @@
           "nullable": false
         },
         {
-          "name": "nazov",
+          "name": "nazov_kategoria",
           "primary": false,
           "unique": true,
           "nullable": false
@@ -215,7 +215,7 @@
           "nullable": false
         },
         {
-          "name": "nazov",
+          "name": "nazov_tim",
           "primary": false,
           "unique": true,
           "nullable": false
@@ -317,7 +317,7 @@
           "nullable": false
         },
         {
-          "name": "nazov",
+          "name": "popis",
           "primary": false,
           "unique": false,
           "nullable": false

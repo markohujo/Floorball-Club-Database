@@ -26,13 +26,13 @@ ALTER TABLE adresa ADD CONSTRAINT pk_adresa PRIMARY KEY (id_adresa);
 CREATE TABLE hala (
     id_hala SERIAL NOT NULL,
     id_adresa INTEGER NOT NULL,
-    nazov VARCHAR(50) NOT NULL,
+    nazov_hala VARCHAR(50) NOT NULL,
     pocet_divakov INTEGER NOT NULL,
     pocet_satni INTEGER NOT NULL,
     bufet BOOLEAN
 );
 ALTER TABLE hala ADD CONSTRAINT pk_hala PRIMARY KEY (id_hala);
-ALTER TABLE hala ADD CONSTRAINT uc_hala_nazov UNIQUE (nazov);
+ALTER TABLE hala ADD CONSTRAINT uc_hala_nazov UNIQUE (nazov_hala);
 ALTER TABLE hala ADD CONSTRAINT u_fk_hala_adresa UNIQUE (id_adresa);
 
 CREATE TABLE clen (
@@ -79,20 +79,20 @@ CREATE TABLE tim (
     id_tim SERIAL NOT NULL,
     id_kategoria INTEGER NOT NULL,
     id_hlavny_trener INTEGER,
-    nazov VARCHAR(50) NOT NULL
+    nazov_tim VARCHAR(50) NOT NULL
 );
 ALTER TABLE tim ADD CONSTRAINT pk_tim PRIMARY KEY (id_tim);
-ALTER TABLE tim ADD CONSTRAINT uc_tim_nazov UNIQUE (nazov);
+ALTER TABLE tim ADD CONSTRAINT uc_tim_nazov UNIQUE (nazov_tim);
 ALTER TABLE tim ADD CONSTRAINT u_fk_tim_trener UNIQUE (id_hlavny_trener);
 
 CREATE TABLE kategoria (
     id_kategoria SERIAL NOT NULL,
-    nazov VARCHAR(10) NOT NULL,
+    nazov_kategoria VARCHAR(10) NOT NULL,
     min_rok_narodenia INTEGER NOT NULL,
     max_rok_narodenia INTEGER NOT NULL
 );
 ALTER TABLE kategoria ADD CONSTRAINT pk_kategoria PRIMARY KEY (id_kategoria);
-ALTER TABLE kategoria ADD CONSTRAINT uc_kategoria_nazov UNIQUE (nazov);
+ALTER TABLE kategoria ADD CONSTRAINT uc_kategoria_nazov UNIQUE (nazov_kategoria);
 
 CREATE TABLE udalost (
     id_udalost SERIAL NOT NULL,
@@ -105,7 +105,7 @@ ALTER TABLE udalost ADD CONSTRAINT pk_udalost PRIMARY KEY (id_udalost);
 
 CREATE TABLE udalost_typ (
     id_udalost_typ SERIAL NOT NULL,
-    nazov VARCHAR(50) NOT NULL
+    popis VARCHAR(50) NOT NULL
 );
 ALTER TABLE udalost_typ ADD CONSTRAINT pk_udalost_typ PRIMARY KEY (id_udalost_typ);
 

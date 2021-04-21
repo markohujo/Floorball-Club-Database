@@ -152,16 +152,16 @@ insert into adresa (ulica, cislo, psc, mesto) values ('Chinook', 4, 24121, 'Năm
 -- end adresa
 
 -- hala
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (4, 'Kulas-Rau', 250, 3, false);
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (3, 'Stroman and Sons', 1500, 4, true);
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (1, 'Hudson LLC', 100, 3, true);
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (2, 'Eichmann Group', 500, 3, false);
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (5, 'Thompson Inc', 250, 6, true);
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (6, 'Keeling, Tillman and Anderson', 750, 5, true);
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (9, 'Schowalter-Lindgren', 300, 6, false);
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (7, 'Zulauf, Mueller and Schmidt', 1500, 6, false);
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (10, 'Koepp, Langosh and Quitzon', 500, 6, false);
-insert into hala (id_adresa, nazov, pocet_divakov, pocet_satni, bufet) values (8, 'Huels, Stroman and Lang', 200, 3, true);
+insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (4, 'Kulas-Rau', 250, 3, false);
+insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (3, 'Stroman and Sons', 1500, 4, true);
+insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (1, 'Hudson LLC', 100, 3, true);
+insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (2, 'Eichmann Group', 500, 3, false);
+insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (5, 'Thompson Inc', 250, 6, true);
+insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (6, 'Keeling, Tillman and Anderson', 750, 5, true);
+insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (9, 'Schowalter-Lindgren', 300, 6, false);
+insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (7, 'Zulauf, Mueller and Schmidt', 1500, 6, false);
+insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (10, 'Koepp, Langosh and Quitzon', 500, 6, false);
+insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (8, 'Huels, Stroman and Lang', 200, 3, true);
 -- end hala
 
 -- kategorie a ich min a max datum narodenia
@@ -625,42 +625,42 @@ insert into hrac (id_clen, post) values (200, 'goalkeeper');
 -- A-TEAM(2002 and younger)
 
 -- kategoria
-insert into kategoria (nazov, min_rok_narodenia, max_rok_narodenia) values ('U12', 2009, 2010);
-insert into kategoria (nazov, min_rok_narodenia, max_rok_narodenia) values ('U14', 2007, 2010);
-insert into kategoria (nazov, min_rok_narodenia, max_rok_narodenia) values ('U16', 2005, 2008);
-insert into kategoria (nazov, min_rok_narodenia, max_rok_narodenia) values ('U18', 2003, 2006);
-insert into kategoria (nazov, min_rok_narodenia, max_rok_narodenia) values ('U20', 2001, 2004);
-insert into kategoria (nazov, min_rok_narodenia, max_rok_narodenia) values ('A-TEAM', 1980, 2002);
-insert into kategoria (nazov, min_rok_narodenia, max_rok_narodenia) values ('Kids', 2011, 2016);
+insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('U12', 2009, 2010);
+insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('U14', 2007, 2010);
+insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('U16', 2005, 2008);
+insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('U18', 2003, 2006);
+insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('U20', 2001, 2004);
+insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('A-TEAM', 1980, 2002);
+insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('Kids', 2011, 2016);
 -- end kategoria
 
 
 -- tim 1-4
-insert into tim (id_kategoria, id_hlavny_trener, nazov) values (1, 153, 'Team U12 Blue');
-insert into tim (id_kategoria, id_hlavny_trener, nazov) values (1, 204, 'Team U12 Orange');
-insert into tim (id_kategoria, id_hlavny_trener, nazov) values (1, 207, 'Team U12 Red');
-insert into tim (id_kategoria, id_hlavny_trener, nazov) values (1, 196, 'Team U12 Yellow');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (1, 153, 'Team U12 Blue');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (1, 204, 'Team U12 Orange');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (1, 207, 'Team U12 Red');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (1, 196, 'Team U12 Yellow');
 
 -- 5, 6, 7
-insert into tim (id_kategoria, id_hlavny_trener, nazov) values (2, 187, 'Team U14 Blue');
-insert into tim (id_kategoria, id_hlavny_trener, nazov) values (2, 171, 'Team U14 Orange');
-insert into tim (id_kategoria, id_hlavny_trener, nazov) values (2, 159, 'Team U14 Red');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (2, 187, 'Team U14 Blue');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (2, 171, 'Team U14 Orange');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (2, 159, 'Team U14 Red');
 
 -- 8, 9, 10
-insert into tim (id_kategoria, id_hlavny_trener, nazov) values (3, 186, 'Team U16 A');
-insert into tim (id_kategoria, id_hlavny_trener, nazov) values (3, 191, 'Team U16 B');
-insert into tim (id_kategoria, id_hlavny_trener, nazov) values (3, 158, 'Team U16 C');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (3, 186, 'Team U16 A');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (3, 191, 'Team U16 B');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (3, 158, 'Team U16 C');
 
 -- 11, 12
-insert into tim (id_kategoria, id_hlavny_trener, nazov) values (4, 201, 'Team U18 A');
-insert into tim (id_kategoria, id_hlavny_trener, nazov) values (4, 202, 'Team U18 B');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (4, 201, 'Team U18 A');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (4, 202, 'Team U18 B');
 
 -- 13, 14
-insert into tim (id_kategoria, id_hlavny_trener, nazov) values (5, 205, 'Team U20 A');
-insert into tim (id_kategoria, id_hlavny_trener, nazov) values (5, 199, 'Team U20 B');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (5, 205, 'Team U20 A');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (5, 199, 'Team U20 B');
 
 -- 15
-insert into tim (id_kategoria, id_hlavny_trener, nazov) values (6, 175, 'Team A');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (6, 175, 'Team A');
 -- end tim
 
 -- hrac_tim
@@ -952,11 +952,11 @@ insert into asistent (id_clen, id_tim) values (205,11);
 -- 207 a 199 su asistentami okrem inych aj v time/timoch kat. U18
 
 -- udalost_typ
-insert into udalost_typ (nazov) values ('trening');
-insert into udalost_typ (nazov) values ('zapas');
-insert into udalost_typ (nazov) values ('bowling');
-insert into udalost_typ (nazov) values ('escape room');
-insert into udalost_typ (nazov) values ('pivo/kofola');
+insert into udalost_typ (popis) values ('trening');
+insert into udalost_typ (popis) values ('zapas');
+insert into udalost_typ (popis) values ('bowling');
+insert into udalost_typ (popis) values ('escape room');
+insert into udalost_typ (popis) values ('pivo/kofola');
 
 -- udalost
 insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 14, '2020-04-12', '15:00');
