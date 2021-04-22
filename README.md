@@ -59,6 +59,12 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
     
 11. Tréneri (meno, priezvisko, plat), ktorí majú väčší plat ako priemerný plat, zorad ich podľa najviac zarábajúceho.
    [SQL](sql/11.sql)
+    
+12. Tímy, ktoré sa zúčastnia zápasu aj tréningu.
+    [SQL](sql/12.sql)
+    
+13. Obrancovia A tímu spolu s brankármi A tímu (meno, priezvisko, post).
+    [SQL](sql/13.sql)
 
 - TODO:
    - left/right outer join
@@ -66,7 +72,6 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
    - union
      - hraci, ktorych meno zacina na jedno z pismen(m,n,t,l,b,d) a hraju v time xy
      - treneri, ktori maju plat vacsi ako ... a neevidujeme o nich ich telefon
-   - intersect
    - group by (having)
    - all in one (select, from, where, group by, having, order by)
    - view
