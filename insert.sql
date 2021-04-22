@@ -1,9 +1,10 @@
--- adresa 150x (haly 1-10), clenovia(11-150)
+-- insert adresa 40 (1-5 haly), (6-40 clenovia)
 insert into adresa (ulica, cislo, psc, mesto) values ('Erie', 98, 16092, 'Dasol');
 insert into adresa (ulica, cislo, psc, mesto) values ('Fieldstone', 96, 81695, 'Wisła');
 insert into adresa (ulica, cislo, psc, mesto) values ('Dayton', 39, 12948, 'Ulyanovsk');
 insert into adresa (ulica, cislo, psc, mesto) values ('Village', 88, 58786, 'Buzhakan');
 insert into adresa (ulica, cislo, psc, mesto) values ('Prairie Rose', 69, 59155, 'Krajan Suco');
+
 insert into adresa (ulica, cislo, psc, mesto) values ('Troy', 104, 16883, 'Hörby');
 insert into adresa (ulica, cislo, psc, mesto) values ('American As', 78, 90378, 'Cerrillos');
 insert into adresa (ulica, cislo, psc, mesto) values ('Elgar', 69, 97984, 'Shatrovo');
@@ -39,382 +40,117 @@ insert into adresa (ulica, cislo, psc, mesto) values ('Derek', 3, 35456, 'Jesús
 insert into adresa (ulica, cislo, psc, mesto) values ('Pine View', 98, 30203, 'Desa Nasol');
 insert into adresa (ulica, cislo, psc, mesto) values ('2nd', 10, 17396, 'Gerong');
 insert into adresa (ulica, cislo, psc, mesto) values ('Tony', 61, 69728, 'Vetrino');
-insert into adresa (ulica, cislo, psc, mesto) values ('Northland', 75, 33098, 'Hepang');
-insert into adresa (ulica, cislo, psc, mesto) values ('Scofield', 51, 73942, 'Blois');
-insert into adresa (ulica, cislo, psc, mesto) values ('Northfield', 3, 33909, 'Mulyoagung');
-insert into adresa (ulica, cislo, psc, mesto) values ('Hansons', 78, 54050, 'Zbarazh');
-insert into adresa (ulica, cislo, psc, mesto) values ('Maple', 105, 21066, 'Ozorków');
-insert into adresa (ulica, cislo, psc, mesto) values ('Emmet', 83, 80462, 'Mawa');
-insert into adresa (ulica, cislo, psc, mesto) values ('Thierer', 35, 62011, 'Aughrim');
-insert into adresa (ulica, cislo, psc, mesto) values ('North', 103, 68299, 'Pinamalayan');
-insert into adresa (ulica, cislo, psc, mesto) values ('Holy Cross', 29, 45657, 'Bogoria');
-insert into adresa (ulica, cislo, psc, mesto) values ('Bowman', 71, 84250, 'Ongjin');
-insert into adresa (ulica, cislo, psc, mesto) values ('Spaight', 86, 97979, 'Soio');
-insert into adresa (ulica, cislo, psc, mesto) values ('Lawn', 94, 88312, 'Blois');
-insert into adresa (ulica, cislo, psc, mesto) values ('Paget', 52, 54044, 'Belsk Duży');
-insert into adresa (ulica, cislo, psc, mesto) values ('Cascade', 98, 34446, 'Tekstil’shchiki');
-insert into adresa (ulica, cislo, psc, mesto) values ('Division', 26, 94163, 'Ognevka');
-insert into adresa (ulica, cislo, psc, mesto) values ('Vermont', 16, 93095, 'Camilaca');
-insert into adresa (ulica, cislo, psc, mesto) values ('Hoard', 98, 15253, 'Surkhakhi');
-insert into adresa (ulica, cislo, psc, mesto) values ('Darwin', 29, 96851, 'Sincé');
-insert into adresa (ulica, cislo, psc, mesto) values ('3rd', 68, 52123, 'Kazinka');
-insert into adresa (ulica, cislo, psc, mesto) values ('8th', 39, 71323, 'Hamburg');
-insert into adresa (ulica, cislo, psc, mesto) values ('Gulseth', 95, 62874, 'Dolní Rychnov');
-insert into adresa (ulica, cislo, psc, mesto) values ('Scott', 67, 66747, 'Karakul’');
-insert into adresa (ulica, cislo, psc, mesto) values ('Merrick', 28, 24005, 'Morro do Chapéu');
-insert into adresa (ulica, cislo, psc, mesto) values ('Leroy', 104, 27614, 'Hartford');
-insert into adresa (ulica, cislo, psc, mesto) values ('Amoth', 29, 78184, 'Chowki Jamali');
-insert into adresa (ulica, cislo, psc, mesto) values ('Alpine', 33, 68892, 'Liuge');
-insert into adresa (ulica, cislo, psc, mesto) values ('Mcbride', 17, 85471, 'Dobrich');
-insert into adresa (ulica, cislo, psc, mesto) values ('Waxwing', 9, 72507, 'Rietavas');
-insert into adresa (ulica, cislo, psc, mesto) values ('Boyd', 64, 83013, 'Lilin Satu');
-insert into adresa (ulica, cislo, psc, mesto) values ('Talmadge', 55, 20984, 'Beltinci');
-insert into adresa (ulica, cislo, psc, mesto) values ('Toban', 19, 71559, 'Henghe');
-insert into adresa (ulica, cislo, psc, mesto) values ('Sycamore', 4, 35019, 'Wilmington');
-insert into adresa (ulica, cislo, psc, mesto) values ('Anniversary', 92, 58829, 'Tempel');
-insert into adresa (ulica, cislo, psc, mesto) values ('Green Ridge', 9, 24072, 'Alak');
-insert into adresa (ulica, cislo, psc, mesto) values ('Westend', 27, 33375, 'Al Ḩayfah');
-insert into adresa (ulica, cislo, psc, mesto) values ('Merrick', 41, 89024, 'Dauphin');
-insert into adresa (ulica, cislo, psc, mesto) values ('Darwin', 95, 37569, 'Dagohoy');
-insert into adresa (ulica, cislo, psc, mesto) values ('Derek', 13, 43477, 'Huaribamba');
-insert into adresa (ulica, cislo, psc, mesto) values ('Haas', 63, 76738, 'Krajan Kidul Rojopolo');
-insert into adresa (ulica, cislo, psc, mesto) values ('Ridgeview', 45, 93298, 'Dawuhan');
-insert into adresa (ulica, cislo, psc, mesto) values ('Karstens', 22, 38132, 'Satita');
-insert into adresa (ulica, cislo, psc, mesto) values ('Katie', 23, 69543, 'Dyurtyuli');
-insert into adresa (ulica, cislo, psc, mesto) values ('Cherokee', 51, 75948, 'Mandesan');
-insert into adresa (ulica, cislo, psc, mesto) values ('Lake View', 3, 89585, 'Markovo');
-insert into adresa (ulica, cislo, psc, mesto) values ('Dorton', 25, 45082, 'Tanuma');
-insert into adresa (ulica, cislo, psc, mesto) values ('Village', 80, 14048, 'Debrzno');
-insert into adresa (ulica, cislo, psc, mesto) values ('Huxley', 91, 75436, 'Charlemagne');
-insert into adresa (ulica, cislo, psc, mesto) values ('Johnson', 102, 54015, 'Złotoryja');
-insert into adresa (ulica, cislo, psc, mesto) values ('Doe Crossing', 75, 83756, 'Duntou');
-insert into adresa (ulica, cislo, psc, mesto) values ('Alpine', 42, 76113, 'Huancheng');
-insert into adresa (ulica, cislo, psc, mesto) values ('Northport', 78, 83251, 'Dzerzhinskiy');
-insert into adresa (ulica, cislo, psc, mesto) values ('Veith', 105, 23099, 'Shirokaya Rechka');
-insert into adresa (ulica, cislo, psc, mesto) values ('Union', 24, 45765, 'Srunikrajan');
-insert into adresa (ulica, cislo, psc, mesto) values ('Reindahl', 80, 81015, 'Kouvarás');
-insert into adresa (ulica, cislo, psc, mesto) values ('Carberry', 106, 15264, 'Grenoble');
-insert into adresa (ulica, cislo, psc, mesto) values ('Hagan', 41, 95026, 'Srinjine');
-insert into adresa (ulica, cislo, psc, mesto) values ('Butternut', 83, 73651, 'Esso');
-insert into adresa (ulica, cislo, psc, mesto) values ('Fallview', 99, 90729, 'Szolnok');
-insert into adresa (ulica, cislo, psc, mesto) values ('Texas', 4, 82647, 'Fuwayriţ');
-insert into adresa (ulica, cislo, psc, mesto) values ('Kenwood', 10, 29758, 'Panitian');
-insert into adresa (ulica, cislo, psc, mesto) values ('Artisan', 53, 56926, 'Cikadu');
-insert into adresa (ulica, cislo, psc, mesto) values ('Becker', 25, 33306, 'Luar');
-insert into adresa (ulica, cislo, psc, mesto) values ('Surrey', 86, 74249, 'Kuntong');
-insert into adresa (ulica, cislo, psc, mesto) values ('Sunnyside', 54, 24401, 'Kushovë');
-insert into adresa (ulica, cislo, psc, mesto) values ('Nova', 45, 85097, 'Sakaraha');
-insert into adresa (ulica, cislo, psc, mesto) values ('American Ash', 93, 98450, 'Tongjing');
-insert into adresa (ulica, cislo, psc, mesto) values ('Columbus', 48, 71542, 'Tân Kỳ');
-insert into adresa (ulica, cislo, psc, mesto) values ('Dakota', 84, 50791, 'Kishkenekol’');
-insert into adresa (ulica, cislo, psc, mesto) values ('Stuart', 23, 36177, 'Chropyně');
-insert into adresa (ulica, cislo, psc, mesto) values ('Carey', 8, 40783, 'Tibro');
-insert into adresa (ulica, cislo, psc, mesto) values ('Garrison', 84, 73484, 'Batusangkar');
-insert into adresa (ulica, cislo, psc, mesto) values ('Lawn', 24, 90872, 'Tân Hiệp');
-insert into adresa (ulica, cislo, psc, mesto) values ('Nova', 105, 12839, 'Hila');
-insert into adresa (ulica, cislo, psc, mesto) values ('Kropf', 72, 82175, 'Guadalupe');
-insert into adresa (ulica, cislo, psc, mesto) values ('Green Ridge', 94, 62399, 'Wawrzeńczyce');
-insert into adresa (ulica, cislo, psc, mesto) values ('Sutherland', 86, 11504, 'Şabyā');
-insert into adresa (ulica, cislo, psc, mesto) values ('Atwood', 91, 64506, 'Vancouver');
-insert into adresa (ulica, cislo, psc, mesto) values ('Gulseth', 74, 69520, 'Popayán');
-insert into adresa (ulica, cislo, psc, mesto) values ('Tomscot', 104, 80710, 'Marseille');
-insert into adresa (ulica, cislo, psc, mesto) values ('Burning Wood', 16, 61823, 'Raoyang');
-insert into adresa (ulica, cislo, psc, mesto) values ('Mitchell', 67, 22689, 'Krajandadapmulyo');
-insert into adresa (ulica, cislo, psc, mesto) values ('Gale', 78, 60536, 'Plácido de Castro');
-insert into adresa (ulica, cislo, psc, mesto) values ('Sullivan', 37, 93143, 'Bundoran');
-insert into adresa (ulica, cislo, psc, mesto) values ('Kenwood', 76, 21050, 'Kizilyurt');
-insert into adresa (ulica, cislo, psc, mesto) values ('Warrior', 23, 15443, 'Metković');
-insert into adresa (ulica, cislo, psc, mesto) values ('Anthes', 4, 85899, 'Dayrūţ');
-insert into adresa (ulica, cislo, psc, mesto) values ('Carberry', 2, 71445, 'Kandangan');
-insert into adresa (ulica, cislo, psc, mesto) values ('Crescent Oaks', 38, 62890, 'Jiulong');
-insert into adresa (ulica, cislo, psc, mesto) values ('Sunnyside', 52, 74149, 'Enjitsu');
-insert into adresa (ulica, cislo, psc, mesto) values ('Magdeline', 71, 33665, 'Venda Nova');
-insert into adresa (ulica, cislo, psc, mesto) values ('Toban', 52, 29750, 'Elverum');
-insert into adresa (ulica, cislo, psc, mesto) values ('Cambridge', 63, 45349, 'Mboto');
-insert into adresa (ulica, cislo, psc, mesto) values ('Myrtle', 30, 37355, 'Seydi');
-insert into adresa (ulica, cislo, psc, mesto) values ('Atwood', 49, 33338, 'Niemodlin');
-insert into adresa (ulica, cislo, psc, mesto) values ('Basil', 107, 11768, 'Slantsy');
-insert into adresa (ulica, cislo, psc, mesto) values ('Havey', 95, 51959, 'Tchaourou');
-insert into adresa (ulica, cislo, psc, mesto) values ('Brickson Park', 12, 48934, 'Chowṉêy');
-insert into adresa (ulica, cislo, psc, mesto) values ('Canary', 37, 28920, 'Abuja');
-insert into adresa (ulica, cislo, psc, mesto) values ('Pleasure', 29, 95277, 'Neochórion');
-insert into adresa (ulica, cislo, psc, mesto) values ('Gina', 45, 89905, 'Jaffna');
-insert into adresa (ulica, cislo, psc, mesto) values ('Colorado', 4, 70215, 'Minzheng');
-insert into adresa (ulica, cislo, psc, mesto) values ('Stuart', 20, 57137, 'Šenov');
-insert into adresa (ulica, cislo, psc, mesto) values ('Florence', 43, 93434, 'Bassar');
-insert into adresa (ulica, cislo, psc, mesto) values ('Heffernan', 80, 62271, 'Zherdevka');
-insert into adresa (ulica, cislo, psc, mesto) values ('Golf Course', 24, 61078, 'Xiachen');
-insert into adresa (ulica, cislo, psc, mesto) values ('Rieder', 40, 93027, 'Abelheira');
-insert into adresa (ulica, cislo, psc, mesto) values ('Carpenter', 3, 63414, 'Gaotai');
-insert into adresa (ulica, cislo, psc, mesto) values ('Shasta', 107, 71878, 'Rialma');
-insert into adresa (ulica, cislo, psc, mesto) values ('Sachtjen', 17, 50355, 'Strelitsa');
-insert into adresa (ulica, cislo, psc, mesto) values ('Chinook', 4, 24121, 'Năm Căn');
--- end adresa
-
--- hala
-insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (4, 'Kulas-Rau', 250, 3, false);
-insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (3, 'Stroman and Sons', 1500, 4, true);
-insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (1, 'Hudson LLC', 100, 3, true);
-insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (2, 'Eichmann Group', 500, 3, false);
-insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (5, 'Thompson Inc', 250, 6, true);
-insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (6, 'Keeling, Tillman and Anderson', 750, 5, true);
-insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (9, 'Schowalter-Lindgren', 300, 6, false);
-insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (7, 'Zulauf, Mueller and Schmidt', 1500, 6, false);
-insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (10, 'Koepp, Langosh and Quitzon', 500, 6, false);
-insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (8, 'Huels, Stroman and Lang', 200, 3, true);
 -- end hala
 
--- kategorie a ich min a max datum narodenia
--- U12(2009,2010)
--- U14 (2007,2008,2009,2010)
--- U16(2005,2006,2007,2008)
--- U18(2003,2004,2005,2006)
--- U20(2001,2002,2003,2004)
--- A-TEAM(2002 and younger)
+-- hala
+insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (4, 'Stroman Sports', 1500, 4, true);
+insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (2, 'Hudson Center', 800, 6, true);
+insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (3, 'Eichmann Floorball Hall', 200, 3, false);
+insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (5, 'Thompson Sports Center', 250, 6, null);
+insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) values (1, 'Mueller Hall', 150, 6, false);
+-- end hala
 
--- clen born 2009,2010, id 1-40
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (79, 'mclemencet0@wp.com', 'Marrilee', 'Clemencet', '2009-02-27', '743-628-2153');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (50, 'zmcgavigan1@dagondesign.com', 'Zonnya', 'McGavigan', '2009-03-28', '244-711-0324');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (104, 'cdearan2@japanpost.jp', 'Carmen', 'Dearan', '2009-07-03', '678-856-2534');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (58, 'dboshere3@indiatimes.com', 'Dorthea', 'Boshere', '2009-03-15', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (96, 'mbatty4@list-manage.com', 'Max', 'Batty', '2009-06-08', '434-831-6014');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (43, 'vlabbett5@redcross.org', 'Vally', 'Labbett', '2009-11-09', '432-428-5485');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (76, 'asully6@webeden.co.uk', 'Ashley', 'Sully', '2009-12-05', '866-153-6828');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (145, 'mbrockman7@newsvine.com', 'Maridel', 'Brockman', '2009-06-12', '342-487-2176');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (73, 'bharlin8@yellowbook.com', 'Bourke', 'Harlin', '2009-10-09', '632-917-3378');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (83, 'bklemensiewicz9@liveinternet.ru', 'Bradly', 'Klemensiewicz', '2009-12-22', '564-849-1170');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (36, 'lkarpola@umn.edu', 'Lily', 'Karpol', '2009-02-22', '391-306-4290');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (101, 'lmorrellb@wikia.com', 'Leonora', 'Morrell', '2009-01-13', '598-586-7013');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (122, 'eealamc@ibm.com', 'Ethelin', 'Ealam', '2009-05-18', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (81, 'kdodmand@upenn.edu', 'Kile', 'Dodman', '2009-02-11', '634-372-1880');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (44, 'shickissone@mayoclinic.com', 'Sean', 'Hickisson', '2009-01-15', '525-296-1957');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (42, 'ddudneyf@engadget.com', 'Donna', 'Dudney', '2009-04-04', '340-650-6580');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (93, 'zrissomg@nytimes.com', 'Zackariah', 'Rissom', '2009-07-25', '823-731-8538');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (119, 'trushtonh@4shared.com', 'Townsend', 'Rushton', '2009-04-24', '259-291-7198');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (61, 'rcawkwelli@europa.eu', 'Roz', 'Cawkwell', '2009-05-22', '667-479-6942');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (124, 'lposselj@purevolume.com', 'Lyman', 'Possel', '2009-04-28', '747-559-7896');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (80, 'shodgesk@i2i.jp', 'Savina', 'Hodges', '2009-07-15', '507-220-1607');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (45, 'fleecel@wikispaces.com', 'Florinda', 'Leece', '2009-12-15', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (38, 'dguerinm@timesonline.co.uk', 'Dagny', 'Guerin', '2009-06-26', '438-617-0193');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (96, 'rruiltonn@cbslocal.com', 'Rozalin', 'Ruilton', '2009-10-07', '117-488-5472');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (101, 'gcosfordo@ucla.edu', 'Gearard', 'Cosford', '2009-11-17', '818-792-7019');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (66, 'udonnachiep@merriam-webster.com', 'Uriah', 'Donnachie', '2009-09-19', '190-322-1646');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (134, 'alukianovichq@ycombinator.com', 'Abbot', 'Lukianovich', '2009-06-21', '216-861-4109');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (12, 'taddingtonr@house.gov', 'Terri', 'Addington', '2009-07-31', '814-596-3732');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (25, 'cmarys@tinypic.com', 'Catlaina', 'Mary', '2009-11-14', '554-131-1411');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (146, 'oyardleyt@hibu.com', 'Ozzie', 'Yardley', '2009-06-17', '200-808-0282');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (129, 'bfusseyu@soup.io', 'Brendin', 'Fussey', '2009-03-22', '905-521-9271');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (75, 'wnaveinv@usgs.gov', 'Wynnie', 'Navein', '2009-01-31', '128-805-3978');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (82, 'coddboyw@nps.gov', 'Carlo', 'Oddboy', '2009-09-08', '206-121-5833');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (135, 'rribeirox@nydailynews.com', 'Reece', 'Ribeiro', '2009-01-13', '933-654-0714');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (75, 'dmapstoney@dyndns.org', 'Dara', 'Mapstone', '2009-12-10', '800-405-9545');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (145, 'jsthillz@mashable.com', 'Jane', 'St. Hill', '2009-04-28', '630-288-7276');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (47, 'rchuter10@paginegialle.it', 'Rosalinda', 'Chuter', '2009-02-21', '454-814-7297');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (32, 'hnorthbridge11@mediafire.com', 'Hazel', 'Northbridge', '2009-12-19', '495-172-3517');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (14, 'gmarthen12@chronoengine.com', 'Gerome', 'Marthen', '2009-09-30', '168-281-6307');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (53, 'hcallacher13@cpanel.net', 'Herold', 'Callacher', '2009-03-11', '717-848-6513');
+-- Kids(2009 and younger)       ----> 1
+-- U14 (2007,2008,2009,2010)    ----> 2
+-- U16(2005,2006,2007,2008)     ----> 2
+-- U18(2003,2004,2005,2006)     ----> 1
+-- A-TEAM(2002 and older)       ----> 1
+-- TOTAL                        ----> 7
 
--- clen born 2007, 2008, id 41-80
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (76, 'acreany0@twitter.com', 'Aubrey', 'Creany', '2007-02-21', '894-701-6352');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (40, 'pnilles1@jigsy.com', 'Phillis', 'Nilles', '2007-06-25', '644-492-5245');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (15, 'vpeschka2@tuttocitta.it', 'Victor', 'Peschka', '2007-03-28', '878-467-8453');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (135, 'mcritchley3@freewebs.com', 'Madel', 'Critchley', '2007-03-17', '357-691-3726');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (69, 'iackred4@godaddy.com', 'Iosep', 'Ackred', '2007-05-08', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (34, 'oedwicker5@1688.com', 'Olivie', 'Edwicker', '2007-10-16', '348-691-6521');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (127, 'elaimable6@imageshack.us', 'Ermina', 'Laimable', '2007-06-05', '576-222-2402');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (69, 'foffer7@istockphoto.com', 'Felisha', 'Offer', '2007-02-11', '234-421-9613');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (129, 'mharbinson8@mediafire.com', 'Marika', 'Harbinson', '2007-06-06', '308-843-3377');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (72, 'rkernermann9@forbes.com', 'Ruddy', 'Kernermann', '2007-08-26', '245-563-1834');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (138, 'tpullena@hhs.gov', 'Terrell', 'Pullen', '2007-06-30', '342-449-5281');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (63, 'scucheyb@qq.com', 'Salomi', 'Cuchey', '2007-10-08', '452-555-8987');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (104, 'tserrelsc@shinystat.com', 'Thomasina', 'Serrels', '2007-11-26', '454-470-0362');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (138, 'lgaunsond@weather.com', 'Lyda', 'Gaunson', '2007-09-07', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (105, 'hblackborowe@is.gd', 'Harry', 'Blackborow', '2007-06-13', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (41, 'gferrieref@addtoany.com', 'Gannon', 'Ferriere', '2007-06-25', '404-375-9394');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (16, 'tgudging@redcross.org', 'Timmi', 'Gudgin', '2007-04-16', '180-104-7261');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (120, 'dsodoryh@domainmarket.com', 'Dolli', 'Sodory', '2007-11-30', '385-669-9844');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (84, 'gturgoosei@tiny.cc', 'Graeme', 'Turgoose', '2007-04-12', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (26, 'wprobertj@fema.gov', 'Wileen', 'Probert', '2007-07-07', '369-805-9994');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (146, 'djandourekk@craigslist.org', 'Dana', 'Jandourek', '2007-12-04', '953-457-6314');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (92, 'ttumeltyl@posterous.com', 'Trula', 'Tumelty', '2007-03-03', '277-467-5070');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (45, 'smillanm@list-manage.com', 'Stanwood', 'Millan', '2007-09-26', '185-975-3647');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (59, 'mbottlesonn@flavors.me', 'Maryellen', 'Bottleson', '2007-10-10', '205-788-4809');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (36, 'zverriero@google.co.uk', 'Zacharias', 'Verrier', '2007-03-08', '824-642-5022');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (30, 'tdantesiap@redcross.org', 'Toddie', 'Dantesia', '2007-02-26', '121-957-8395');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (26, 'cgrowdenq@bing.com', 'Carey', 'Growden', '2007-12-18', '443-625-9697');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (117, 'mbridgwoodr@buzzfeed.com', 'Margret', 'Bridgwood', '2007-05-03', '909-562-8081');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (133, 'cserfatis@nydailynews.com', 'Carmelia', 'Serfati', '2007-08-22', '131-110-5835');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (104, 'grubbertst@businessweek.com', 'Gilbertina', 'Rubberts', '2007-04-17', '242-675-6310');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (97, 'ewybrewu@mayoclinic.com', 'Elset', 'Wybrew', '2007-04-09', '525-802-1148');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (86, 'ggajownikv@ocn.ne.jp', 'Gino', 'Gajownik', '2007-06-27', '956-549-5018');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (121, 'aspenceleyw@noaa.gov', 'Alvis', 'Spenceley', '2007-09-07', '752-463-8441');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (61, 'tlepruvostx@chicagotribune.com', 'Tiffi', 'Le Pruvost', '2007-07-04', '237-801-6171');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (81, 'ydurkiny@wikimedia.org', 'Yancy', 'Durkin', '2007-11-13', '197-745-3946');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (128, 'snapolionez@pbs.org', 'Sari', 'Napolione', '2007-03-11', '464-473-8267');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (63, 'arakestraw10@cpanel.net', 'Abram', 'Rakestraw', '2007-07-02', '246-249-6855');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (112, 'cmucillo11@netlog.com', 'Curr', 'Mucillo', '2007-06-25', '741-664-2601');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (69, 'dmacandrew12@facebook.com', 'Debi', 'MacAndrew', '2007-03-24', '829-494-9552');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (113, 'cbedford13@hubpages.com', 'Chris', 'Bedford', '2007-08-30', '609-696-9810');
+insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('Kids', 2009, 2010);
+insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('U14', 2007, 2010);
+insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('U16', 2005, 2008);
+insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('U18', 2003, 2006);
+insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('A-TEAM', 1985, 2002);
 
--- clen born 2005, 2006, id 81-120
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (132, 'mandrat0@typepad.com', 'Mauricio', 'Andrat', '2005-07-28', '655-740-8299');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (67, 'pdowman1@go.com', 'Paco', 'Dowman', '2005-05-19', '366-252-9513');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (78, 'anobles2@naver.com', 'Aleen', 'Nobles', '2005-03-05', '550-931-4851');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (35, 'agrenfell3@blinklist.com', 'Ashely', 'Grenfell', '2005-06-08', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (79, 'hwenger4@a8.net', 'Hobey', 'Wenger', '2005-07-05', '229-600-6754');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (80, 'rcampanelle5@wunderground.com', 'Rochester', 'Campanelle', '2005-09-27', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (59, 'pdurdle6@mozilla.com', 'Patty', 'Durdle', '2005-06-26', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (108, 'imaben7@hp.com', 'Ilaire', 'Maben', '2005-12-06', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (43, 'lskottle8@webs.com', 'Lynnet', 'Skottle', '2005-04-13', '976-747-0258');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (28, 'rgraffin9@discuz.net', 'Rudolph', 'Graffin', '2005-02-21', '243-308-3738');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (65, 'tfaradya@google.de', 'Thibaut', 'Farady', '2005-12-26', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (59, 'splunketb@simplemachines.org', 'Saxon', 'Plunket', '2005-07-28', '185-793-8636');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (64, 'jhollerinc@nydailynews.com', 'Jordon', 'Hollerin', '2005-10-01', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (117, 'aarboind@state.gov', 'Antons', 'Arboin', '2005-09-13', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (23, 'fgookee@cafepress.com', 'Florina', 'Gooke', '2005-02-01', '343-305-0241');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (34, 'hfrandsenf@e-recht24.de', 'Helga', 'Frandsen', '2005-04-28', '274-386-6117');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (52, 'riresong@fotki.com', 'Rayner', 'Ireson', '2005-11-15', '126-733-2264');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (67, 'jwakerleyh@hc360.com', 'Jinny', 'Wakerley', '2005-09-22', '196-522-9799');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (38, 'gartingstalli@blogspot.com', 'Gwendolen', 'Artingstall', '2005-06-28', '444-874-5866');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (104, 'rmullinsj@ucsd.edu', 'Robbert', 'Mullins', '2005-09-30', '496-598-9052');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (101, 'jsegark@usgs.gov', 'Jazmin', 'Segar', '2005-12-08', '851-833-0616');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (69, 'selvinl@wordpress.com', 'Selena', 'Elvin', '2005-02-06', '708-556-1077');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (139, 'zferrarom@vistaprint.com', 'Zeke', 'Ferraro', '2005-11-17', '695-751-6538');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (94, 'gmongeotn@studiopress.com', 'Garrett', 'Mongeot', '2005-01-24', '527-998-2691');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (131, 'htrevono@squarespace.com', 'Hadlee', 'Trevon', '2005-02-10', '519-922-6908');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (115, 'csantorop@homestead.com', 'Claresta', 'Santoro', '2005-12-17', '996-271-0911');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (107, 'rscarceq@slate.com', 'Rania', 'Scarce', '2005-05-11', '136-948-9228');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (149, 'mroisenr@flickr.com', 'Min', 'Roisen', '2005-02-06', '407-234-0540');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (73, 'ohankss@stumbleupon.com', 'Oswald', 'Hanks', '2005-03-29', '805-105-3046');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (142, 'pcoytet@uol.com.br', 'Pip', 'Coyte', '2005-04-13', '604-844-9961');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (17, 'thasleyu@eepurl.com', 'Troy', 'Hasley', '2005-11-21', '883-171-3725');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (137, 'amccuev@oracle.com', 'Alard', 'McCue', '2005-09-30', '972-158-3187');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (150, 'chorsewoodw@cbsnews.com', 'Cary', 'Horsewood', '2005-09-25', '431-481-6507');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (56, 'dcoventonx@sitemeter.com', 'Duncan', 'Coventon', '2005-06-16', '393-743-8922');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (85, 'sphrippy@cbc.ca', 'Shelley', 'Phripp', '2005-09-22', '839-150-8908');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (116, 'pregnardz@dell.com', 'Petey', 'Regnard', '2005-02-12', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (109, 'ttabert10@list-manage.com', 'Tania', 'Tabert', '2005-11-26', '719-203-1793');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (142, 'dluparti11@thetimes.co.uk', 'Dareen', 'Luparti', '2005-02-06', '785-683-0517');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (85, 'ematzen12@mlb.com', 'Ethelred', 'Matzen', '2005-10-24', '632-437-1824');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (89, 'abishop13@liveinternet.ru', 'Aubrey', 'Bishop', '2005-11-08', '900-916-5165');
+-- insert clen 2009, 2010 (id 1 - 10)
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (28, 'rpatkin0@nymag.com', 'Rae', 'Patkin', '2009-10-14', null);
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (37, 'kscarrott1@mashable.com', 'Kerrie', 'Scarrott', '2009-10-17', null);
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (40, 'fattle2@hp.com', 'Franz', 'Attle', '2009-12-09', null);
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (11, 'kcanet3@friendfeed.com', 'Kathryne', 'Canet', '2009-06-29', '276-422-7368');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (16, 'amacdermid4@g.co', 'Abdul', 'MacDermid', '2009-06-14', '511-103-5010');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (31, 'ipatis5@mayoclinic.com', 'Iseabal', 'Patis', '2009-01-06', null);
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (30, 'rpengilley6@blinklist.com', 'Roman', 'Pengilley', '2009-04-22', '644-534-1978');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (26, 'abrahmer7@dailymail.co.uk', 'Alicia', 'Brahmer', '2009-06-05', '773-436-7043');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (19, 'moakes8@wikia.com', 'Meryl', 'Oakes', '2009-04-29', '104-524-7902');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (11, 'cfowlds9@chron.com', 'Carey', 'Fowlds', '2009-04-13', '780-807-4261');
 
--- clen born 2003, 2004, id 121-150
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (108, 'babbiss0@issuu.com', 'Benedetto', 'Abbiss', '2003-03-23', '209-916-3436');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (48, 'ldyne1@goodreads.com', 'Leif', 'Dyne', '2003-08-14', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (36, 'mzanelli2@cbslocal.com', 'Myrtie', 'Zanelli', '2003-08-22', '441-252-6194');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (146, 'blebond3@senate.gov', 'Bard', 'Lebond', '2003-01-10', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (61, 'jsabey4@pbs.org', 'Joice', 'Sabey', '2003-01-20', '588-450-4478');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (133, 'hkensington5@altervista.org', 'Hedy', 'Kensington', '2003-09-08', '199-100-6900');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (44, 'kdiroberto6@answers.com', 'Kiel', 'Di Roberto', '2003-07-15', '368-813-1436');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (14, 'rmcilwaine7@independent.co.uk', 'Rheba', 'McIlwaine', '2003-09-13', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (57, 'awigzell8@technorati.com', 'Austina', 'Wigzell', '2003-05-10', '311-164-5743');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (74, 'ihandes9@pcworld.com', 'Ikey', 'Handes', '2003-08-29', '193-176-3026');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (128, 'nmerigona@nsw.gov.au', 'Nicholle', 'Merigon', '2003-10-30', '313-411-0892');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (77, 'bivamyb@auda.org.au', 'Barbi', 'Ivamy', '2003-01-04', '219-416-8996');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (80, 'ledowesc@purevolume.com', 'Lorain', 'Edowes', '2003-04-15', '415-484-0947');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (84, 'bambrosolid@japanpost.jp', 'Banky', 'Ambrosoli', '2003-12-01', '130-945-0929');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (31, 'bmcgaugheye@indiegogo.com', 'Bernadette', 'Mc Gaughey', '2003-03-20', '322-390-7589');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (35, 'gallwoodf@quantcast.com', 'Gwyneth', 'Allwood', '2003-03-22', '442-132-2952');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (24, 'jnapthineg@bloomberg.com', 'Jennette', 'Napthine', '2003-08-15', '924-843-2909');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (110, 'iathersmithh@hc360.com', 'Isadore', 'Athersmith', '2003-11-12', '419-473-4076');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (31, 'jfulleri@thetimes.co.uk', 'Jessey', 'Fuller', '2003-03-02', '995-511-6174');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (125, 'rsangwinej@wp.com', 'Rafferty', 'Sangwine', '2003-02-13', '941-719-7071');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (27, 'rmatuskak@yahoo.com', 'Ruben', 'Matuska', '2003-02-14', '563-882-2999');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (22, 'mcattonnetl@arizona.edu', 'Marven', 'Cattonnet', '2003-01-15', '969-958-8178');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (110, 'dtoogoodm@opensource.org', 'Dollie', 'Toogood', '2003-12-27', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (90, 'ggeytonn@naver.com', 'Gerry', 'Geyton', '2003-12-23', '225-184-7944');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (118, 'adoyleyo@mail.ru', 'Ashia', 'D''Oyley', '2003-03-19', '632-488-4521');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (126, 'lmegaheyp@gmpg.org', 'Loren', 'Megahey', '2003-05-17', '218-391-1890');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (119, 'pgoracciq@oracle.com', 'Patrica', 'Goracci', '2003-03-08', '942-269-7549');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (21, 'gblackfordr@github.com', 'Garfield', 'Blackford', '2003-02-06', '791-899-4531');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (131, 'bdomneys@1688.com', 'Bartel', 'Domney', '2003-03-04', '626-410-0281');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (72, 'eduffittt@nsw.gov.au', 'Efren', 'Duffitt', '2003-01-27', null);
+-- insert clen 2007, 2008 (id 11 - 20)
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (26, 'blegister0@comcast.net', 'Barn', 'Legister', '2007-07-16', '683-468-8478');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (31, 'gcross1@phoca.cz', 'Gerti', 'Cross', '2007-10-07', null);
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (34, 'cbowley2@scribd.com', 'Cyndy', 'Bowley', '2007-04-22', '917-381-8279');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (34, 'sbowkley3@webnode.com', 'Sherry', 'Bowkley', '2007-05-20', '334-834-3555');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (39, 'vevennett4@unesco.org', 'Valaree', 'Evennett', '2007-09-22', '162-634-4388');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (13, 'tmokes5@smugmug.com', 'Theressa', 'Mokes', '2007-10-18', '592-371-2549');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (38, 'lcaswill6@nymag.com', 'Lorenzo', 'Caswill', '2007-12-22', null);
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (39, 'adowding7@xinhuanet.com', 'Aldin', 'Dowding', '2007-06-28', '520-139-2875');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (36, 'mdennett8@whitehouse.gov', 'Miguel', 'Dennett', '2007-11-20', '687-601-7885');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (25, 'cfaulder9@ucoz.ru', 'Corney', 'Faulder', '2007-08-01', null);
 
--- clen born 2001, 2002, id 151-180
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (62, 'emancer0@bbb.org', 'Ewell', 'Mancer', '2001-03-13', '481-426-2411');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (41, 'gbladesmith1@bravesites.com', 'Gaspard', 'Bladesmith', '2001-05-01', '755-165-4261');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (63, 'aderoeck2@booking.com', 'Ari', 'De Roeck', '2001-04-10', '708-314-9290');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (115, 'nsussex3@state.gov', 'Natassia', 'Sussex', '2001-01-18', '831-813-3938');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (24, 'kcyples4@marketwatch.com', 'Kermie', 'Cyples', '2001-09-21', '580-377-0654');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (84, 'ppiper5@accuweather.com', 'Petronella', 'Piper', '2001-05-23', '509-899-3097');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (28, 'aballance6@bbc.co.uk', 'Ashia', 'Ballance', '2001-12-01', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (79, 'dberresford7@toplist.cz', 'Dulci', 'Berresford', '2001-10-30', '759-709-2474');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (142, 'lhillin8@github.com', 'Lannie', 'Hillin', '2001-10-01', '998-199-9876');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (130, 'lferrea9@sitemeter.com', 'Ludvig', 'Ferrea', '2001-12-21', '599-479-7238');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (15, 'aclaussona@stanford.edu', 'Amalita', 'Clausson', '2001-03-28', '922-476-9274');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (128, 'gkeepinb@unblog.fr', 'Germana', 'Keepin', '2001-07-09', '275-785-4007');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (38, 'bmurrumc@godaddy.com', 'Bogey', 'Murrum', '2001-02-24', '921-768-7234');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (12, 'jlyonsd@aboutads.info', 'Jacky', 'Lyons', '2001-09-25', '271-292-1017');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (139, 'vadamee@va.gov', 'Vern', 'Adame', '2001-06-26', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (51, 'psaywardf@google.de', 'Prisca', 'Sayward', '2001-06-08', '469-488-8762');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (129, 'jreekeng@dedecms.com', 'Jeffy', 'Reeken', '2001-10-08', '686-506-6743');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (111, 'lmunkleyh@furl.net', 'Lorrin', 'Munkley', '2001-12-18', '233-677-5190');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (18, 'nchstneyi@senate.gov', 'Nicolette', 'Chstney', '2001-10-29', '231-138-1069');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (105, 'tvonoertzenj@wix.com', 'Tad', 'Von Oertzen', '2001-03-30', '790-984-3392');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (23, 'svassek@soundcloud.com', 'Sig', 'Vasse', '2001-01-26', '975-141-2172');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (30, 'nudiel@sina.com.cn', 'Nikolos', 'Udie', '2001-02-02', '733-494-2326');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (67, 'sotleym@cnn.com', 'Sloan', 'Otley', '2001-01-11', '129-622-4122');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (115, 'dbuckyn@parallels.com', 'Desmund', 'Bucky', '2001-01-09', '728-672-5565');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (43, 'jdenisovoo@ebay.co.uk', 'Jasmine', 'Denisovo', '2001-09-07', '157-497-0552');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (35, 'bfilisovp@de.vu', 'Brod', 'Filisov', '2001-10-06', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (80, 'wreilyq@e-recht24.de', 'Winfield', 'Reily', '2001-08-06', '501-402-8919');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (70, 'jjaquestr@state.tx.us', 'Jilly', 'Jaquest', '2001-11-08', '779-272-3378');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (94, 'rquiddintons@paginegialle.it', 'Rich', 'Quiddinton', '2001-06-23', '984-632-3076');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (11, 'bvandermerwet@jimdo.com', 'Broderick', 'Van der Merwe', '2001-11-17', '380-385-5564');
+-- insert clen 2005, 2006 (id 21 - 30)
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (39, 'abranchflower0@mit.edu', 'Alexio', 'Branchflower', '2005-02-16', '935-731-4601');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (19, 'abattista1@forbes.com', 'Alli', 'Battista', '2005-08-03', '858-216-8369');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (24, 'rschmuhl2@wired.com', 'Rosemaria', 'Schmuhl', '2005-06-13', '801-798-8828');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (28, 'bdumphrey3@google.it', 'Baryram', 'Dumphrey', '2005-12-17', '634-322-1024');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (35, 'rbonnick4@twitter.com', 'Renaldo', 'Bonnick', '2005-10-09', '210-588-3037');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (23, 'reskrigg5@imgur.com', 'Renelle', 'Eskrigg', '2005-02-10', '514-316-1054');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (24, 'bthuillier6@unicef.org', 'Brenna', 'Thuillier', '2005-07-07', '236-179-7661');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (18, 'iduligall7@ebay.com', 'Irv', 'Duligall', '2005-08-25', '407-401-5013');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (26, 'charler8@youku.com', 'Clyde', 'Harler', '2005-11-10', '664-440-0291');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (36, 'medis9@cargocollective.com', 'Merralee', 'Edis', '2005-09-08', '625-718-8078');
 
--- clen born 1980-2000, id 181-210
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (17, 'ooakenfield0@disqus.com', 'Ogdan', 'Oakenfield', '1980-03-06', '114-167-4027');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (45, 'dmacbean1@nih.gov', 'Dori', 'MacBean', '1984-06-26', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (69, 'cduxfield2@slate.com', 'Cory', 'Duxfield', '1982-05-14', '967-765-7857');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (135, 'zrofe3@addthis.com', 'Zarah', 'Rofe', '1984-01-15', '176-952-6972');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (48, 'fpatington4@state.gov', 'Fenelia', 'Patington', '1991-09-08', '798-794-0974');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (59, 'ncrimin5@home.pl', 'Noell', 'Crimin', '1997-01-19', '311-965-4894');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (70, 'bdruery6@yahoo.co.jp', 'Burt', 'Druery', '1992-10-17', '877-119-0752');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (109, 'ssowley7@newyorker.com', 'Selma', 'Sowley', '1993-07-31', '982-353-1171');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (139, 'cagiolfinger8@vimeo.com', 'Charis', 'Agiolfinger', '1980-08-19', '364-489-2922');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (60, 'gpinchon9@aboutads.info', 'Gabi', 'Pinchon', '1983-09-27', '699-614-0791');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (97, 'mdruhana@independent.co.uk', 'Meryl', 'Druhan', '1996-04-16', '347-560-0473');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (47, 'fgasconeb@angelfire.com', 'Franciskus', 'Gascone', '1989-08-18', '576-301-2805');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (91, 'iwinhamc@about.me', 'Ivette', 'Winham', '1987-05-11', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (23, 'eantyshevd@hao123.com', 'Emlynne', 'Antyshev', '1981-03-27', '468-999-8772');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (35, 'tbaracloughe@cpanel.net', 'Twyla', 'Baraclough', '1985-07-09', '204-406-0688');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (116, 'fokeeffef@privacy.gov.au', 'Fayre', 'O''Keeffe', '1984-10-10', '642-333-1949');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (47, 'owraxallg@imageshack.us', 'Opaline', 'Wraxall', '1986-12-08', '536-682-7615');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (23, 'wdeabillh@army.mil', 'Wittie', 'Deabill', '1981-04-01', '788-673-8391');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (87, 'isignorellii@netvibes.com', 'Inesita', 'Signorelli', '1989-06-30', '830-635-8144');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (69, 'aciementinij@moonfruit.com', 'Ashly', 'Ciementini', '1993-10-22', '604-170-9720');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (25, 'cbrontk@gravatar.com', 'Chad', 'Bront', '1990-05-11', '311-500-0641');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (23, 'atreadgalll@cdbaby.com', 'Astrid', 'Treadgall', '1997-05-23', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (89, 'dbarklym@disqus.com', 'Dorena', 'Barkly', '1991-12-01', '252-748-4439');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (149, 'jcancellierin@slate.com', 'Jenn', 'Cancellieri', '1996-08-09', '286-669-6423');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (37, 'ademongeoto@fema.gov', 'Andy', 'Demongeot', '1986-05-25', '232-572-3782');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (124, 'mnorthoverp@discovery.com', 'Mirabella', 'Northover', '1981-09-07', '851-377-5923');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (130, 'kbrockleyq@auda.org.au', 'Kristofer', 'Brockley', '1998-06-12', null);
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (26, 'mlabbetr@ameblo.jp', 'Man', 'Labbet', '1982-06-30', '474-439-9231');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (94, 'nmcclunaghans@shareasale.com', 'Nan', 'McClunaghan', '1981-04-06', '570-619-4032');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (128, 'hkingsnodt@hexun.com', 'Hana', 'Kingsnod', '1980-08-30', '252-288-1037');
+-- insert clen 2003, 2004 (id 31 - 40)
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (23, 'jchurchward0@reverbnation.com', 'Jessalin', 'Churchward', '2003-02-12', '156-232-7511');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (40, 'bpeevor1@mozilla.com', 'Briant', 'Peevor', '2003-08-20', '889-439-9599');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (31, 'maveson2@fastcompany.com', 'Marianne', 'Aveson', '2003-03-24', '390-406-1855');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (37, 'pcornner3@slashdot.org', 'Pascale', 'Cornner', '2003-12-17', '623-601-1983');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (8, 'mbearcroft4@sogou.com', 'Matthus', 'Bearcroft', '2003-07-25', '195-958-1548');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (33, 'pbostick5@symantec.com', 'Paco', 'Bostick', '2003-05-08', '389-906-0516');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (9, 'giacobassi6@bravesites.com', 'Gauthier', 'Iacobassi', '2003-01-03', '941-806-1031');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (22, 'dsimonds7@cmu.edu', 'Desmund', 'Simonds', '2003-02-24', '331-698-7310');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (37, 'ceames8@usgs.gov', 'Cyb', 'Eames', '2003-12-26', null);
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (29, 'apenticoot9@huffingtonpost.com', 'Andra', 'Penticoot', '2003-05-18', '731-429-8618');
 
--- trener (musi mat min 18 rokov ==> id >= 151 and id <= 210)
-insert into trener (id_clen, licencia, cislo_uctu, plat) values (153, 'B', 'BH74 CHHE CB8V JASE 9TWW 0E', 17000);
-insert into trener (id_clen, licencia, cislo_uctu, plat) values (204, 'C', 'GB67 XSIH 4242 0265 8776 52', 22500);
-insert into trener (id_clen, licencia, cislo_uctu, plat) values (207, 'B', 'SI66 2098 1974 0981 579', 28000);
-insert into trener (id_clen, licencia, cislo_uctu, plat) values (196, 'A', 'KW75 EQEO M6LZ GNLK TS7I ZNGD OSOC OD', 17000);
-insert into trener (id_clen, licencia, cislo_uctu, plat) values (187, 'B', 'AZ79 VRFX 3784 FTYK DFHC Y1HU W7XV', 17000);
-insert into trener (id_clen, licencia, cislo_uctu, plat) values (171, 'C', 'BG72 FXED 8935 28PR BBJY D2', 22500);
-insert into trener (id_clen, licencia, cislo_uctu, plat) values (159, 'B', 'BA59 1769 8700 3719 3728', 22500);
-insert into trener (id_clen, licencia, cislo_uctu, plat) values (186, 'C', 'AL62 7777 0792 L0IS LC1V RCHZ ILXB', 3000);
-insert into trener (id_clen, licencia, cislo_uctu, plat) values (191, 'A', 'AL67 5853 4823 ZXWP UQQK DG3K ADAY', 18000);
-insert into trener (id_clen, licencia, cislo_uctu, plat) values (158, 'C', 'SI97 4012 0920 4800 411', 27000);
-insert into trener (id_clen, licencia, cislo_uctu, plat) values (201, 'A', 'IS57 7795 3521 9091 1732 4112 35', 28000);
-insert into trener (id_clen, licencia, cislo_uctu, plat) values (202, 'A', 'BR37 3512 9737 3780 3569 5696 947U 9', 28000);
-insert into trener (id_clen, licencia, cislo_uctu, plat) values (205, 'A', 'IL21 4304 2571 7903 5082 729', 22500);
-insert into trener (id_clen, licencia, cislo_uctu, plat) values (199, 'B', 'LB14 1320 XUQC MI2X PQJP 3EVY 6QWL', 22000);
-insert into trener (id_clen, licencia, cislo_uctu, plat) values (175, 'A', 'BR59 5517 6666 2094 9113 3730 491U Y', 28000);
--- end trener
+-- insert clen 1980 - 2002 id (41 - 60)
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (21, 'gbarnes0@wordpress.org', 'Garrek', 'Barnes', '2001-07-10', '997-913-6944');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (31, 'egorrie1@shop-pro.jp', 'Elie', 'Gorrie', '1988-07-17', '389-679-6258');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (38, 'kshields2@springer.com', 'Kanya', 'Shields', '1988-12-30', '613-739-1887');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (15, 'netherton3@bbc.co.uk', 'Nero', 'Etherton', '1990-05-14', null);
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (36, 'tmenhci4@dedecms.com', 'Thatch', 'Menhci', '1982-03-20', '567-897-2604');
 
--- hrac (id 1-200 ==> poslednych 10 clenov je iba trener)
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (28, 'kflute5@ucoz.com', 'Karlan', 'Flute', '1984-11-08', '988-296-1701');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (30, 'bmorby6@narod.ru', 'Bevan', 'Morby', '1999-10-27', '494-746-1196');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (28, 'jkitto7@last.fm', 'Jaymee', 'Kitto', '1989-04-17', '145-434-2990');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (10, 'rfoulkes8@blog.com', 'Rachele', 'Foulkes', '1996-11-22', '757-682-1547');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (26, 'dewenson9@blinklist.com', 'Dyane', 'Ewenson', '1989-01-06', '464-775-2474');
+
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (40, 'jsepeya@netlog.com', 'Joceline', 'Sepey', '1993-12-04', '435-355-8587');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (33, 'fshealb@senate.gov', 'Fabien', 'Sheal', '1985-06-23', '187-674-1822');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (7, 'cdarkc@comcast.net', 'Casar', 'Dark', '1991-08-08', '809-806-6899');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (34, 'cravend@usnews.com', 'Clywd', 'Raven', '1991-05-19', '451-891-5779');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (7, 'ayelde@wufoo.com', 'Adriano', 'Yeld', '1983-01-12', '355-950-9473');
+
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (34, 'elimbournef@stumbleupon.com', 'Ezri', 'Limbourne', '1993-10-05', '398-780-3244');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (16, 'pmogenotg@tuttocitta.it', 'Phylis', 'Mogenot', '1999-02-22', '950-998-7650');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (40, 'ctomkowiczh@nbcnews.com', 'Celene', 'Tomkowicz', '1994-10-31', '518-185-2651');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (40, 'lpolki@artisteer.com', 'Linus', 'Polk', '1983-12-12', '797-895-9041');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (32, 'csoutheyj@seesaa.net', 'Cymbre', 'Southey', '1990-11-28', '589-820-2946');
+
+-- insert trener (musi mat min 18 rokov ==> id >= 41 and id <= 60)
+insert into trener (id_clen, licencia, cislo_uctu, plat) values (47, 'B', 'SA45 49RD IDZM HRP9 G2TH 9KOT', 22500);
+insert into trener (id_clen, licencia, cislo_uctu, plat) values (53, 'C', 'MU74 IRPT 1646 0532 2010 7121', 20000);
+insert into trener (id_clen, licencia, cislo_uctu, plat) values (45, 'A', 'MR69 7753 2118 4804 6900 3549', 17500);
+insert into trener (id_clen, licencia, cislo_uctu, plat) values (46, 'C', 'ES08 5095 6496 5465 7493 3773', 25000);
+insert into trener (id_clen, licencia, cislo_uctu, plat) values (55, 'B', 'BR86 9204 1318 4933 8756 5315', 22500);
+insert into trener (id_clen, licencia, cislo_uctu, plat) values (54, 'C', 'FR32 6655 2446 77JX SOEX YLO2', 15000);
+insert into trener (id_clen, licencia, cislo_uctu, plat) values (59, 'B', 'AL34 5994 7435 DPPO ALEU 5XBE', 15000);
+insert into trener (id_clen, licencia, cislo_uctu, plat) values (42, 'A', 'HR71 5409 9724 3953 1493 8XAD', 17500);
+insert into trener (id_clen, licencia, cislo_uctu, plat) values (51, 'B', 'GR02 6675 2100 QD1J ZCZK AZEI', 30000);
+insert into trener (id_clen, licencia, cislo_uctu, plat) values (52, 'C', 'MC82 3534 0625 64FO 0IU9 EFXS', 25000);
+
+-- insert hrac (45, 46, 52, 55, 59 su iba treneri)
 insert into hrac (id_clen, post) values (1, 'goalkeeper');
-insert into hrac (id_clen, post) values (2, 'goalkeeper');
+insert into hrac (id_clen, post) values (2, 'winger');
 insert into hrac (id_clen, post) values (3, 'defender');
 insert into hrac (id_clen, post) values (4, 'center forward');
 insert into hrac (id_clen, post) values (5, 'winger');
@@ -431,7 +167,7 @@ insert into hrac (id_clen, post) values (15, 'center forward');
 insert into hrac (id_clen, post) values (16, 'winger');
 insert into hrac (id_clen, post) values (17, 'goalkeeper');
 insert into hrac (id_clen, post) values (18, 'defender');
-insert into hrac (id_clen, post) values (19, 'goalkeeper');
+insert into hrac (id_clen, post) values (19, 'winger');
 insert into hrac (id_clen, post) values (20, 'center forward');
 insert into hrac (id_clen, post) values (21, 'center forward');
 insert into hrac (id_clen, post) values (22, 'defender');
@@ -450,220 +186,33 @@ insert into hrac (id_clen, post) values (34, 'defender');
 insert into hrac (id_clen, post) values (35, 'defender');
 insert into hrac (id_clen, post) values (36, 'winger');
 insert into hrac (id_clen, post) values (37, 'goalkeeper');
-insert into hrac (id_clen, post) values (38, 'goalkeeper');
+insert into hrac (id_clen, post) values (38, 'winger');
 insert into hrac (id_clen, post) values (39, 'defender');
 insert into hrac (id_clen, post) values (40, 'defender');
 insert into hrac (id_clen, post) values (41, 'defender');
 insert into hrac (id_clen, post) values (42, 'center forward');
 insert into hrac (id_clen, post) values (43, 'center forward');
 insert into hrac (id_clen, post) values (44, 'defender');
-insert into hrac (id_clen, post) values (45, 'defender');
-insert into hrac (id_clen, post) values (46, 'center forward');
 insert into hrac (id_clen, post) values (47, 'goalkeeper');
 insert into hrac (id_clen, post) values (48, 'defender');
 insert into hrac (id_clen, post) values (49, 'center forward');
 insert into hrac (id_clen, post) values (50, 'center forward');
 insert into hrac (id_clen, post) values (51, 'center forward');
-insert into hrac (id_clen, post) values (52, 'center forward');
 insert into hrac (id_clen, post) values (53, 'winger');
 insert into hrac (id_clen, post) values (54, 'goalkeeper');
-insert into hrac (id_clen, post) values (55, 'defender');
 insert into hrac (id_clen, post) values (56, 'center forward');
-insert into hrac (id_clen, post) values (57, 'goalkeeper');
+insert into hrac (id_clen, post) values (57, 'defender');
 insert into hrac (id_clen, post) values (58, 'center forward');
-insert into hrac (id_clen, post) values (59, 'defender');
 insert into hrac (id_clen, post) values (60, 'center forward');
-insert into hrac (id_clen, post) values (61, 'winger');
-insert into hrac (id_clen, post) values (62, 'center forward');
-insert into hrac (id_clen, post) values (63, 'defender');
-insert into hrac (id_clen, post) values (64, 'goalkeeper');
-insert into hrac (id_clen, post) values (65, 'defender');
-insert into hrac (id_clen, post) values (66, 'goalkeeper');
-insert into hrac (id_clen, post) values (67, 'goalkeeper');
-insert into hrac (id_clen, post) values (68, 'defender');
-insert into hrac (id_clen, post) values (69, 'winger');
-insert into hrac (id_clen, post) values (70, 'center forward');
-insert into hrac (id_clen, post) values (71, 'winger');
-insert into hrac (id_clen, post) values (72, 'goalkeeper');
-insert into hrac (id_clen, post) values (73, 'defender');
-insert into hrac (id_clen, post) values (74, 'defender');
-insert into hrac (id_clen, post) values (75, 'center forward');
-insert into hrac (id_clen, post) values (76, 'winger');
-insert into hrac (id_clen, post) values (77, 'winger');
-insert into hrac (id_clen, post) values (78, 'center forward');
-insert into hrac (id_clen, post) values (79, 'winger');
-insert into hrac (id_clen, post) values (80, 'center forward');
-insert into hrac (id_clen, post) values (81, 'center forward');
-insert into hrac (id_clen, post) values (82, 'goalkeeper');
-insert into hrac (id_clen, post) values (83, 'goalkeeper');
-insert into hrac (id_clen, post) values (84, 'goalkeeper');
-insert into hrac (id_clen, post) values (85, 'center forward');
-insert into hrac (id_clen, post) values (86, 'center forward');
-insert into hrac (id_clen, post) values (87, 'center forward');
-insert into hrac (id_clen, post) values (88, 'defender');
-insert into hrac (id_clen, post) values (89, 'defender');
-insert into hrac (id_clen, post) values (90, 'winger');
-insert into hrac (id_clen, post) values (91, 'goalkeeper');
-insert into hrac (id_clen, post) values (92, 'goalkeeper');
-insert into hrac (id_clen, post) values (93, 'defender');
-insert into hrac (id_clen, post) values (94, 'defender');
-insert into hrac (id_clen, post) values (95, 'center forward');
-insert into hrac (id_clen, post) values (96, 'winger');
-insert into hrac (id_clen, post) values (97, 'defender');
-insert into hrac (id_clen, post) values (98, 'goalkeeper');
-insert into hrac (id_clen, post) values (99, 'winger');
-insert into hrac (id_clen, post) values (100, 'winger');
-insert into hrac (id_clen, post) values (101, 'winger');
-insert into hrac (id_clen, post) values (102, 'goalkeeper');
-insert into hrac (id_clen, post) values (103, 'winger');
-insert into hrac (id_clen, post) values (104, 'goalkeeper');
-insert into hrac (id_clen, post) values (105, 'defender');
-insert into hrac (id_clen, post) values (106, 'defender');
-insert into hrac (id_clen, post) values (107, 'winger');
-insert into hrac (id_clen, post) values (108, 'winger');
-insert into hrac (id_clen, post) values (109, 'winger');
-insert into hrac (id_clen, post) values (110, 'defender');
-insert into hrac (id_clen, post) values (111, 'center forward');
-insert into hrac (id_clen, post) values (112, 'center forward');
-insert into hrac (id_clen, post) values (113, 'goalkeeper');
-insert into hrac (id_clen, post) values (114, 'defender');
-insert into hrac (id_clen, post) values (115, 'defender');
-insert into hrac (id_clen, post) values (116, 'center forward');
-insert into hrac (id_clen, post) values (117, 'goalkeeper');
-insert into hrac (id_clen, post) values (118, 'goalkeeper');
-insert into hrac (id_clen, post) values (119, 'defender');
-insert into hrac (id_clen, post) values (120, 'defender');
-insert into hrac (id_clen, post) values (121, 'center forward');
-insert into hrac (id_clen, post) values (122, 'goalkeeper');
-insert into hrac (id_clen, post) values (123, 'goalkeeper');
-insert into hrac (id_clen, post) values (124, 'center forward');
-insert into hrac (id_clen, post) values (125, 'center forward');
-insert into hrac (id_clen, post) values (126, 'center forward');
-insert into hrac (id_clen, post) values (127, 'goalkeeper');
-insert into hrac (id_clen, post) values (128, 'goalkeeper');
-insert into hrac (id_clen, post) values (129, 'goalkeeper');
-insert into hrac (id_clen, post) values (130, 'winger');
-insert into hrac (id_clen, post) values (131, 'goalkeeper');
-insert into hrac (id_clen, post) values (132, 'center forward');
-insert into hrac (id_clen, post) values (133, 'winger');
-insert into hrac (id_clen, post) values (134, 'center forward');
-insert into hrac (id_clen, post) values (135, 'center forward');
-insert into hrac (id_clen, post) values (136, 'center forward');
-insert into hrac (id_clen, post) values (137, 'center forward');
-insert into hrac (id_clen, post) values (138, 'defender');
-insert into hrac (id_clen, post) values (139, 'center forward');
-insert into hrac (id_clen, post) values (140, 'winger');
-insert into hrac (id_clen, post) values (141, 'goalkeeper');
-insert into hrac (id_clen, post) values (142, 'goalkeeper');
-insert into hrac (id_clen, post) values (143, 'defender');
-insert into hrac (id_clen, post) values (144, 'center forward');
-insert into hrac (id_clen, post) values (145, 'defender');
-insert into hrac (id_clen, post) values (146, 'winger');
-insert into hrac (id_clen, post) values (147, 'winger');
-insert into hrac (id_clen, post) values (148, 'center forward');
-insert into hrac (id_clen, post) values (149, 'defender');
-insert into hrac (id_clen, post) values (150, 'winger');
-insert into hrac (id_clen, post) values (151, 'goalkeeper');
-insert into hrac (id_clen, post) values (152, 'center forward');
-insert into hrac (id_clen, post) values (153, 'defender');
-insert into hrac (id_clen, post) values (154, 'winger');
-insert into hrac (id_clen, post) values (155, 'goalkeeper');
-insert into hrac (id_clen, post) values (156, 'center forward');
-insert into hrac (id_clen, post) values (157, 'goalkeeper');
-insert into hrac (id_clen, post) values (158, 'defender');
-insert into hrac (id_clen, post) values (159, 'center forward');
-insert into hrac (id_clen, post) values (160, 'goalkeeper');
-insert into hrac (id_clen, post) values (161, 'center forward');
-insert into hrac (id_clen, post) values (162, 'defender');
-insert into hrac (id_clen, post) values (163, 'goalkeeper');
-insert into hrac (id_clen, post) values (164, 'center forward');
-insert into hrac (id_clen, post) values (165, 'goalkeeper');
-insert into hrac (id_clen, post) values (166, 'goalkeeper');
-insert into hrac (id_clen, post) values (167, 'goalkeeper');
-insert into hrac (id_clen, post) values (168, 'defender');
-insert into hrac (id_clen, post) values (169, 'center forward');
-insert into hrac (id_clen, post) values (170, 'center forward');
-insert into hrac (id_clen, post) values (171, 'center forward');
-insert into hrac (id_clen, post) values (172, 'defender');
-insert into hrac (id_clen, post) values (173, 'defender');
-insert into hrac (id_clen, post) values (174, 'goalkeeper');
-insert into hrac (id_clen, post) values (175, 'center forward');
-insert into hrac (id_clen, post) values (176, 'goalkeeper');
-insert into hrac (id_clen, post) values (177, 'goalkeeper');
-insert into hrac (id_clen, post) values (178, 'defender');
-insert into hrac (id_clen, post) values (179, 'defender');
-insert into hrac (id_clen, post) values (180, 'winger');
-insert into hrac (id_clen, post) values (181, 'goalkeeper');
-insert into hrac (id_clen, post) values (182, 'center forward');
-insert into hrac (id_clen, post) values (183, 'winger');
-insert into hrac (id_clen, post) values (184, 'defender');
-insert into hrac (id_clen, post) values (185, 'center forward');
-insert into hrac (id_clen, post) values (186, 'winger');
-insert into hrac (id_clen, post) values (187, 'defender');
-insert into hrac (id_clen, post) values (188, 'goalkeeper');
-insert into hrac (id_clen, post) values (189, 'center forward');
-insert into hrac (id_clen, post) values (190, 'defender');
-insert into hrac (id_clen, post) values (191, 'winger');
-insert into hrac (id_clen, post) values (192, 'center forward');
-insert into hrac (id_clen, post) values (193, 'winger');
-insert into hrac (id_clen, post) values (194, 'defender');
-insert into hrac (id_clen, post) values (195, 'center forward');
-insert into hrac (id_clen, post) values (196, 'goalkeeper');
-insert into hrac (id_clen, post) values (197, 'defender');
-insert into hrac (id_clen, post) values (198, 'winger');
-insert into hrac (id_clen, post) values (199, 'goalkeeper');
-insert into hrac (id_clen, post) values (200, 'goalkeeper');
--- end hrac
 
--- kategorie a ich min a max datum narodenia
--- Kids(2011 and younger)
--- U12(2009,2010)
--- U14 (2007,2008,2009,2010)
--- U16(2005,2006,2007,2008)
--- U18(2003,2004,2005,2006)
--- U20(2001,2002,2003,2004)
--- A-TEAM(2002 and younger)
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (1, 51, 'Team Kids Monkeys');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (2, 52, 'Team U14 Blue');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (2, 59, 'Team U14 Orange');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (3, 46, 'Team U16 A');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (3, 55, 'Team U16 B');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (4, 47, 'Team U18 Blue');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (5, 45, 'Team A');
 
--- kategoria
-insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('U12', 2009, 2010);
-insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('U14', 2007, 2010);
-insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('U16', 2005, 2008);
-insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('U18', 2003, 2006);
-insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('U20', 2001, 2004);
-insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('A-TEAM', 1980, 2002);
-insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('Kids', 2011, 2016);
--- end kategoria
-
-
--- tim 1-4
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (1, 153, 'Team U12 Blue');
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (1, 204, 'Team U12 Orange');
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (1, 207, 'Team U12 Red');
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (1, 196, 'Team U12 Yellow');
-
--- 5, 6, 7
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (2, 187, 'Team U14 Blue');
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (2, 171, 'Team U14 Orange');
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (2, 159, 'Team U14 Red');
-
--- 8, 9, 10
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (3, 186, 'Team U16 A');
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (3, 191, 'Team U16 B');
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (3, 158, 'Team U16 C');
-
--- 11, 12
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (4, 201, 'Team U18 A');
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (4, 202, 'Team U18 B');
-
--- 13, 14
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (5, 205, 'Team U20 A');
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (5, 199, 'Team U20 B');
-
--- 15
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (6, 175, 'Team A');
--- end tim
-
--- hrac_tim
 insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (1, 1, true);
 insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (2, 1, true);
 insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (3, 1, false);
@@ -674,362 +223,141 @@ insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (7, 1, true);
 insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (8, 1, false);
 insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (9, 1, true);
 insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (10, 1, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (11, 1, false);
 
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (10, 2, true);
 insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (11, 2, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (12, 2, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (12, 2, false);
 insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (13, 2, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (14, 2, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (14, 2, true);
 insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (15, 2, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (16, 2, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (17, 2, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (18, 2, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (19, 2, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (20, 2, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (21, 2, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (8, 2, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (2, 2, true);
 
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (21,3, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (22,3, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (23,3, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (24,3, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (25,3, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (26,3, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (27,3, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (28,3, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (29,3, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (30,3, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (16, 3, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (17, 3, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (18, 3, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (19, 3, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (20, 3, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (11, 3, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (12, 3, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (4, 3, true);
 
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (31,4, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (32,4, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (33,4, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (34,4, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (35,4, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (36,4, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (37,4, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (38,4, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (39,4, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (40,4, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (24,4, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (25,4, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (21, 4, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (22, 4, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (23, 4, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (24, 4, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (25, 4, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (26, 4, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (18, 4, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (15, 4, true);
 
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (41, 5, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (42, 5, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (43, 5, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (44, 5, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (45, 5, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (46, 5, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (47, 5, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (48, 5, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (49, 5, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (50, 5, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (51, 5, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (52, 5, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (53, 5, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (54, 5, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (55, 5, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (22, 5, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (30, 5, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (27, 5, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (28, 5, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (29, 5, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (26, 5, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (21, 5, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (17, 5, false);
 
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (56, 6, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (57, 6, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (58, 6, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (59, 6, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (60, 6, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (61, 6, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (62, 6, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (63, 6, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (64, 6, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (65, 6, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (66, 6, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (67, 6, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (68, 6, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (69, 6, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (70, 6, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (71, 6, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (51, 6, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (39, 6, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (31, 6, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (32, 6, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (33, 6, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (34, 6, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (35, 6, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (36, 6, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (37, 6, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (38, 6, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (39, 6, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (40, 6, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (30, 6, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (27, 6, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (25, 6, true);
 
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (72, 7, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (73, 7, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (74, 7, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (75, 7, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (76, 7, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (77, 7, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (78, 7, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (79, 7, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (80, 7, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (71, 7, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (70, 7, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (67, 7, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (47, 7, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (46, 7, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (63, 7, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (62, 7, true);
-
--- 81 120
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (82, 8, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (83, 8, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (84, 8, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (85, 8, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (86, 8, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (87, 8, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (88, 8, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (89, 8, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (90, 8, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (81, 8, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (91, 8, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (94, 8, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (93, 8, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (92, 8, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (95, 8, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (72, 8, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (73, 8, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (74, 8, true);
-
-
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (96, 9, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (97, 9, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (98, 9, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (99, 9, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (100, 9, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (101, 9, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (102, 9, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (103, 9, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (104, 9, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (105, 9, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (106, 9, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (107, 9, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (108, 9, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (109, 9, true);
-
-
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (110, 10, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (111, 10, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (112, 10, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (113, 10, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (114, 10, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (115, 10, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (116, 10, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (117, 10, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (118, 10, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (119, 10, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (120, 10, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (109, 10, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (108, 10, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (107, 10, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (106, 10, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (105, 10, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (90, 10, true);
-
-
--- 121 150
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (121, 11, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (122, 11, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (123, 11, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (124, 11, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (125, 11, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (126, 11, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (127, 11, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (128, 11, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (129, 11, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (130, 11, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (131, 11, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (132, 11, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (133, 11, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (134, 11, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (111, 11, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (114, 11, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (139, 11, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (136, 11, true);
-
-
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (135, 12, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (136, 12, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (139, 12, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (138, 12, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (137, 12, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (142, 12, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (140, 12, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (141, 12, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (143, 12, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (144, 12, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (145, 12, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (146, 12, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (147, 12, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (148, 12, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (149, 12, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (150, 12, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (126, 12, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (123, 12, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (121, 12, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (129, 12, true);
-
--- 151 180
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (151, 14, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (152, 14, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (153, 14, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (154, 14, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (155, 14, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (156, 14, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (157, 14, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (158, 14, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (159, 14, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (160, 14, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (161, 14, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (162, 14, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (163, 14, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (164, 14, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (135, 14, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (137, 14, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (165, 14, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (166, 14, true);
-
-
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (167, 13, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (168, 13, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (169, 13, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (170, 13, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (173, 13, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (171, 13, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (174, 13, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (172, 13, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (177, 13, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (176, 13, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (175, 13, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (178, 13, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (179, 13, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (180, 13, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (151, 13, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (154, 13, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (152, 13, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (159, 13, true);
-
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (181, 15, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (182, 15, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (183, 15, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (186, 15, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (187, 15, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (185, 15, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (184, 15, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (188, 15, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (189, 15, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (190, 15, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (191, 15, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (192, 15, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (193, 15, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (194, 15, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (195, 15, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (196, 15, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (197, 15, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (198, 15, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (199, 15, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (200, 15, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (167, 15, true);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (169, 15, false);
-insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (174, 15, true);
-
+-- 45, 46, 52, 55, 59 su iba treneri
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (41, 7, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (42, 7, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (33, 7, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (44, 7, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (47, 7, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (48, 7, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (49, 7, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (50, 7, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (51, 7, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (53, 7, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (54, 7, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (57, 7, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (58, 7, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (56, 7, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (60, 7, false);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (31, 7, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (32, 7, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (34, 7, true);
+insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (39, 7, false);
 
 -- asistent
-insert into asistent (id_clen, id_tim) values (199,15);
-insert into asistent (id_clen, id_tim) values (199,12);
-insert into asistent (id_clen, id_tim) values (153,14);
-insert into asistent (id_clen, id_tim) values (204,15);
-insert into asistent (id_clen, id_tim) values (204,14);
-insert into asistent (id_clen, id_tim) values (204,13);
-insert into asistent (id_clen, id_tim) values (207,13);
-insert into asistent (id_clen, id_tim) values (205,12);
-insert into asistent (id_clen, id_tim) values (207,12);
-insert into asistent (id_clen, id_tim) values (187,1);
-insert into asistent (id_clen, id_tim) values (171,1);
-insert into asistent (id_clen, id_tim) values (186,2);
-insert into asistent (id_clen, id_tim) values (175,11);
-insert into asistent (id_clen, id_tim) values (196,4);
-insert into asistent (id_clen, id_tim) values (196,5);
-insert into asistent (id_clen, id_tim) values (201,7);
-insert into asistent (id_clen, id_tim) values (201,5);
-insert into asistent (id_clen, id_tim) values (205,11);
--- 175 a 205 su asistentami iba v time/timoch kat. U18
--- 207 a 199 su asistentami okrem inych aj v time/timoch kat. U18
+-- 45 a 47 nie su asistenti
+-- 55 je asisentom iba jedneho U16 tim
+-- 42 je asistentom v dvoch U16 timoch
+-- 54 je asistentom U16 timu aj U18 timu
+-- tim 3 nema asistenta
+insert into asistent(id_clen, id_tim) values (53, 1);
+insert into asistent(id_clen, id_tim) values (53, 2);
+insert into asistent(id_clen, id_tim) values (55, 4);
+insert into asistent(id_clen, id_tim) values (42, 4);
+insert into asistent(id_clen, id_tim) values (42, 5);
+insert into asistent(id_clen, id_tim) values (54, 5);
+insert into asistent(id_clen, id_tim) values (54, 6);
+insert into asistent(id_clen, id_tim) values (52, 7);
+insert into asistent(id_clen, id_tim) values (51, 7);
 
--- udalost_typ
 insert into udalost_typ (popis) values ('trening');
 insert into udalost_typ (popis) values ('zapas');
 insert into udalost_typ (popis) values ('bowling');
 insert into udalost_typ (popis) values ('escape room');
-insert into udalost_typ (popis) values ('pivo/kofola');
 
--- udalost
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 14, '2020-04-12', '15:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 10, '2020-06-04', '18:30');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 6, '2020-05-04', '19:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 13, '2020-06-25', '15:30');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 13, '2020-06-18', '17:00');
+-- timy 6 a 7 sa zucastnia vsetkych 4 typov udalosti
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 6, '2021-08-20', '16:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 6, '2021-04-19', '16:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 2, '2021-06-22', '20:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 4, '2021-04-21', '15:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 3, '2021-08-15', '14:00');
 
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (3, 1, '2020-04-19', '17:30');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 1, '2020-04-19', '18:30');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 5, '2020-05-26', '15:30');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 12, '2020-05-21', '19:30');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 15, '2020-04-05', '16:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 2, '2021-08-26', '14:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 4, '2021-05-01', '18:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 4, '2021-05-04', '14:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 6, '2021-07-07', '16:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 6, '2021-08-09', '17:30');
 
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 12, '2020-04-04', '14:30');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 8, '2020-05-05', '15:30');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 15, '2020-06-28', '16:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 15, '2020-04-04', '16:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 10, '2020-05-12', '16:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 3, '2021-04-30', '16:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 3, '2021-08-04', '16:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 5, '2021-07-28', '20:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 5, '2021-08-21', '19:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (3, 2, '2021-06-02', '17:00');
 
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 1, '2020-06-19', '15:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (3, 14, '2020-06-19', '20:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 1, '2020-06-14', '15:30');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 14, '2020-05-03', '19:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 15, '2020-06-26', '18:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (3, 5, '2021-06-16', '19:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (3, 6, '2021-06-13', '17:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 7, '2021-07-07', '18:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 3, '2021-06-11', '19:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 6, '2021-05-02', '15:30');
 
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 14, '2020-05-08', '19:30');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 6, '2020-05-06', '14:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 8, '2020-06-28', '16:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (3, 13, '2020-06-04', '19:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 15, '2020-04-27', '14:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 7, '2021-08-27', '17:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 7, '2021-04-18', '18:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 1, '2021-04-02', '14:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 7, '2021-08-21', '16:30');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (3, 7, '2021-04-19', '18:00');
 
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 10, '2020-04-01', '14:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (3, 11, '2020-06-02', '20:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 2, '2020-06-06', '16:30');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 11, '2020-04-05', '19:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 15, '2020-05-27', '20:00');
+-- v halach 4 a 5 sa nehra zapas
+insert into trening (id_udalost, id_hala, zameranie) values (8, 4, 'hrací');
+insert into trening (id_udalost, id_hala, zameranie) values (13, 2, 'hrací');
+insert into trening (id_udalost, id_hala, zameranie) values (20, 5, 'hrací');
+insert into trening (id_udalost, id_hala, zameranie) values (24, 4, 'hrací');
 
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 10, '2020-05-03', '17:30');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 6, '2020-06-16', '14:30');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 1, '2020-05-22', '17:30');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 4, '2020-04-10', '15:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 1, '2020-06-14', '16:30');
+insert into zapas (id_udalost, id_hala, super, naklady) values (2, 1, 'Sparta', null);
+insert into zapas (id_udalost, id_hala, super, naklady) values (3, 2, 'Chodov', 10000);
+insert into zapas (id_udalost, id_hala, super, naklady) values (4, 1, 'Brno', 5500);
+insert into zapas (id_udalost, id_hala, super, naklady) values (6, 3, 'Vitkovice', 7000);
+insert into zapas (id_udalost, id_hala, super, naklady) values (9, 3, 'Tsunami Zahorska Bystrica', 14500);
+insert into zapas (id_udalost, id_hala, super, naklady) values (11, 1, 'Sparta', null);
+insert into zapas (id_udalost, id_hala, super, naklady) values (14, 1, 'Tatran', 11000);
+insert into zapas (id_udalost, id_hala, super, naklady) values (18, 3, 'Chodov', null);
+insert into zapas (id_udalost, id_hala, super, naklady) values (21, 1, 'Vitkovice', null);
 
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 3, '2020-05-29', '19:30');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 3, '2020-05-18', '20:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 2, '2020-05-13', '19:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 7, '2020-05-06', '20:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (5, 3, '2020-05-28', '18:00');
-
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 1, '2020-05-24', '16:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 15, '2020-06-11', '18:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (3, 15, '2020-05-04', '19:00');
-insert into udalost (id_udalost_typ, id_tim, datum, cas) values (2, 15, '2020-05-18', '16:45');
-
--- trening
-insert into trening (id_udalost, id_hala, zameranie) values (1, 5, 'hrací');
-insert into trening (id_udalost, id_hala, zameranie) values (8, 3, 'hrací');
-insert into trening (id_udalost, id_hala, zameranie) values (9, 4, 'hrací');
-insert into trening (id_udalost, id_hala, zameranie) values (13, 5, 'hrací');
-insert into trening (id_udalost, id_hala, zameranie) values (14, 10, 'hrací');
-insert into trening (id_udalost, id_hala, zameranie) values (30, 6, 'taktický');
-insert into trening (id_udalost, id_hala, zameranie) values (32, 9, 'hrací');
-insert into trening (id_udalost, id_hala, zameranie) values (33, 7, 'hrací');
-insert into trening (id_udalost, id_hala, zameranie) values (35, 7, 'kondičný');
-insert into trening (id_udalost, id_hala, zameranie) values (36, 10, 'taktický');
-insert into trening (id_udalost, id_hala, zameranie) values (38, 1, 'hrací');
-insert into trening (id_udalost, id_hala, zameranie) values (39, 7, 'kondičný');
-
--- zapas
-insert into zapas (id_udalost, id_hala, super, naklady) values (4, 3, 'Sparta', null);
-insert into zapas (id_udalost, id_hala, super, naklady) values (11, 9, 'Bulldogs Brno', 9500);
-insert into zapas (id_udalost, id_hala, super, naklady) values (29, 1, 'Vítkovice', 17500);
-insert into zapas (id_udalost, id_hala, super, naklady) values (41, 4, 'Tsunami Zahorska Bystrica', null);
-insert into zapas (id_udalost, id_hala, super, naklady) values (42, 5, 'Chodov', 5000);
-insert into zapas (id_udalost, id_hala, super, naklady) values (44, 9, 'Tatran', 6550);
