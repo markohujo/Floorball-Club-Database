@@ -57,6 +57,18 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 10. Zoraď tímy podľa počtu hráčov od najväčších po najmenšie (vypíš názov tímu, kategóriu, meno a priezvisko hlavného trénera a počet hráčov).
    [SQL](sql/10.sql)
 
+- TODO:
+   - left/right outer join
+   - full (outer) join
+   - union
+   - intersect
+   - group by (having)
+   - all in one (select, from, where, group by, having, order by)
+   - view
+   - view query
+   - insert + select
+   - update + select
+   - delete + select
 
 
 ## Smyčky:
