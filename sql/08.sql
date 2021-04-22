@@ -1,0 +1,1 @@
+select count(*) as pocet_hracov from tim join hrac_tim using (id_tim) where id_tim=7;
