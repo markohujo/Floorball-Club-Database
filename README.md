@@ -56,19 +56,31 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
    
 10. Zoraď tímy podľa počtu hráčov od najväčších po najmenšie (vypíš názov tímu, kategóriu, meno a priezvisko hlavného trénera a počet hráčov).
    [SQL](sql/10.sql)
+    
+11. Tréneri (meno, priezvisko, plat), ktorí majú väčší plat ako priemerný plat, zorad ich podľa najviac zarábajúceho.
+   [SQL](sql/11.sql)
 
 - TODO:
    - left/right outer join
    - full (outer) join
    - union
+     - hraci, ktorych meno zacina na jedno z pismen(m,n,t,l,b,d) a hraju v time xy
+     - treneri, ktori maju plat vacsi ako ... a neevidujeme o nich ich telefon
    - intersect
    - group by (having)
    - all in one (select, from, where, group by, having, order by)
    - view
    - view query
    - insert + select
-   - update + select
+     - timu xy pridaj vsetkych asistentov timu yz
+   - update + select 
+     - hale s id x pridaj 50 miest na sedenie
+     - vsetkym hracom timu xy oznac, ze zaplatili clensky poplatok
+     - vsetkym hlavnym trenerom zdvihni plat o 10%
    - delete + select
+      - vymaz vsetky timy kategorie U16
+      - vymaz vsetky udalosti typu bowling
+      - vymaz vsetky haly, v kt. sa neuskutocni zapas/trening
 
 
 ## Smyčky:
