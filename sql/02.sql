@@ -2,7 +2,7 @@
 
 -- 1 - dvojity zapor
 select t.id_tim, t.nazov_tim from tim t where not exists (
-    -- vyber take timy, pre ktore neexistuje typ udalosti, ktorej by sa nezucastnili
+    -- vyber take timy, pre ktore neexistuje typ udalosti, ktoreho sa nezucastnia
     select * from udalost_typ ut where not exists(
         select * from udalost u where t.id_tim = u.id_tim and u.id_udalost_typ = ut.id_udalost_typ
     )

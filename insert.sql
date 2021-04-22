@@ -113,16 +113,16 @@ insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) 
 insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (29, 'apenticoot9@huffingtonpost.com', 'Andra', 'Penticoot', '2003-05-18', '731-429-8618');
 
 -- insert clen 1980 - 2002 id (41 - 60)
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (21, 'gbarnes0@wordpress.org', 'Garrek', 'Barnes', '2001-07-10', '997-913-6944');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (21, 'gbarnes0@wordpress.org', 'Garrek', 'Barnes', '2001-07-10', '997-913-6944'); -- je trener, menej ako 25
 insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (31, 'egorrie1@shop-pro.jp', 'Elie', 'Gorrie', '1988-07-17', '389-679-6258');
 insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (38, 'kshields2@springer.com', 'Kanya', 'Shields', '1988-12-30', '613-739-1887');
 insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (15, 'netherton3@bbc.co.uk', 'Nero', 'Etherton', '1990-05-14', null);
 insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (36, 'tmenhci4@dedecms.com', 'Thatch', 'Menhci', '1982-03-20', '567-897-2604');
 
 insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (28, 'kflute5@ucoz.com', 'Karlan', 'Flute', '1984-11-08', '988-296-1701');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (30, 'bmorby6@narod.ru', 'Bevan', 'Morby', '1999-10-27', '494-746-1196');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (30, 'bmorby6@narod.ru', 'Bevan', 'Morby', '2001-10-27', '494-746-1196'); -- je trener, ma menej ako 25
 insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (28, 'jkitto7@last.fm', 'Jaymee', 'Kitto', '1989-04-17', '145-434-2990');
-insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (10, 'rfoulkes8@blog.com', 'Rachele', 'Foulkes', '1996-11-22', '757-682-1547');
+insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (10, 'rfoulkes8@blog.com', 'Rachele', 'Foulkes', '1992-11-22', '757-682-1547');
 insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (26, 'dewenson9@blinklist.com', 'Dyane', 'Ewenson', '1989-01-06', '464-775-2474');
 
 insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (40, 'jsepeya@netlog.com', 'Joceline', 'Sepey', '1993-12-04', '435-355-8587');
@@ -146,7 +146,7 @@ insert into trener (id_clen, licencia, cislo_uctu, plat) values (55, 'B', 'BR86 
 insert into trener (id_clen, licencia, cislo_uctu, plat) values (54, 'C', 'FR32 6655 2446 77JX SOEX YLO2', 15000);
 insert into trener (id_clen, licencia, cislo_uctu, plat) values (59, 'B', 'AL34 5994 7435 DPPO ALEU 5XBE', 15000);
 insert into trener (id_clen, licencia, cislo_uctu, plat) values (42, 'A', 'HR71 5409 9724 3953 1493 8XAD', 17500);
-insert into trener (id_clen, licencia, cislo_uctu, plat) values (51, 'B', 'GR02 6675 2100 QD1J ZCZK AZEI', 30000);
+insert into trener (id_clen, licencia, cislo_uctu, plat) values (41, 'B', 'GR02 6675 2100 QD1J ZCZK AZEI', 30000);
 insert into trener (id_clen, licencia, cislo_uctu, plat) values (52, 'C', 'MC82 3534 0625 64FO 0IU9 EFXS', 25000);
 
 -- insert hrac (45, 46, 52, 55, 59 su iba treneri)
@@ -206,7 +206,7 @@ insert into hrac (id_clen, post) values (57, 'defender');
 insert into hrac (id_clen, post) values (58, 'center forward');
 insert into hrac (id_clen, post) values (60, 'center forward');
 
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (1, 51, 'Team Kids Monkeys');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (1, 41, 'Team Kids Monkeys');
 insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (2, 52, 'Team U14 Blue');
 insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (2, 59, 'Team U14 Orange');
 insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (3, 46, 'Team U16 A');
@@ -308,7 +308,7 @@ insert into asistent(id_clen, id_tim) values (42, 5);
 insert into asistent(id_clen, id_tim) values (54, 5);
 insert into asistent(id_clen, id_tim) values (54, 6);
 insert into asistent(id_clen, id_tim) values (52, 7);
-insert into asistent(id_clen, id_tim) values (51, 7);
+insert into asistent(id_clen, id_tim) values (59, 7);
 
 insert into udalost_typ (popis) values ('trening');
 insert into udalost_typ (popis) values ('zapas');
