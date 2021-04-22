@@ -65,6 +65,12 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
     
 13. Obrancovia A tímu spolu s brankármi A tímu (meno, priezvisko, post).
     [SQL](sql/13.sql)
+    
+14. Vsetkym hlavnym trenerom zdvihni plat o 10% a zaokrúhli na najbližšiu 100 (teda 20110 = 20100).
+    [SQL](sql/14.sql)
+    
+15. Vymaž všetky udalosti typu bowling a escape room.
+    [SQL](sql/15.sql)
 
 - TODO:
    - left/right outer join
@@ -77,15 +83,9 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
    - insert + select
      - timu xy pridaj vsetkych asistentov timu yz
    <br><br>
-   - update + select 
-     - hale s id x pridaj 50 miest na sedenie
-     - vsetkym hracom timu xy oznac, ze zaplatili clensky poplatok
-     - vsetkym hlavnym trenerom zdvihni plat o 10%
-   <br><br>
     - delete + select
       - vymaz vsetky timy kategorie U16
       - vymaz vsetky udalosti typu bowling
-      - vymaz vsetky haly, v kt. sa neuskutocni zapas/trening
     <br><br>
     - 25 SQL + 10 RA
 
@@ -111,3 +111,4 @@ Posldené 4 smyčky si sú veľmi podobné, preto si ich dovolím okomentovať n
 [4] [Vzorová semestrálna práca Test Quast](https://users.fit.cvut.cz/~hunkajir/dbs/main.xml)  
 [5] J. Pokorný, M.Valenta: Databázové systémy, Praha : Česká technika - nakladatelství ČVUT, 2020, ISBN: 978-80-01-06696-6  
 [6] [Generátor dát Mockaroo](https://www.mockaroo.com/)  
+[7] [stack overflow - round to the nearest 100](https://stackoverflow.com/a/41210389)
