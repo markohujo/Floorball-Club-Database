@@ -50,5 +50,12 @@ Môže nastať situácia, že ten istý člen bude trénovať aj hrať v tom ist
 4. TIM - UDALOST - TRENING - HALA - ADRESA - CLEN - TRENER
 5. TIM - UDALOST - TRENING - HALA - ADRESA - CLEN - HRAC - HRAC_TIM  
 Posldené 4 smyčky si sú veľmi podobné, preto si ich dovolím okomentovať naraz. Tieto smyčky sú v poriadku a nepredstavujú riziko alebo potenciálne problémy s konzistenciou dát v databázi. Entita ADRESA je tzv. číselník, ktorú využívam na uloženie adresy trvalého bydliska členov klubu a športovej haly, v ktorej sa uskutoční zápas alebo tréning. Teoreticky môže nastať situácia, že člen bude bývať na rovnakej adrese, na akej sa nachádza športová hala, čo ale nepredstavuje žiadny problém, keďže takáto situácia môže nastať aj v reálnom živote a je teda korektná.
+   
+## Zdroje:
 
-
+[1] [Course pages BI-DBS](https://courses.fit.cvut.cz/BI-DBS/)  
+[2] [PostgreSQL dokumentácia](https://www.postgresql.org/docs/current/)  
+[3] [Vzorová semestrálna práca Test Hunka](https://users.fit.cvut.cz/~hunkajir/dbs2/main.xml)  
+[4] [Vzorová semestrálna práca Test Quast](https://users.fit.cvut.cz/~hunkajir/dbs/main.xml)  
+[5] J. Pokorný, M.Valenta: Databázové systémy, Praha : Česká technika - nakladatelství ČVUT, 2020, ISBN: 978-80-01-06696-6  
+[6] [Generátor dát Mockaroo](https://www.mockaroo.com/)  
