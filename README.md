@@ -53,6 +53,10 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
    
 9. Tréneri (id_clen, email, meno, priezvisko, licencia), ktorí nie su asistentami trénera v ani jednom tíme.
    [SQL](sql/09.sql)
+   
+10. Zoraď tímy podľa počtu hráčov od najväčších po najmenšie (vypíš názov tímu, kategóriu, meno a priezvisko hlavného trénera a počet hráčov).
+   [SQL](sql/10.sql)
+
 
 
 ## Smyčky:
