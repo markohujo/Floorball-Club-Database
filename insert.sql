@@ -57,11 +57,12 @@ insert into hala (id_adresa, nazov_hala, pocet_divakov, pocet_satni, bufet) valu
 -- A-TEAM(2002 and older)       ----> 1
 -- TOTAL                        ----> 7
 
-insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('Kids', 2009, 2010);
+insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('Kids', 2009, 2011);
 insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('U14', 2007, 2010);
 insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('U16', 2005, 2008);
 insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('U18', 2003, 2006);
 insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('A-TEAM', 1985, 2002);
+insert into kategoria (nazov_kategoria, min_rok_narodenia, max_rok_narodenia) values ('Small Kids', 2012, 2016);
 
 -- insert clen 2009, 2010 (id 1 - 10)
 insert into clen (id_adresa, email, meno, priezvisko, datum_narodenia, telefon) values (28, 'rpatkin0@nymag.com', 'Rae', 'Patkin', '2009-10-14', null);
