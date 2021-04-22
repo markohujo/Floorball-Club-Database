@@ -27,15 +27,32 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 
 ## Dotazy:
 
-1. Tréneri (id_clen, meno, priezvisko, email, licencia, plat), ktorí sú asistentom trénera **IBA** v tímoch kategórie U16. [SQL](sql/01.sql)
-2. Tímy (id_tim, nazov_tim), ktoré sa zúčastnia **VŠETKÝCH** typov udalostí. [SQL](sql/02.sql)
-3. Email, meno a priezvisko hráčov tímu s id 5, ktorí ešte nezaplatili členský poplatok. [SQL](sql/03.sql)
-4. Vekové kategórie, v ktorých klub nemá ani jeden tím. [SQL](sql/04.sql)
-5. Tréneri (id_clen, meno, priezvisko, email, licencia), ktorí majú plat väčší ako 20000. [SQL](sql/05.sql)
-6. Haly, v ktorých sa neuskutoční žiadny zápas. [SQL](sql/06.sql)
-7. Tréneri (email, meno, priezvisko), ktorí majú menej ako 25 rokov. [SQL](sql/07.sql)
-8. Počet hráčov v tíme s id 7. [SQL](sql/08.sql)
-9. Tréneri (id_clen, email, meno, priezvisko, licencia), ktorí nie su asistentami trénera v ani jednom tíme. [SQL](sql/09.sql)
+1. Tréneri (id_clen, meno, priezvisko, email, licencia, plat), ktorí sú asistentom trénera **IBA** v tímoch kategórie U16.
+   [SQL](sql/01.sql)
+   
+2. Tímy (id_tim, nazov_tim), ktoré sa zúčastnia **VŠETKÝCH** typov udalostí.
+   [SQL](sql/02.sql)
+   
+3. Email, meno a priezvisko hráčov tímu s id 5, ktorí ešte nezaplatili členský poplatok.
+   [SQL](sql/03.sql)
+   
+4. Vekové kategórie, v ktorých klub nemá ani jeden tím.
+   [SQL](sql/04.sql)
+   
+5. Tréneri (id_clen, meno, priezvisko, email, licencia), ktorí majú plat väčší ako 20000.
+   [SQL](sql/05.sql)
+   
+6. Haly, v ktorých sa neuskutoční žiadny zápas.
+   [SQL](sql/06.sql)
+   
+7. Tréneri (email, meno, priezvisko), ktorí majú menej ako 25 rokov.
+   [SQL](sql/07.sql)
+   
+8. Počet hráčov v tíme s id 7.
+   [SQL](sql/08.sql)
+   
+9. Tréneri (id_clen, email, meno, priezvisko, licencia), ktorí nie su asistentami trénera v ani jednom tíme.
+   [SQL](sql/09.sql)
 
 
 ## Smyčky:
