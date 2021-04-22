@@ -69,23 +69,25 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 - TODO:
    - left/right outer join
    - full (outer) join
-   - union
-     - hraci, ktorych meno zacina na jedno z pismen(m,n,t,l,b,d) a hraju v time xy
-     - treneri, ktori maju plat vacsi ako ... a neevidujeme o nich ich telefon
    - group by (having)
    - all in one (select, from, where, group by, having, order by)
    - view
    - view query
+   <br><br>
    - insert + select
      - timu xy pridaj vsetkych asistentov timu yz
+   <br><br>
    - update + select 
      - hale s id x pridaj 50 miest na sedenie
      - vsetkym hracom timu xy oznac, ze zaplatili clensky poplatok
      - vsetkym hlavnym trenerom zdvihni plat o 10%
-   - delete + select
+   <br><br>
+    - delete + select
       - vymaz vsetky timy kategorie U16
       - vymaz vsetky udalosti typu bowling
       - vymaz vsetky haly, v kt. sa neuskutocni zapas/trening
+    <br><br>
+    - 25 SQL + 10 RA
 
 
 ## Smyčky:
