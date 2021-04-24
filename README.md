@@ -71,24 +71,19 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
     
 15. Vymaž všetky udalosti typu bowling a escape room.
     [SQL](sql/15.sql)
+    
+16. Timu ... pridaj všetkých asistentov tímu ....
 
 - TODO:
-   - left/right outer join
-   - full (outer) join
-   - group by (having)
-   - all in one (select, from, where, group by, having, order by)
-   - view
-   - view query
-   <br><br>
-   - insert + select
-     - timu xy pridaj vsetkych asistentov timu yz
-   <br><br>
-    - delete + select
-      - vymaz vsetky timy kategorie U16
-      - vymaz vsetky udalosti typu bowling
-    <br><br>
-    - 25 SQL + 10 RA
-
+    - 25 SQL + 10 RA  
+      <br>
+    - left/right outer join
+    - full (outer) join
+    - group by (having)
+    - all in one (select, from, where, group by, having, order by)
+    - view
+    - view query
+    
 
 ## Smyčky:
 
