@@ -1,2 +1,2 @@
 select count(*) as pocet_hracov from
-tim t join hrac_tim h_t on t.id_tim = h_t.id_tim and t.id_tim=7;
+hrac_tim h join tim t on h.id_tim = t.id_tim and t.nazov_tim = 'Team A';

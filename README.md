@@ -33,7 +33,7 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 2. Tímy (id_tim, nazov_tim), ktoré sa zúčastnia **VŠETKÝCH** typov udalostí.
    [SQL](sql/02.sql)
    
-3. Email, meno a priezvisko hráčov tímu s id 5, ktorí ešte nezaplatili členský poplatok.
+3. Email, meno a priezvisko hráčov tímu Team U16 B, ktorí ešte nezaplatili členský poplatok.
    [SQL](sql/03.sql)
    
 4. Vekové kategórie, v ktorých klub nemá ani jeden tím.
@@ -48,7 +48,7 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 7. Tréneri (email, meno, priezvisko), ktorí majú menej ako 25 rokov.
    [SQL](sql/07.sql)
    
-8. Počet hráčov v tíme s id 7.
+8. Počet hráčov v tíme Team A.
    [SQL](sql/08.sql)
    
 9. Tréneri (id_clen, email, meno, priezvisko, licencia), ktorí nie su asistentami trénera v ani jednom tíme.
@@ -75,7 +75,7 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 16. Náhodnému tímu pridaj náhodného asistenta.
     [SQL](sql/16.sql)
     
-17. Vytvor pohľad, ktorý bude zobrazovať iba skúsených hlavných trénerov (trénerov s licenciou C).
+17. Vytvor pohľad, ktorý bude zobrazovať iba skúsených hlavných trénerov (= tréner s licenciou C, ktorý je hlavným trénerom v nejakom tíme).
     [SQL](sql/17.sql)
     
 18. Tímy (názov tímu, meno a priezvisko hlavného trénera a názov vekovej kategórie), v ktorých je hlavným trénerom skúsený tréner.
