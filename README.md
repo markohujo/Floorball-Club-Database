@@ -48,7 +48,7 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 7. Tréneri (email, meno, priezvisko), ktorí majú menej ako 25 rokov.
    [SQL](sql/07.sql)
    
-8. Počet hráčov v tíme Team A.
+8. Zoraď tímy podľa počtu hráčov od najväčšieho po najmenší.
    [SQL](sql/08.sql)
    
 9. Tréneri (id_clen, email, meno, priezvisko, licencia), ktorí nie su asistentami trénera v ani jednom tíme.

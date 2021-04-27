@@ -1,2 +1,4 @@
-select count(*) as pocet_hracov from
-hrac_tim h join tim t on h.id_tim = t.id_tim and t.nazov_tim = 'Team A';
+select t.nazov_tim, count(*) as pocet_hracov from
+tim t join hrac_tim ht on t.id_tim = ht.id_tim
+group by nazov_tim
+order by pocet_hracov desc;
