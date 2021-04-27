@@ -86,9 +86,7 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
     - 25 SQL + 10 RA  
       <br>
       
-    - left/right outer join
     - full (outer) join
-    - group by (having)
     - all in one (select, from, where, group by, having, order by)
 
 
