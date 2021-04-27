@@ -81,13 +81,15 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 18. Tímy (názov tímu, meno a priezvisko hlavného trénera a názov vekovej kategórie), v ktorých je hlavným trénerom skúsený tréner.
     [SQL](sql/18.sql)
 
+19. Zoraď tímy s 2 alebo viac brankármi podľa počtu brankárov (vypíš názov tímu, meno a priezvisko hlavného trénera a počet brankárov).
+    [SQL](sql/19.sql)
+
 - TODO:
   
     - 25 SQL + 10 RA  
       <br>
       
     - full (outer) join
-    - all in one (select, from, where, group by, having, order by)
 
 
 ## Smyčky:
