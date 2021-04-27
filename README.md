@@ -48,13 +48,13 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 7. Tréneri (email, meno, priezvisko), ktorí majú menej ako 25 rokov.
    [SQL](sql/07.sql)
    
-8. Zoraď tímy podľa počtu hráčov od najväčšieho po najmenší.
+8. Vypíš všetkých trénerov (meno, priezvisko, email, licencia) a počet tímov, v ktorých robia asistenta.
    [SQL](sql/08.sql)
    
 9. Tréneri (id_clen, email, meno, priezvisko, licencia), ktorí nie su asistentami trénera v ani jednom tíme.
    [SQL](sql/09.sql)
    
-10. Zoraď tímy podľa počtu hráčov od najväčších po najmenšie (vypíš názov tímu, kategóriu, meno a priezvisko hlavného trénera a počet hráčov).
+10. Zoraď tímy podľa počtu hráčov zostupne (vypíš názov tímu a počet hráčov).
    [SQL](sql/10.sql)
     
 11. Tréneri (meno, priezvisko, plat), ktorí majú väčší plat ako priemerný plat, zorad ich podľa najviac zarábajúceho.

@@ -211,7 +211,7 @@ insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (2, 52, 'Team
 insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (2, 59, 'Team U14 Orange');
 insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (3, 46, 'Team U16 A');
 insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (3, 55, 'Team U16 B');
-insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (4, 47, 'Team U18 Blue');
+insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (4, 47, 'Team U18');
 insert into tim (id_kategoria, id_hlavny_trener, nazov_tim) values (5, 45, 'Team A');
 
 insert into hrac_tim (id_clen, id_tim, zaplateny_poplatok) values (1, 1, true);

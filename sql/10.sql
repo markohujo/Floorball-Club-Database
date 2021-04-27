@@ -1,7 +1,4 @@
-select t.nazov_tim,
-       k.nazov_kategoria as kategoria,
-       c.meno as trener_meno,
-       c.priezvisko as trener_priezvisko,
-       (select count(*) from hrac_tim ht where ht.id_tim = t.id_tim) as pocet_hracov
-from tim t join kategoria k on t.id_kategoria = k.id_kategoria join trener t2 on t.id_hlavny_trener = t2.id_clen join clen c on t2.id_clen = c.id_clen
-order by pocet_hracov desc;
+select t.nazov_tim, r1.pocet_hracov from tim t join (
+    select ht.id_tim, count(*) as pocet_hracov from hrac_tim ht join clen c2 on ht.id_clen = c2.id_clen group by ht.id_tim
+) r1 on t.id_tim = r1.id_tim
+order by r1.pocet_hracov desc;
