@@ -27,7 +27,7 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 
 ## Dotazy:
 
-1. Tréneri (id_clen, meno, priezvisko, email, licencia, plat), ktorí sú asistentom trénera **IBA** v tímoch kategórie U16.
+1. Tréneri (id_clen, meno, priezvisko, email, licencia), ktorí sú asistentom trénera **IBA** v tímoch kategórie U16.
    [SQL](sql/01.sql)
    
 2. Tímy (id_tim, nazov_tim), ktoré sa zúčastnia **VŠETKÝCH** typov udalostí.
@@ -57,7 +57,7 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 10. Zoraď tímy podľa počtu hráčov zostupne (vypíš názov tímu a počet hráčov).
    [SQL](sql/10.sql)
     
-11. Tréneri (meno, priezvisko, plat), ktorí majú väčší plat ako priemerný plat, zorad ich podľa najviac zarábajúceho.
+11. Tréneri (meno, priezvisko, licencia, plat), ktorí majú väčší plat ako priemerný plat, zorad ich podľa najviac zarábajúceho.
    [SQL](sql/11.sql)
     
 12. Tímy, ktoré sa zúčastnia zápasu aj tréningu.

@@ -3,8 +3,8 @@
 -- 1 - dvojity zapor
 select t.id_tim, t.nazov_tim from tim t where not exists (
     -- vyber take timy, pre ktore neexistuje typ udalosti, ktoreho sa nezucastnia
-    select * from udalost_typ ut where not exists(
-        select * from udalost u where t.id_tim = u.id_tim and u.id_udalost_typ = ut.id_udalost_typ
+    select 1 from udalost_typ ut where not exists (
+        select 1 from udalost u where t.id_tim = u.id_tim and u.id_udalost_typ = ut.id_udalost_typ
     )
 );
 
@@ -21,8 +21,8 @@ select t.id_tim, t.nazov_tim from tim t where (
 
 -- 3 - cross join a with ... as ...
 with
-mozne as (select t.id_tim, ut.id_udalost_typ from tim t cross join udalost_typ ut),
-realne as (select id_tim, id_udalost_typ from tim join udalost using(id_tim) join udalost_typ using(id_udalost_typ)),
-nenastali as (select * from mozne except select * from realne),
-timy_vsetky_typy_udalosti as (select distinct id_tim from tim except select distinct id_tim from nenastali)
-select id_tim, nazov_tim from timy_vsetky_typy_udalosti join tim using (id_tim);
+mozne as (select t.id_tim, ut.id_udalost_typ from tim t cross join udalost_typ ut), -- teoreticky mozne kommbinacie, teda keby sa kazdy tim zucastnil kazdeho typu udalosti
+realne as (select u.id_tim, u.id_udalost_typ from tim t join udalost u on t.id_tim = u.id_tim join udalost_typ ut on u.id_udalost_typ = ut.id_udalost_typ), -- udalosti, ktore realne nastali
+nenastali as (select * from mozne except select * from realne), -- udalosti, ktore nenastali
+timy_vsetky_typy_udalosti as (select distinct id_tim from tim except select distinct id_tim from nenastali) -- id timov, ktore sa zucastnili vsetkych typov udalosti
+select id_tim, nazov_tim from timy_vsetky_typy_udalosti join tim using (id_tim); -- spoj s tabulkou tim, kvoli nazvu timu

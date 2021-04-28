@@ -1,3 +1,3 @@
-select c.id_clen, c.meno, c.priezvisko, c.email, t.licencia
-from clen c join trener t on c.id_clen = t.id_clen
-and plat > 20000
+select id_clen, meno, priezvisko, email, plat from
+clen join trener using(id_clen)
+where plat > 20000;
