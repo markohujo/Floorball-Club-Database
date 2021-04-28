@@ -83,15 +83,10 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 
 19. Zoraď tímy s 2 alebo viac brankármi podľa počtu brankárov (vypíš názov tímu, meno a priezvisko hlavného trénera a počet brankárov).
     [SQL](sql/19.sql)
-
-- TODO:
-  
-    - 25 SQL + 10 RA  
-      <br>
-      
-    - full (outer) join
-
-
+    
+20. Vyber všetkých trénerov (meno, priezivsko, licencia) a všetky tímy (názov, veková kategória) vrátane informácie, aký tím trénuje daný tréner ako hlavný tréner a kto je hlavným trénerom daného tímu. V prípade, že tím nemá hlavného trénera vypíš BEZ TRENERA a v prípade, že tréner nerobí hlavného trénera, vypíš NETRENUJE. Výstup zoraď podľa mena a priezivska trénera.
+    [SQL](sql/20.sql)
+    
 ## Smyčky:
 
 Schéma obsahuje viacero smyčiek.
