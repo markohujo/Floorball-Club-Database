@@ -150,3 +150,6 @@ ALTER TABLE zapas ADD CONSTRAINT fk_zapas_hala FOREIGN KEY (id_hala) REFERENCES 
 ALTER TABLE asistent ADD CONSTRAINT fk_trener_tim_trener FOREIGN KEY (id_clen) REFERENCES trener (id_clen) ON DELETE CASCADE;
 ALTER TABLE asistent ADD CONSTRAINT fk_trener_tim_tim FOREIGN KEY (id_tim) REFERENCES tim (id_tim) ON DELETE CASCADE;
 
+ALTER TABLE trener ADD CONSTRAINT valid_salary CHECK ( plat >= 0 );
+ALTER TABLE hala ADD CONSTRAINT valid_cap CHECK ( pocet_divakov > 0 );
+ALTER TABLE hala ADD CONSTRAINT valid_room CHECK ( pocet_satni > 0 );
