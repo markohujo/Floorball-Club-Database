@@ -346,11 +346,19 @@ insert into udalost (id_udalost_typ, id_tim, datum, cas) values (4, 1, '2021-04-
 insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 7, '2021-08-21', '16:30');
 insert into udalost (id_udalost_typ, id_tim, datum, cas) values (3, 7, '2021-04-19', '18:00');
 
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 6, '2021-06-15', '18:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 6, '2021-09-15', '19:00');
+insert into udalost (id_udalost_typ, id_tim, datum, cas) values (1, 6, '2021-05-20', '17:30');
+
 -- v halach 4 a 5 sa nehra zapas
 insert into trening (id_udalost, id_hala, zameranie) values (8, 4, 'hrací');
-insert into trening (id_udalost, id_hala, zameranie) values (13, 2, 'hrací');
-insert into trening (id_udalost, id_hala, zameranie) values (20, 5, 'hrací');
+insert into trening (id_udalost, id_hala, zameranie) values (13, 2, 'kondičný');
+insert into trening (id_udalost, id_hala, zameranie) values (20, 5, 'taktický');
 insert into trening (id_udalost, id_hala, zameranie) values (24, 4, 'hrací');
+
+insert into trening (id_udalost, id_hala, zameranie) values (26, 4, 'hrací');
+insert into trening (id_udalost, id_hala, zameranie) values (27, 4, 'hrací');
+insert into trening (id_udalost, id_hala, zameranie) values (28, 5, 'kondičný');
 
 insert into zapas (id_udalost, id_hala, super, naklady) values (2, 1, 'Sparta', null);
 insert into zapas (id_udalost, id_hala, super, naklady) values (3, 2, 'Chodov', 10000);

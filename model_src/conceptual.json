@@ -1053,12 +1053,12 @@
   ],
   "notes": [
     {
-      "text": "- IO1: Hráč môže hrať maximálne v 3 tímoch.\n- IO2: Tréner musí mať minimálne 18 rokov.\n- IO3: Hráč musí splniť vekovú podmienku kategórie pre hranie v tíme.\n- IO4: Člen nemôže trénovať a zaróveň hrať v tom istom tíme.",
+      "text": "- IO1: Tréner musí mať minimálne 18 rokov.\n- IO2: Hráč môže hrať maximálne v 3 tímoch.\n- IO3: Tréner môže byť asistentom maximálne v 3 tímoch.\n- IO4: Hráč musí splniť vekovú podmienku kategórie pre hranie v tíme.\n- IO5: Člen nemôže trénovať a zaróveň hrať v tom istom tíme.",
       "transform": {
-        "x": 474.41756158579585,
-        "y": 376.7088463235238,
-        "width": 413.38067626953125,
-        "height": 60.909088134765625
+        "x": 433.41756158579585,
+        "y": 364.7088463235238,
+        "width": 413.546875,
+        "height": 75
       }
     }
   ]

@@ -1,0 +1,1 @@
+select c.email from tim t join asistent a on t.id_tim = a.id_tim and t.nazov_tim = 'Team A' join clen c on a.id_clen = c.id_clen;

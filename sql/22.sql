@@ -1,0 +1,2 @@
+select t.nazov_tim, z.super, u.datum, u.cas, z.naklady from
+zapas z join hala h on z.id_hala = h.id_hala and h.nazov_hala = 'Stroman Sports' join udalost u on z.id_udalost = u.id_udalost join tim t on u.id_tim = t.id_tim;
