@@ -98,12 +98,6 @@ Posldené 4 smyčky si sú veľmi podobné, preto si ich dovolím okomentovať n
 
 
 
-## Záver:
-
-Semestrálna práca ma veľmi bavila, dokonca si myslím, že zatiaľ najviac z prvého roka na FITu. S databázami som sa ešte pred tým nestretol, takže som sa toho vďaka semestrálke veľa naučil. Rád by som vyzvdihol formu výuky v BI-DBS, páčilo sa mi, že najväčšia časť hodnotenia je za prácu po celé tri mesiace na semestrálnom projekte. Myslím, že takáto forma výuky a hodnotenia je najspravodlivejšia a hlavne sa tak študenti najviac naučia. Navrhol by som predmet, v ktorom by sa dalo v rozrobenej práci ďalej pokračovať a na tejto datábaze postaviť nejakú fungujúcu aplikáciu, aj keď je pravda, že sa do toho môžem cez leto pustiť aj sám. Portál je super!
-
-
-
 ## Zdroje:
 
 [1] [Course pages BI-DBS](https://courses.fit.cvut.cz/BI-DBS/)  
