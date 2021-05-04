@@ -21,11 +21,16 @@ Pri udalostiach typu **zápas**  a **tréning** je potrebné evidovať ešte da�
 
 ## IO:
 - IO1: Tréner musí mať minimálne 18 rokov.
+
 - IO2: Hráč môže hrať maximálne v 3 tímoch.
+
 - IO3: Tréner môže byť asistentom maximálne v 3 tímoch.
+
 - IO4: Hráč musí splniť vekovú podmienku kategórie pre hranie v tíme.
+
 - IO5: Člen nemôže trénovať a zaróveň hrať v tom istom tíme.
-- 
+
+  
 
 ## Dotazy:
 
