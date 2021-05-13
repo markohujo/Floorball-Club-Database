@@ -4,7 +4,8 @@
 select t.id_tim, t.nazov_tim from tim t where not exists (
     -- vyber take timy, pre ktore neexistuje typ udalosti, ktoreho sa nezucastnia
     select 1 from udalost_typ ut where not exists (
-        select 1 from udalost u where t.id_tim = u.id_tim and u.id_udalost_typ = ut.id_udalost_typ
+        select 1 from udalost u
+        where t.id_tim = u.id_tim and u.id_udalost_typ = ut.id_udalost_typ
     )
 );
 
