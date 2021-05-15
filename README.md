@@ -1,4 +1,4 @@
-# DBS project
+# Floorball Club Database 
 
 Floorball club database developed as my project for Database Systems course.
 
