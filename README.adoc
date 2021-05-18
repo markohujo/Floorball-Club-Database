@@ -1,6 +1,6 @@
 = Floorball Club Database
 
-Floorball club database developed as my project for Database Systems course.
+Floorball club database developed as my project for Database Systems course at link:https://fit.cvut.cz/cs[FIT CTU].
 
 == Conceptual model
 
